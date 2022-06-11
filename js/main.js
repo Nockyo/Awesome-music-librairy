@@ -1,3 +1,4 @@
+console.clear();
 ////////////////// CREATION DU TABLEAU ALBUMS //////////////////////
 function Album (name, artist, image, songsList) { 
   this.name = name;
@@ -87,11 +88,11 @@ let switchPositionTop = true;
 let switchPositionLeft = true;
 let verticalSpacing = 250;
 let maxSong = 1;
-$.each(AlbumList, function( index, value ) {
+$.each(AlbumList, ( index, value ) => {
 	if(value.songsList.length > maxSong) maxSong = value.songsList.length;
 	//Création de la liste des morceaux
 	let songList = "";
-	$.each(value.songsList, function( index, value ) {
+	$.each(value.songsList, ( index, value ) => {
 		let indexSongList = index + 1;
 		songList += "<li>" + indexSongList + ". " + value.song + "</li>";
 	});
@@ -159,55 +160,68 @@ $.each(AlbumList, function( index, value ) {
 });
 
 //Ajouter les transitions sur les morceaux
-for(let i = 1; i <= maxSong; i++){
-	let indexTransition = i + 2
-	if(indexTransition < 10){
-		$('.songList li:nth-of-type('+i+')').css({
-			"transition": "transform 0.2s ease-out 0."+indexTransition+"s",
-		});
-	} else if (indexTransition%10 == 0) {
-		$('.songList li:nth-of-type('+i+')').css({
-			"transition": "transform 0.2s ease-out "+indexTransition.toString().slice(0, 1)+"s",
-		});
-	} else if (indexTransition > 10 && indexTransition%10 != 0) {
-		$('.songList li:nth-of-type('+i+')').css({
-			"transition": "transform 0.2s ease-out "+indexTransition.toString().slice(0 , 1)+"."+indexTransition%10+"s",
-		});
-	};
+const addSongTransition = (album) => {
+	for(let i = 1; i <= maxSong; i++){
+		let indexTransition = i + 2
+		if(indexTransition < 10){
+			album.find('.songList li:nth-of-type('+i+')').css({
+				"transition": "transform 0.2s ease-out 0."+indexTransition+"s",
+			});
+		} else if (indexTransition%10 == 0) {
+			album.find('.songList li:nth-of-type('+i+')').css({
+				"transition": "transform 0.2s ease-out "+indexTransition.toString().slice(0, 1)+"s",
+			});
+		} else if (indexTransition > 10 && indexTransition%10 != 0) {
+			album.find('.songList li:nth-of-type('+i+')').css({
+				"transition": "transform 0.2s ease-out "+indexTransition.toString().slice(0 , 1)+"."+indexTransition%10+"s",
+			});
+		};
+	}
+}
+
+//Supprimer les transitions des morceaux
+const deleteSongTransition = (album) => {
+	album.find('.songList').children().each(function() {
+		$(this).css("transition", "transform 0s");
+	})
 }
 
 let originalPositionTop;
 let originalPositionLeft;
 //Effet de disparition et de déplacement des albums
 $(".albums").children().each(function() {
-	$(this).on('click', function() {
+	$(this).find('.albumContainer').on('click', function() {
+		currentAlbum = $(this).parent();
 		//Bloquer le fonctionnement du click quand un album est actif
 		if(!$(".albums").children().hasClass('active')){
-
+			
 			//Conserver la position d'origine pour revenir en arrière
-			originalPositionTop = $(this).css("top");
-			originalPositionLeft = $(this).css("left");
+			originalPositionTop = currentAlbum.css("top");
+			originalPositionLeft = currentAlbum.css("left");
+
+			//Ajout des transitions
+			addSongTransition(currentAlbum);
+			let olSongList = currentAlbum.children()[2];
 			
 			//Repositionner l'album
 			let activeDivHeight;
 			let albumPlayerHeight = $('.albumContainer').height() + $('.player').height();
-			$(window).width() > 1200 ? $(this).children()[2].offsetHeight < albumPlayerHeight + 46 ? activeDivHeight = albumPlayerHeight + 60 : activeDivHeight = $(this).children()[2].offsetHeight : activeDivHeight = $(this).children()[2].offsetHeight + albumPlayerHeight + 80;
+			$(window).width() > 1200 ? olSongList.offsetHeight < albumPlayerHeight + 46 ? activeDivHeight = albumPlayerHeight + 60 : activeDivHeight = olSongList.offsetHeight : activeDivHeight = olSongList.offsetHeight + albumPlayerHeight + 80;
 			
-			$(this).addClass('active').css({
+			currentAlbum.addClass('active').css({
 				"top": "150px",
 				"left": function(){
 					return "calc(50% - " + getComputedStyle(document.documentElement).getPropertyValue('--player-size') + "/2)"
 				},
 				"height": activeDivHeight,
 			});
-			$(".albums").children().not($(this)).addClass("hidden");
+			$(".albums").children().not(currentAlbum).addClass("hidden");
 			$("#arrowLeft").addClass('active');
-			let delayedScrollUp = window.setTimeout(function(){$('html, body').animate({scrollTop: 0}, 600)}, 200);
-			
+			let delayedScrollUp = window.setTimeout(() => {$('html, body').animate({scrollTop: 0}, 600)}, 200);
+
 			//Lancement musique
-			currentAlbum = $(this);
-			playAlbum($(this));
-			clickSong($(this));
+			playAlbum(currentAlbum);
+			clickSong(currentAlbum);
 		};
 	});
 });
@@ -223,12 +237,13 @@ $('#arrowLeft').on('click', function(){
 				"height": getComputedStyle(document.documentElement).getPropertyValue('--album-size'),
 			});
 			let ancreScrollBack = originalPositionTop.slice(0, -2) - 50;
-			let delayedScrollDown = window.setTimeout(function(){$('html, body').animate({scrollTop: ancreScrollBack}, 600)}, 200);
+			let delayedScrollDown = window.setTimeout(() => {$('html, body').animate({scrollTop: ancreScrollBack}, 600)}, 200);
 		} else {
 			$(this).removeClass('hidden');
 		};
 	});
 	$("#arrowLeft").removeClass('active');
+	deleteSongTransition(currentAlbum);
 	stopMusic($(this));
 });
 
@@ -290,7 +305,7 @@ $('.randomSVG').on('click', function() {
 });
 
 //Click Song
-function clickSong(album){
+const clickSong = () => {
 	$('.active .songList').children().each(function(){
 		$(this).on('click', function(){
 			if (random) {
@@ -321,7 +336,7 @@ $('.timer').on('click', function(e){
 	AUDIO.currentTime = song.duration * percentProgress;
 });
 
-function switchDisplay(button){
+const switchDisplay = (button) => {
 	let buttonSwitch, svg1, svg2;
 
 	switch(button){
@@ -348,11 +363,11 @@ function switchDisplay(button){
 	}
 }
 
-function changeOption(button){
+const changeOption = (button) => {
 	button.hasClass('active') ? button.removeClass('active') : button.addClass('active');
 }
 
-function playAlbum(album){
+const playAlbum = (album) => {
 	//Définir la playlist et le morceau joué
 	albumSongsList = JSON.parse(JSON.stringify(AlbumList[album.get(0).id].songsList));
 	firstSong = albumSongsList[0];
@@ -365,7 +380,7 @@ function playAlbum(album){
 	
 	//Lancement avec délai
 	let delay = album.children()[2].childNodes.length * 100;
-	let delayedPlayAlbum = window.setTimeout(function(){
+	let delayedPlayAlbum = window.setTimeout(() => {
 		isPlayed = true;
 		switchDisplay('play');
 		$('.active .songList li:first-of-type').addClass('played');
@@ -373,7 +388,7 @@ function playAlbum(album){
 	}, delay);
 };
 
-function stopMusic(album){
+const stopMusic = () => {
 	isPlayed = false;
 	switchDisplay('play');
 	AUDIO.pause();
@@ -386,8 +401,7 @@ function stopMusic(album){
 	}, 400);
 };
 
-function nextPrevSong(change){
-	let indexRandom = -1;
+const nextPrevSong = (change) => {
 	//NEXT
 	if(change == "next"){
 		//NORMAL
@@ -418,13 +432,13 @@ function nextPrevSong(change){
 	}
 }
 
-function playSong(indexSong){
+const playSong = (indexSong) => {
 	let song = albumSongsList[indexSong];
 	currentSong = song.song;
 	
 	$('.active .songList li').removeClass('played');
 	$('.active .songList li').each(function(){
-		if($(this).text().includes(currentSong)) $(this).addClass('played');
+		if($(this).text().split('. ')[1] == currentSong) $(this).addClass('played');
 	});
 
 	resetTimers(song);
@@ -436,7 +450,7 @@ function playSong(indexSong){
 }
 
 //Modifier les timers selon la chanson
-function resetTimers(song){
+const resetTimers = (song) => {
 	$(".fullDuration").empty();
 	$(".currentDuration").empty();
 	
@@ -448,13 +462,13 @@ function resetTimers(song){
 }
 
 //Actualise le temps d'avancée du morceau
-function updateCurrentDuration(){
+const updateCurrentDuration = () => {
 	calculDuration(AUDIO.currentTime);
 	$(".currentDuration").empty();
 	$(".currentDuration").append(newDuration);
 }
 
-function calculDuration(duration){
+const calculDuration = (duration) => {
 	let initialDuration = Math.floor(duration);
 	let secondsDuration = initialDuration%60;
 	if (secondsDuration < 10){
@@ -469,7 +483,7 @@ function calculDuration(duration){
 }
 
 //Gestion de la barre de progression du morceau
-function timerProgress(){
+const timerProgress = () => {
   let percent = (AUDIO.currentTime / AUDIO.duration) * 100;
   $('.duration').css("width", percent+"%");
   if (percent === 100) {
@@ -481,7 +495,7 @@ AUDIO.addEventListener('timeupdate', timerProgress);
 AUDIO.addEventListener('timeupdate', updateCurrentDuration);
 
 //Random
-function shuffle(sourceArray) {
+const shuffle = (sourceArray)  => {
   for (let i = 0; i < sourceArray.length - 1; i++) {
       let j = i + Math.floor(Math.random() * (sourceArray.length - i));
 
