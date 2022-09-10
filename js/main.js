@@ -4,7 +4,7 @@ function Album (name, artist, image, songsList) {
   this.name = name;
   this.artist = artist;
   this.image = image;
-	this.songsList = songsList;
+  this.songsList = songsList;
 }
 
 // duration en secondes
@@ -301,7 +301,7 @@ $('.randomSVG').on('click', function() {
 		$('.active .songList li').each(function(){
 			if($(this).text().includes(currentSong)) indexCurrentSong = parseInt($(this).text()) - 1;
 		});
-	}
+	};
 });
 
 //Click Song
@@ -310,8 +310,8 @@ const clickSong = () => {
 		$(this).on('click', function(){
 			if (random) {
 				let thisSong = $(this).get(0).innerHTML.split('.')[1].trim();
-				let arraySong = albumSongsList.find(obj => obj.song === thisSong)
-				indexCurrentSong = albumSongsList.indexOf(arraySong)
+				let arraySong = albumSongsList.find(obj => obj.song === thisSong);
+				indexCurrentSong = albumSongsList.indexOf(arraySong);
 				playSong(indexCurrentSong);
 			} else {
 				let indexSong = parseInt($(this).get(0).innerHTML.split('.')[0]) - 1;
@@ -454,7 +454,7 @@ const resetTimers = (song) => {
 	$(".fullDuration").empty();
 	$(".currentDuration").empty();
 	
-	calculDuration(song.duration);
+	secondsToMinutes(song.duration);
 	$(".fullDuration").append(newDuration);
 	
 	currentDuration = "00:00";
@@ -463,12 +463,12 @@ const resetTimers = (song) => {
 
 //Actualise le temps d'avancée du morceau
 const updateCurrentDuration = () => {
-	calculDuration(AUDIO.currentTime);
+	secondsToMinutes(AUDIO.currentTime);
 	$(".currentDuration").empty();
 	$(".currentDuration").append(newDuration);
 }
 
-const calculDuration = (duration) => {
+const secondsToMinutes = (duration) => {
 	let initialDuration = Math.floor(duration);
 	let secondsDuration = initialDuration%60;
 	if (secondsDuration < 10){
