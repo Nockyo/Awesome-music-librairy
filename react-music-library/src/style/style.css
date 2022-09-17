@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+:root {
+  --album-size: 30vw;
+  --player-size: 40vw;
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    --album-size: 15vw;
+    --player-size: 43vw;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #262626;
+  font-family: 'roboto';
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #D9D9D9;
+  font-size: 40px;
+}
+
+.credit {
+  text-align: right;
+  display: block;
+  color: #D9D9D9;
+  margin: 20px;
+  font-weight: bold;
+}
+
+#arrowLeft {
+  width: 40px;
+  color: #D9D9D9;
+  margin: 20px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+#arrowLeft.active {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: color 0.2s, -webkit-transform 0.5s;
+  transition: color 0.2s, -webkit-transform 0.5s;
+  transition: transform 0.5s, color 0.2s;
+  transition: transform 0.5s, color 0.2s, -webkit-transform 0.5s;
+}
+
+#arrowLeft:hover {
+  color: #73020C;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.albums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.albums > div {
+  width: var(--album-size);
+  height: var(--album-size);
+  position: absolute;
+  -webkit-transition: 0.5s ease-out 0.2s;
+  transition: 0.5s ease-out 0.2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  .albums > div {
+    -webkit-box-align: self-start;
+        -ms-flex-align: self-start;
+            align-items: self-start;
+  }
+}
+
+.albums > div .player {
+  opacity: 0;
+  width: calc(var(--album-size) + 10%);
+  position: absolute;
+  top: calc(var(--album-size) + 75px);
+  -webkit-transition: 0.5s 0.2s;
+  transition: 0.5s 0.2s;
+}
+
+.albums > div .player .timer {
+  display: inline-block;
+  height: 5px;
+  width: 85%;
+  background-color: #262626;
+  margin: 0 auto;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: 0.5s ease-out 0.2s;
+  transition: 0.5s ease-out 0.2s;
+}
+
+.albums > div .player .volume {
+  display: inline-block;
+  margin-left: 5%;
+  width: 10%;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.albums > div .player .volume:hover path {
+  color: #73020C;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.albums > div .player .volume svg:last-of-type {
+  display: none;
+}
+
+.albums > div .player p {
+  width: 50%;
+  display: inline-block;
+  color: #262626;
+  margin-top: 10px;
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+  opacity: 0;
+  -webkit-transition: 0.5s ease-out 0.7s;
+  transition: 0.5s ease-out 0.7s;
+}
+
+.albums > div .player p:last-of-type {
+  text-align: right;
+  width: 35%;
+}
+
+.albums > div .player .buttonPlayer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.albums > div .player .buttonPlayer svg {
+  height: 30px;
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  color: #262626;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.albums > div .player .buttonPlayer svg:hover path {
+  color: #73020C;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.albums > div .player .buttonPlayer svg path {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.albums > div .player .buttonPlayer svg.previousSVG {
+  -webkit-transform: translateX(96%);
+          transform: translateX(96%);
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-out 0.2s, -webkit-transform 0.5s ease-out 0.2s;
+  transition: opacity 0.5s ease-out 0.2s, -webkit-transform 0.5s ease-out 0.2s;
+  transition: opacity 0.5s ease-out 0.2s, transform 0.5s ease-out 0.2s;
+  transition: opacity 0.5s ease-out 0.2s, transform 0.5s ease-out 0.2s, -webkit-transform 0.5s ease-out 0.2s;
+}
+
+.albums > div .player .buttonPlayer svg.nextSVG {
+  -webkit-transform: translateX(-96%);
+          transform: translateX(-96%);
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-out 0.2s, -webkit-transform 0.5s ease-out 0.2s;
+  transition: opacity 0.5s ease-out 0.2s, -webkit-transform 0.5s ease-out 0.2s;
+  transition: opacity 0.5s ease-out 0.2s, transform 0.5s ease-out 0.2s;
+  transition: opacity 0.5s ease-out 0.2s, transform 0.5s ease-out 0.2s, -webkit-transform 0.5s ease-out 0.2s;
+}
+
+.albums > div .player .buttonPlayer svg.pauseSVG {
+  display: none;
+}
+
+.albums > div .player .buttonPlayer .options {
+  margin-top: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.albums > div .player .buttonPlayer .options svg {
+  height: 25px;
+}
+
+.albums > div .player .buttonPlayer .options svg.active path {
+  color: #73020C;
+}
+
+.albums > div .songList {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #262626;
+  color: #D9D9D9;
+  width: calc(var(--album-size) + 10%);
+  border-radius: 25px;
+  padding: 10px 20px;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+  .albums > div .songList {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+.albums > div .songList li {
+  padding: 5px 10px;
+  margin: 10px 5px;
+  -webkit-transform: translateX(-250px);
+          transform: translateX(-250px);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.albums > div .songList li.played {
+  background-color: #D9D9D9;
+  color: #262626;
+}
+
+.albums > div .songList li:hover {
+  background-color: #73020C;
+  color: #D9D9D9;
+}
+
+.albums > div > p {
+  color: #D9D9D9;
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.albums > div > p:first-of-type {
+  left: 10px;
+  bottom: -90px;
+}
+
+.albums > div > p:last-of-type {
+  bottom: 25px;
+  left: -110px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.albums > div div.albumContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 8px 8px 8px black;
+          box-shadow: 8px 8px 8px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  cursor: pointer;
+  z-index: 99;
+  width: var(--album-size);
+  height: var(--album-size);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.albums > div div.albumContainer img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.albums > div div.albumContainer svg {
+  width: 10vw;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #D9D9D9;
+}
+
+@media screen and (min-width: 1200px) {
+  .albums > div div.albumContainer svg {
+    width: 5vw;
+  }
+}
+
+.albums > div div.albumContainer:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.albums > div div.albumContainer:hover svg {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.albums > div div.albumContainer:hover ~ p:first-of-type {
+  left: 7px;
+  bottom: -87px;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.albums > div div.albumContainer:hover ~ p:last-of-type {
+  bottom: 17px;
+  left: -102px;
+  -webkit-transform: scale(1.03) rotate(-90deg);
+          transform: scale(1.03) rotate(-90deg);
+}
+
+.albums > div.hidden div.albumContainer {
+  cursor: default;
+}
+
+.albums > div.active {
+  width: var(--player-size);
+  background-color: #D9D9D9;
+  padding: 30px 0;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-out 0.2s;
+  transition: 0.5s ease-out 0.2s;
+}
+
+@media screen and (min-width: 1200px) {
+  .albums > div.active {
+    padding: 30px;
+  }
+}
+
+.albums > div.active div.albumContainer {
+  width: var(--album-size);
+  height: var(--album-size);
+  cursor: default;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 1200px) {
+  .albums > div.active div.albumContainer {
+    margin-left: 5%;
+  }
+}
+
+.albums > div.active div.albumContainer svg {
+  opacity: 0;
+}
+
+.albums > div.active div.albumContainer:hover img {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.albums > div.active div.albumContainer ~ p:first-of-type {
+  left: 10px;
+  bottom: -90px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.albums > div.active div.albumContainer ~ p:last-of-type {
+  bottom: 25px;
+  left: -110px;
+  -webkit-transform: scale(1) rotate(-90deg);
+          transform: scale(1) rotate(-90deg);
+}
+
+.albums > div.active .player {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.albums > div.active .player .timer {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: 0.5s ease-out 0.4s;
+  transition: 0.5s ease-out 0.4s;
+  cursor: pointer;
+}
+
+.albums > div.active .player .timer .duration {
+  background-color: #73020C;
+  height: 100%;
+  width: 0%;
+  display: block;
+}
+
+.albums > div.active .player p {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+  -webkit-transition: 0.5s ease-out 0.9s;
+  transition: 0.5s ease-out 0.9s;
+}
+
+.albums > div.active .player svg.previousSVG, .albums > div.active .player svg.nextSVG {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-out 0.4s, -webkit-transform 0.5s ease-out 0.4s;
+  transition: opacity 0.5s ease-out 0.4s, -webkit-transform 0.5s ease-out 0.4s;
+  transition: transform 0.5s ease-out 0.4s, opacity 0.5s ease-out 0.4s;
+  transition: transform 0.5s ease-out 0.4s, opacity 0.5s ease-out 0.4s, -webkit-transform 0.5s ease-out 0.4s;
+}
+
+.albums > div.active .songList {
+  opacity: 1;
+  -webkit-transition: 0.5s 0.3s;
+  transition: 0.5s 0.3s;
+}
+
+.albums > div.active .songList li {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.hidden {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=style.css.map */

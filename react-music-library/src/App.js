@@ -1,11 +1,8 @@
-import AlbumList from "./data/albums";
-import { Counter } from "./features/counter/Counter";
+import { AlbumLibrary } from "./features/albumLibrary/albumLibrary";
 
 function App() {
-  console.log(AlbumList)
-
   return (
-    <Counter />
+    <AlbumLibrary />
   );
 }
 
