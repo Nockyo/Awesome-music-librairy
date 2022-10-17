@@ -1,6 +1,5 @@
 import dotenv from "dotenv";
 import express from "express";
-import bp from "body-parser";
 import path from "path";
 import { fileURLToPath } from "url";
 import mongoose from "mongoose";
@@ -19,7 +18,7 @@ mongoose.connect(DB_URL, {
 async function init() {
     const app = express();
     app.use(express.json());
-    app.use(bp.urlencoded({extended: true}));
+    app.use(express.urlencoded({extended: true}));
     app.use(express.static(path.join(__dirname, "public")));
     try{
         app.use(route);
