@@ -26,10 +26,9 @@ const ArtistSchema = new Schema({
     image: {
         type: String,
         required: true,
-        default: "/images/artists/default_artist.jpg",
     },
-    styles: {
-        type: Array,
+    style: {
+        type: String,
         required: true,
         validate: value => {
             if(value === ""){

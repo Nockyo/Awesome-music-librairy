@@ -13,16 +13,6 @@ const AlbumSchema = new Schema({
             }
         },
     },
-    date: {
-        type: Date,
-        required: true,
-        trim: true,
-        validate: value => {
-            if(value === ""){
-              throw new Error("champ vide");
-            }
-        },
-    },
     artist: {
         type: String,
         required: true,
@@ -33,12 +23,26 @@ const AlbumSchema = new Schema({
             }
         },
     },
-    pochette: {
+    date: {
+        type: Number,
+        required: true,
+        trim: true,
+        validate: value => {
+            if(value === ""){
+              throw new Error("champ vide");
+            }
+        },
+    },
+    style: {
         type: String,
         required: true,
-        default: "/images/albums/default_album.jpg",
+        validate: value => {
+            if(value === ""){
+              throw new Error("champ vide");
+            }
+        },
     },
-    styles: {
+    tracks: {
         type: Array,
         required: true,
         validate: value => {
@@ -46,20 +50,15 @@ const AlbumSchema = new Schema({
               throw new Error("champ vide");
             }
         },
+    },
+    image: {
+        type: String,
+        required: true,
     },
     users_likes: {
         type: Array,
         required: true,
         default: [],
-    },
-    songs: {
-        type: Array,
-        required: true,
-        validate: value => {
-            if(value === ""){
-              throw new Error("champ vide");
-            }
-        },
     }
 });
 

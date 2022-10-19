@@ -3,6 +3,7 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import mongoose from "mongoose";
+import upload from "express-fileupload";
 
 import route from "./routes/routes.js"
 
@@ -18,7 +19,8 @@ mongoose.connect(DB_URL, {
 async function init() {
     const app = express();
     app.use(express.json());
-    app.use(express.urlencoded({extended: true}));
+    app.use(express.urlencoded({extended: false}));
+    app.use(upload({createParentPath: true}));
     app.use(express.static(path.join(__dirname, "public")));
     try{
         app.use(route);
