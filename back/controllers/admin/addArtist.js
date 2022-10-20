@@ -2,7 +2,7 @@ import ArtistModel from "../../Models/Artist.js";
 import { moveFile } from "../../utils/moveFile.js";
 
 export const addArtist = async (req, res) => {
-    let {name, styles} = req.body;
+    const {name, style} = req.body;
     try{
         const artist = await ArtistModel.findOne({name: name});
 
@@ -11,7 +11,7 @@ export const addArtist = async (req, res) => {
             return
         }
 
-        if(!styles){
+        if(!style){
             res.status.send('Veuillez ajouter un style musical');
             return
         }

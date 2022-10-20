@@ -25,7 +25,7 @@ export const addAlbum = async (req, res) => {
             return
         }
 
-        await moveFile(image, 'images/albums/' + name).then((imageSrc) => {
+        await moveFile(image, 'images/albums/' + artist).then((imageSrc) => {
             const newAlbum = AlbumModel.create({
                 name: name,
                 artist: artist,
@@ -65,7 +65,7 @@ export const addAlbum = async (req, res) => {
                 return
             }
 
-            await moveFile(files['tracks['+track+']'], 'music/'+name).then((fileSrc) => {
+            await moveFile(files['tracks['+track+']'], 'music/' + artist).then((fileSrc) => {
                 newTracks[track] = TrackModel.create({
                     name: trackName,
                     artist: artist,

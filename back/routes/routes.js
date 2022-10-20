@@ -19,6 +19,11 @@ import { authentificateToken } from "../middlewares/authentificateToken.js";
 import { authentificateAdmin } from "../middlewares/authentificateAdmin.js";
 import parser from "../utils/parser.js";
 
+// FONCTIONS PLAYLIST
+import { createPlaylist } from "../controllers/playlist/createPlaylist.js";
+import { deletePlaylist } from "../controllers/playlist/deletePlaylist.js";
+import { addTrackToPlaylist } from "../controllers/playlist/addTrackToPlaylist.js";
+
 //FONCTIONS GENERALES
 router.post("/register", register);
 router.post("/login", login);
@@ -34,7 +39,10 @@ router.post("/admin/editUser", authentificateToken, authentificateAdmin, editUse
 router.post("/admin/addArtist", authentificateToken, authentificateAdmin, addArtist);
 router.post("/admin/addAlbum", authentificateToken, authentificateAdmin, parser, addAlbum);
 
-// FONCTIONS UTILISATEURS
+// FONCTIONS PLAYLIST
+router.post("/createPlaylist", authentificateToken, createPlaylist);
+router.post("/deletePlaylist", authentificateToken, deletePlaylist);
+router.post("/addTrackToPlaylist", authentificateToken, addTrackToPlaylist);
 
 
 export default router;

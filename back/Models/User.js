@@ -42,7 +42,7 @@ const UserSchema = new Schema({
         required: true,
         default: false,
     },
-    playlist: {
+    playlists: {
         type: Array,
         required: true,
         default: [],
