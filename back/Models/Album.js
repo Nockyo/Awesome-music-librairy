@@ -6,7 +6,6 @@ const AlbumSchema = new Schema({
         type: String,
         required: true,
         trim: true,
-        unique: true,
         validate: value => {
             if(value === ""){
               throw new Error("champ vide");
@@ -22,6 +21,10 @@ const AlbumSchema = new Schema({
               throw new Error("champ vide");
             }
         },
+    },
+    artist_id: {
+        type: String,
+        required: true,
     },
     date: {
         type: Number,
@@ -50,6 +53,10 @@ const AlbumSchema = new Schema({
               throw new Error("champ vide");
             }
         },
+    },
+    uploadedDate: {
+        type: Date,
+        required: true,
     },
     image: {
         type: String,

@@ -86,7 +86,7 @@ export const editMusic = async (req, res) => {
                 modifiedCount = 0;
             }
 
-            const updatedAlbumsTracks = await AlbumModel.update({artist : artist, tracks: {$elemMatch: {id : id}}}, {$set:{ "tracks.$.name": name }});
+            const updatedAlbumsTracks = await AlbumModel.updateMany({artist : artist, tracks: {$elemMatch: {id : id}}}, {$set:{ "tracks.$.name": name }});
             modifiedCount += updatedAlbumsTracks.modifiedCount;
             
             if(modifiedCount === 0){

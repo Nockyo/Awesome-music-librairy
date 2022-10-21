@@ -1,19 +1,24 @@
 import UserModel from "../../Models/User.js";
 
 export const addTrackToPlaylist = async (req, res) => {
-    const {userName, playlistName, trackId} = req.body;
+    const {playlistName, trackId} = req.body;
+    const {id} = req.data.data;
     try {
-        const track = await UserModel.find({name: userName, playlists: {$elemMatch:{name : playlistName}}}, {playlists: 1})
-        console.log(track)
+        const track = await UserModel.find({$and: [{_id: id}, {"playlists.name" : playlistName}, {"playlists.tracks" : trackId}]});
 
-        // const newPlaylist = await UserModel.updateOne({name: userName, playlists: {$elemMatch:{name : playlistName}}},{$push : {"playlists.$.tracks": trackId}});
-        // console.log(newPlaylist)
-        // if(newPlaylist.modifiedCount === 0 || !newPlaylist.modifiedCount){
-        //     res.status(400).send('La playlist n\'a pas pu être créée');
-        //     return;
-        // }
+        if(track.length > 0){
+            res.status(400).send('Ce morceau est déjà présent dans votre playlist');
+            return
+        }
 
-        res.send(`la playlist ${playlistName} a été créée`);
+        const newPlaylist = await UserModel.updateOne({$and: [{_id: id, "playlists.name": playlistName}]},{$push: {'playlists.$.tracks': trackId}});
+        console.log(newPlaylist)
+        if(newPlaylist.modifiedCount === 0 || !newPlaylist.modifiedCount){
+            res.status(400).send('Le morceau n\'a pas pu être ajouté');
+            return;
+        }
+
+        res.send(`le morceau a été ajouté`);
     } catch (err) {
         res.status(400).send(err.message);
     }

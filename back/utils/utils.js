@@ -7,7 +7,7 @@ const {ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET} = process.env;
 
 //Créer l'access token
 export function generateAccessToken(data) {
-    return jwt.sign({data}, ACCESS_TOKEN_SECRET, {expiresIn: '7200s'});
+    return jwt.sign({data}, ACCESS_TOKEN_SECRET, {expiresIn: '1d'});
 }
 
 //Créer l'access token

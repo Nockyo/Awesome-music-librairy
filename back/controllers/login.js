@@ -14,7 +14,7 @@ export const login = async (req, res) => {
         comparePassword(password, user.password)
             .then(data => {
                 if(data){
-                    let jwt = generateAccessToken({"name": user.name,"admin": user.admin});
+                    let jwt = generateAccessToken({"id": user._id.toString(),"name": user.name,"admin": user.admin});
                     res.status(200).json({jwt});
                 } else {
                     res.status(400).send('invalid mail or password');

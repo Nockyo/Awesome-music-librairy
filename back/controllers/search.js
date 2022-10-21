@@ -9,11 +9,11 @@ export const search = async (req, res) => {
         //Plusieurs requêtes : artists, albums, tracks.name, tracks.style, users.playlist, 
         const results = [];
         await results.push(
-            ArtistModel.find({ $or: [ { name: { $regex: "(?i)"+search}},{ style: { $regex: "(?i)"+search} } ] }),
-            AlbumModel.find({$or: [{ name: { $regex: "(?i)"+search}},{style: { $regex: "(?i)"+search} }]}),
-            TrackModel.find({$or: [{ name: { $regex: "(?i)"+search}},{style: { $regex: "(?i)"+search} }]}),
-            UserModel.find({ playlist: { name: {$regex: '(?i)'+search}} })
-        )
+            ArtistModel.find({ $or: [ { name: { $regex: "(?i)"+search}},{ style: { $regex: "(?i)"+search} } ] }).limit(5),
+            AlbumModel.find({$or: [{ name: { $regex: "(?i)"+search}},{style: { $regex: "(?i)"+search} }]}).limit(5),
+            TrackModel.find({$or: [{ name: { $regex: "(?i)"+search}},{style: { $regex: "(?i)"+search} }]}).limit(5),
+            UserModel.find({ playlists: { name: {$regex: '(?i)'+search}} }).limit(5)
+        );
         
         Promise.all(results).then((result) => {
             res.send(result)

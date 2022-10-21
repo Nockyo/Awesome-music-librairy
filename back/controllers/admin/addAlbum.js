@@ -1,14 +1,17 @@
 import AlbumModel from "../../Models/Album.js";
+import ArtistModel from "../../Models/Artist.js";
 import TrackModel from "../../Models/Track.js";
 import { moveFile } from "../../utils/moveFile.js";
 
 export const addAlbum = async (req, res) => {
-    let {name, artist, date, style, tracks} = req.body;
+    let {name, artistId, date, style, tracks} = req.body;
     const image = req.files.image;
     const files = req.files;
 
     try{
-        const album = await AlbumModel.findOne({name: name, artist: artist, date: date});
+        const artist = await ArtistModel.findOne({_id: artistId}, {name: 1})
+        const artistIdStr = artist._id.toString()
+        const album = await AlbumModel.findOne({name: name, artist_id: artistIdStr, date: date});      
 
         if(album){
             res.status(400).send('Cet album existe déjà');
@@ -25,13 +28,15 @@ export const addAlbum = async (req, res) => {
             return
         }
 
-        await moveFile(image, 'images/albums/' + artist).then((imageSrc) => {
+        await moveFile(image, 'images/albums/' + artist.name).then((imageSrc) => {
             const newAlbum = AlbumModel.create({
                 name: name,
-                artist: artist,
+                artist: artist.name,
+                artist_id: artistIdStr,
                 date: date,
                 style: style,
                 tracks: [], 
+                uploadedDate: Date.now(),
                 image: imageSrc
             })
         })
@@ -65,10 +70,10 @@ export const addAlbum = async (req, res) => {
                 return
             }
 
-            await moveFile(files['tracks['+track+']'], 'music/' + artist).then((fileSrc) => {
+            await moveFile(files['tracks['+track+']'], 'music/' + artist.name).then((fileSrc) => {
                 newTracks[track] = TrackModel.create({
                     name: trackName,
-                    artist: artist,
+                    artist: artist.name,
                     album: name,
                     duration: duration,
                     style: style,
@@ -89,7 +94,7 @@ export const addAlbum = async (req, res) => {
                 })
             })
 
-            const updateAlbum = await AlbumModel.updateOne({name: name, artist: artist, date: date},{tracks: trackList})
+            const updateAlbum = await AlbumModel.updateOne({name: name, artist_id: artistIdStr, date: date},{tracks: trackList})
             
             res.send(req.body)
         })

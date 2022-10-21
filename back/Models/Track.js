@@ -6,7 +6,6 @@ const TrackSchema = new Schema({
         type: String,
         required: true,
         trim: true,
-        unique: true,
         validate: value => {
             if(value === ""){
               throw new Error("champ vide");
