@@ -2,17 +2,23 @@ import ArtistModel from "../../Models/Artist.js";
 import { moveFile } from "../../utils/moveFile.js";
 
 export const addArtist = async (req, res) => {
-    const {name, style} = req.body;
+    const {name, biography, style} = req.body;
     try{
+        console.log(req.body)
         const artist = await ArtistModel.findOne({name: name});
 
         if(artist){
-            res.status.send('Cet artiste existe déjà');
+            res.status(400).send('Cet artiste existe déjà');
+            return
+        }
+
+        if(!biography){
+            res.status(400).send('Veuillez ajouter une biographie');
             return
         }
 
         if(!style){
-            res.status.send('Veuillez ajouter un style musical');
+            res.status(400).send('Veuillez ajouter un style musical');
             return
         }
 
@@ -22,6 +28,7 @@ export const addArtist = async (req, res) => {
         }
 
         const file = req.files.image;
+        console.log(file)
         moveFile(file, 'images/artists').then( async (imageSrc) => {
             const newUser = await ArtistModel.create({...req.body, image: imageSrc})
             res.send(newUser);

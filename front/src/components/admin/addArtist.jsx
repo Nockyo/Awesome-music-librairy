@@ -1,30 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
+import instance from "../../utils/instanceHttp";
 
 export const AddArtist = (props) => {
     const { register, handleSubmit, formState: { errors }} = useForm();
-    const [name, setName] = useState('');
-    const [biography, setBiography] = useState('');
-    const [style, setStyle] = useState('');
-    const [image, setImage] = useState(null);
-
-    const onNameChange = (e) => {
-        setName(e.target.value);
-    }
-
-    const onBiographyChange = (e) => {
-        setBiography(e.target.value);
-    }
-
-    const onStyleChange = (e) => {
-        setStyle(e.target.value);
-    }
-
-    const onImageChange = (e) => {
-        // console.log(e.target.files[0])
-        setImage(e.target.files[0]);
-    }
+    const [message, setMessage] = useState('');
 
     // const handleSubmit = (e) => {
     //     e.preventDefault();
@@ -46,7 +27,19 @@ export const AddArtist = (props) => {
 
     // }
 
-    const onSubmit = data => console.log(data);
+    const onSubmit = (data) => {
+        const formData = new FormData();
+        formData.append("data", data);
+        console.log(formData)
+        instance
+            .post('addArtist', data)
+            .then((res) => {
+                console.log(res)
+            })
+            .catch(err => {
+                setMessage(err.response.data)
+            })
+    }
 
     // const onSubmit = async (data) => {
     //     const formData = new FormData();
@@ -62,6 +55,7 @@ export const AddArtist = (props) => {
     return (
         <React.Fragment>
             <h3>Add Artist</h3>
+            <p>{message}</p>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label htrmlfor="name">
                     Enter an artist name :
