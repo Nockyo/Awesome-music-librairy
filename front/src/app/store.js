@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
-import albumLibraryReducer from '../features/albumLibrary/albumLibrarySlice';
+import counterReducer from '../components/counter/counterSlice';
+import albumLibraryReducer from '../components/albumLibrary/albumLibrarySlice';
 
 export default configureStore({
   reducer: {

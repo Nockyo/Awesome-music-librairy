@@ -5,7 +5,6 @@ dotenv.config();
 const {ACCESS_TOKEN_SECRET} = process.env;
 
 export const authentificateToken = (req, res, next) => {
-
     const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1]; //'Bearer AOUGDFUAGFGUAIDIULIAIDGG' => ['Bearer','AOUGDFUAGFGUAIDIULIAIDGG']
 

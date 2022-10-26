@@ -22,6 +22,7 @@ import { addHistory } from "../controllers/player/addHistory.js";
 import { addListened } from "../controllers/player/addListened.js";
 
 //CONTROLLERS ADMIN
+import { admin } from "../controllers/admin.js";
 import { getUsers } from "../controllers/admin/getUsers.js";
 import { editUser } from "../controllers/admin/editUser.js";
 import { addArtist } from "../controllers/admin/addArtist.js";
@@ -74,6 +75,7 @@ router.post("/addHistory", authentificateToken, addHistory);
 router.post("/addListened", authentificateToken, addListened);
 
 // ROUTER ADMIN
+router.get("/admin", authentificateToken, authentificateAdmin, admin);
     // UTILISATEURS
 router.get("/admin/getUsers", authentificateToken, authentificateAdmin, getUsers);
 router.post("/admin/editUser", authentificateToken, authentificateAdmin, editUser);
@@ -85,7 +87,7 @@ router.post("/admin/editUser", authentificateToken, authentificateAdmin, editUse
 router.post("/admin/addArtist", authentificateToken, authentificateAdmin, addArtist);
 router.post("/admin/addAlbum", authentificateToken, authentificateAdmin, parser, addAlbum);
     // RECHERCHES
-router.get("/admin/searchUser", authentificateToken, authentificateAdmin, searchUser);
+router.post("/admin/searchUser", authentificateToken, authentificateAdmin, searchUser);
 router.get("/admin/searchTrack", authentificateToken, authentificateAdmin, searchTrack);
 router.get("/admin/searchAlbum", authentificateToken, authentificateAdmin, searchAlbum);
 router.get("/admin/searchArtist", authentificateToken, authentificateAdmin, searchArtist);

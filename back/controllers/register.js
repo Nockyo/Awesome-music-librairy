@@ -11,20 +11,19 @@ export const register = async (req, res) => {
     try {
         const findEmail = await UserModel.findOne({email: email});
         if(findEmail){
-            res.status(400).send('Ce nom ou ce mail sont déjà utilisés');
+            res.status(400).send('Ce nom et/ou ce mail sont déjà utilisés');
             return
         }
 
         const findName = await UserModel.findOne({name: name});
         if(findName){
-            res.status(400).send('Ce nom ou ce mail sont déjà utilisés');
+            res.status(400).send('Ce nom et/ou ce mail sont déjà utilisés');
             return
         }
 
         const newUser = await UserModel.create({...req.body});
 
-        //rediriger vers le login
-        res.status(200).json(newUser);
+        res.status(200).send('Inscription réussie');
     } catch (err) {
         res.status(400).json({message: err.message});
     }
