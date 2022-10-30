@@ -12,6 +12,7 @@ import { Home } from "./components/Home";
 import { SignIn } from "./components/SignIn-SignUp/SignIn";
 import { SignUp } from "./components/SignIn-SignUp/SignUp";
 import instance from "./utils/instanceHttp";
+import { EditMusic } from "./components/admin/editMusic";
 
 function App() {
   const [isConnected, setIsConnected] = useState(!!localStorage.jwt);
@@ -32,7 +33,7 @@ function App() {
   const signOut = () => {
     instance.defaults.headers.common['authorization'] = 0;
     localStorage.removeItem('jwt');
-    setIsConnected(false)
+    setIsConnected(false);
   }
 
   return (
@@ -49,6 +50,7 @@ function App() {
             <ul>admin
               <li><Link to="admin/usersRights">Users Rights</Link></li>
               <li><Link to="admin/addMusic">add Music</Link></li>
+              <li><Link to="admin/editMusic">edit Music</Link></li>
             </ul>
           }
           
@@ -61,6 +63,7 @@ function App() {
         <Route path="signUp" element={<SignUp />}/>
         <Route path="admin/usersRights" element={<UsersRights />}/>
         <Route path="admin/addMusic" element={<AddMusic />}/>
+        <Route path="admin/editMusic" element={<EditMusic />} />
       </Routes>
     </Router>
   );

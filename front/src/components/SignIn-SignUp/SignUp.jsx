@@ -24,18 +24,22 @@ export const SignUp = (props) => {
                     <label htrmlfor="name">
                         Enter your name :
                         <input type="text" name="name" {...register("name", {required: true})} />
+                        {errors.name && <span>This field is required</span>}
                     </label>
                     <label htrmlfor="email">
                         Enter your email :
                         <input type="email" name="email" {...register("email", {required: true})} />
+                        {errors.email && <span>This field is required</span>}
                     </label>
                     <label htrmlfor="password">
                         Enter your password :
                         <input type="password" name="password" {...register("password", {required: true})} />
+                        {errors.password && <span>This field is required</span>}
                     </label>
                     <label htrmlfor="passwordConfirm">
                         Enter your password :
                         <input type="password" name="passwordConfirm" {...register("passwordConfirm", {required: true})} />
+                        {errors.passwordConfirm && <span>This field is required</span>}
                     </label>
                     <input type="submit" value="S'inscrire" />
                     {errors.exampleRequired && <span>This field is required</span>}

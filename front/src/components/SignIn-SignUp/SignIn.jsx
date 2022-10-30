@@ -13,7 +13,6 @@ export const SignIn = (props) => {
         instance
             .post('/login', data)
             .then((res) => {
-                console.log(res)
                 localStorage.setItem('jwt', res.data.jwt);
                 instance.defaults.headers.common['authorization'] = `Bearer ${localStorage.getItem('jwt')}`;
                 setIsConnected(true)
@@ -31,10 +30,12 @@ export const SignIn = (props) => {
                 <label htrmlfor="email">
                     Enter your email:
                     <input type="email" name="email" {...register("email", {required: true})} />
+                    {errors.email && <span>This field is required</span>}
                 </label>
                 <label htrmlfor="password">
                     Enter your password:
                     <input type="password" name="password" {...register("password", {required: true})} />
+                    {errors.password && <span>This field is required</span>}
                 </label>
                 <input type="submit" value="Connexion" />
                 {errors.exampleRequired && <span>This field is required</span>}

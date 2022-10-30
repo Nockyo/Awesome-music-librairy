@@ -4,6 +4,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import mongoose from "mongoose";
 import upload from "express-fileupload";
+import cors from 'cors';
 
 import route from "./routes/routes.js"
 
@@ -18,6 +19,7 @@ mongoose.connect(DB_URL, {
 
 async function init() {
     const app = express();
+    app.use(cors());
     app.use(express.json());
     app.use(express.urlencoded({extended: false}));
     app.use(upload({createParentPath: true}));

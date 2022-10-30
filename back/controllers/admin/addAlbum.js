@@ -4,9 +4,11 @@ import TrackModel from "../../Models/Track.js";
 import { moveFile } from "../../utils/moveFile.js";
 
 export const addAlbum = async (req, res) => {
-    let {name, artistId, date, style, tracks} = req.body;
+    let {name, artistId, date, style, tracksName, tracksDuration} = req.body;
     const image = req.files.image;
-    const files = req.files;
+    const files = req.files.tracksFile;
+    console.log(req.body)
+    // console.log(req.files)
 
     try{
         const artist = await ArtistModel.findOne({_id: artistId}, {name: 1})
@@ -40,17 +42,19 @@ export const addAlbum = async (req, res) => {
                 image: imageSrc
             })
         })
+        console.log("LOG 1")
 
         // Vérification qu'il y a bien le bon nombre de fichier
-        if(Object.keys(tracks).length !== Object.keys(files).length-1){
+        if(tracksName.length !== files.length){
             res.status(400).send('Veuillez ajouter un fichier');
             return
         }
 
+        console.log("LOG 2")
         const newTracks = [];
-        for(const track in tracks){
-            const trackName = tracks[track][0];
-            const duration = tracks[track][1];
+        for(const track in tracksName){
+            const trackName = tracksName[track];
+            const duration = tracksDuration[track];
 
             if(trackName === ""){
                 res.status(400).send('Veuillez ajouter un nom de morceau');
@@ -62,6 +66,7 @@ export const addAlbum = async (req, res) => {
                 return
             }
 
+            console.log("LOG 3")
             // Vérifier si les morceaux existent
             const song = await TrackModel.findOne({name: trackName, album: name});
 
@@ -70,7 +75,7 @@ export const addAlbum = async (req, res) => {
                 return
             }
 
-            await moveFile(files['tracks['+track+']'], 'music/' + artist.name).then((fileSrc) => {
+            await moveFile(files[track], 'music/' + artist.name).then((fileSrc) => {
                 newTracks[track] = TrackModel.create({
                     name: trackName,
                     artist: artist.name,
@@ -79,13 +84,13 @@ export const addAlbum = async (req, res) => {
                     style: style,
                     file: fileSrc
                 })
-            })
-            
+            }) 
         }
-
+        console.log("LOG 4")
         Promise.all(newTracks).then(async(values) => {
             const trackList = [];
             values.forEach((value, index) => {
+                console.log('LOG')
                 const id = value._id.toString()
                 trackList.push({
                     id: id,

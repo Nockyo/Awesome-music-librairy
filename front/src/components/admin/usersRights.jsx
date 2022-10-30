@@ -9,8 +9,6 @@ export const UsersRights = (props) => {
     const [search, setSearch] = useState('');
     const [message, setMessage] = useState('');
 
-    //! TODO Add message
-
     useEffect(() => {
         instance
             .get("/admin/getUsers")
@@ -40,7 +38,7 @@ export const UsersRights = (props) => {
     const handleAdminChange = (e) => {
         const ID = e.target.attributes.tr_id.value;
         const newUsers = users.map((user, index) => {
-            if(index == ID){
+            if(index.toString() === ID){
                 if(!user.admin === true){
                     setEmailTrue([...emailTrue, user.email])
 
@@ -104,10 +102,10 @@ export const UsersRights = (props) => {
                         </tr>
                     </thead>
                     <tbody>
-                        {users.map((value, index) => {                       
+                        {users.map((user, index) => {                       
                             return <tr key={index} tr_id={index}>
-                                <td>{value.name}</td>
-                                <td>{value.email}</td>
+                                <td>{user.name}</td>
+                                <td>{user.email}</td>
                                 <td>
                                     <input tr_id={index} name="admin" type="checkbox" checked={users[index].admin} onChange={handleAdminChange}/>
                                 </td>

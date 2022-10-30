@@ -11,7 +11,11 @@ import { getAlbumTracks } from "../controllers/display/getAlbumTracks.js";
 import { getPlaylist } from "../controllers/display/getPlaylist.js";
 import { getAlbum } from "../controllers/display/getAlbum.js";
 import { getArtist } from "../controllers/display/getArtist.js";
+import { getAllArtist } from "../controllers/display/getAllArtist.js";
 import { getArtistAlbums } from "../controllers/display/getArtistAlbums.js";
+import { searchArtist } from "../controllers/display/searchArtist.js";
+import { searchAlbum } from "../controllers/display/searchAlbum.js";
+import { searchTrack } from "../controllers/display/searchTrack.js";
 
 //CONTROLLERS HOME
 import { getUserHistory } from "../controllers/home/getUserHistory.js";
@@ -31,9 +35,6 @@ import { getMusic } from "../controllers/admin/getMusic.js";
 import { deleteMusic } from "../controllers/admin/deleteMusic.js";
 import { editMusic } from "../controllers/admin/editMusic.js";
 import { searchUser } from "../controllers/admin/searchUser.js";
-import { searchTrack } from "../controllers/admin/searchTrack.js";
-import { searchAlbum } from "../controllers/admin/searchAlbum.js";
-import { searchArtist } from "../controllers/admin/searchArtist.js";
 
 //MIDDLEWARES
 import { authentificateToken } from "../middlewares/authentificateToken.js";
@@ -62,6 +63,7 @@ router.get("/search", search);
 router.get("/getTrack", authentificateToken, getTrack);
 router.get("/getAlbum", authentificateToken, getAlbum);
 router.get("/getArtist", authentificateToken, getArtist);
+router.get("/getAllArtist", authentificateToken, getAllArtist);
 router.get("/getAlbumTracks", authentificateToken, getAlbumTracks);
 router.get("/getArtistAlbums", authentificateToken, getArtistAlbums);
 router.get("/getPlaylist", authentificateToken, getPlaylist);
@@ -88,9 +90,9 @@ router.post("/admin/addArtist", authentificateToken, authentificateAdmin, addArt
 router.post("/admin/addAlbum", authentificateToken, authentificateAdmin, parser, addAlbum);
     // RECHERCHES
 router.post("/admin/searchUser", authentificateToken, authentificateAdmin, searchUser);
-router.get("/admin/searchTrack", authentificateToken, authentificateAdmin, searchTrack);
-router.get("/admin/searchAlbum", authentificateToken, authentificateAdmin, searchAlbum);
-router.get("/admin/searchArtist", authentificateToken, authentificateAdmin, searchArtist);
+router.post("/searchTrack", authentificateToken, searchTrack);
+router.post("/searchAlbum", authentificateToken, searchAlbum);
+router.post("/searchArtist", authentificateToken, searchArtist);
 
 // ROUTER PLAYLIST
 router.post("/createPlaylist", authentificateToken, createPlaylist);

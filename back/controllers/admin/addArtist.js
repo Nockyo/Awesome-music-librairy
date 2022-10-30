@@ -4,7 +4,6 @@ import { moveFile } from "../../utils/moveFile.js";
 export const addArtist = async (req, res) => {
     const {name, biography, style} = req.body;
     try{
-        console.log(req.body)
         const artist = await ArtistModel.findOne({name: name});
 
         if(artist){
@@ -28,13 +27,11 @@ export const addArtist = async (req, res) => {
         }
 
         const file = req.files.image;
-        console.log(file)
         moveFile(file, 'images/artists').then( async (imageSrc) => {
-            const newUser = await ArtistModel.create({...req.body, image: imageSrc})
-            res.send(newUser);
+            await ArtistModel.create({...req.body, image: imageSrc})
+            res.status(200).send('L\'artiste a bient été ajouté');
         });
-
-    }catch (err){
+    } catch (err){
         res.status(400).json({message: err.message});
     }
 }

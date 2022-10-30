@@ -4,14 +4,9 @@ import { AddAlbum } from "./addAlbum";
 import { AddArtist } from "./addArtist";
 
 export const AddMusic = (props) => {
-    const [search, setSearch] = useState('');
     const [select, setSelect] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleSearchChange = (e) => {
-        setSearch(e.target.value);
-    }
-    
     const handleSelectChange = (e) => {
         setSelect(e.target.value);
     }
@@ -20,18 +15,15 @@ export const AddMusic = (props) => {
         <React.Fragment>
             <h2>Add Music</h2>
             <p>{message}</p>
-            <label htrmlfor="collection-select">Choose a pet:</label>
-            <select name="pets" id="collection-select" onChange={handleSelectChange}>
-                <option value="">--Please choose an option--</option>
-                <option value="artists">Artists</option>
-                <option value="albums">Albums</option>
-            </select>
-            <label htrmlfor="user-search">
-                Search a music :
-                <input type="search" name="user-search" onChange={handleSearchChange}></input>
+            <label htrmlfor="collection-select">Choose a collection :
+                <select name="collection-select" onChange={handleSelectChange}>
+                    <option value="">--Please choose an option--</option>
+                    <option value="artists">Artists</option>
+                    <option value="albums">Albums</option>
+                </select>
             </label>
-            {select === "artists" && <AddArtist />}
-            {select === "albums" && <AddAlbum />}
+            {select === "artists" && <AddArtist setMessage={setMessage} />}
+            {select === "albums" && <AddAlbum setMessage={setMessage} />}
         </React.Fragment>
     )
 }
