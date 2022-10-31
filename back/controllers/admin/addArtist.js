@@ -22,7 +22,7 @@ export const addArtist = async (req, res) => {
         }
 
         if(!req.files){
-            res.status.send('Veuillez ajouter une photo');
+            res.status(400).send('Veuillez ajouter une photo');
             return
         }
 

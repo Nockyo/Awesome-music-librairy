@@ -4,6 +4,8 @@ import { useForm } from "react-hook-form";
 import instance from "../../utils/instanceHttp";
 import { TrackInput } from "./trackInput";
 
+// TODO ajouter les resets
+
 export const AddAlbum = (props) => {
     const { register, handleSubmit, formState: { errors }, reset} = useForm();
     const {setMessage} = props;
@@ -26,7 +28,7 @@ export const AddAlbum = (props) => {
     }, [])
 
     const onSubmit = (data) => {
-        console.log(data)
+        console.log(data.files)
         const formData = new FormData();
         formData.append('name', data.name);
         formData.append('artistId', data.artistId);
@@ -39,17 +41,16 @@ export const AddAlbum = (props) => {
             formData.append('tracksFile', data.files[i][0])
         };
         
-        instance
-            .post('addAlbum', formData)
-            .then((res) => {
-                console.log(res)
-                // reset()
-            })
-            .catch(err => {
-                console.log(err.response.data)
-                setMessage(err.response.data)
-            })
-            // reset()
+        // instance
+        //     .post('addAlbum', formData)
+        //     .then((res) => {
+        //         setMessage(res.data);
+        //         // reset()
+        //     })
+        //     .catch(err => {
+        //         console.log(err.response)
+        //     })
+        //     // reset()
     }
 
     return (
@@ -58,14 +59,22 @@ export const AddAlbum = (props) => {
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label htrmlfor="name">
                     Enter an album name :
-                    <input type="text" name="name" {...register("name", {required: true})} />
+                    <input 
+                        type="text"
+                        name="name" 
+                        {...register("name", {required: true})} 
+                    />
                     {errors.name && <span>This field is required</span>}
                 </label>
                 <label htrmlfor="artistId">Choose an artist :
-                    <select name="artistId" {...register("artistId", {required: true})}>
+                    <select 
+                        name="artistId" 
+                        {...register("artistId", {required: true})}
+                    >
+                        <option key={0} value="">-- Select an artist --</option>
                         {
-                            artists.map((value) => {
-                                return <option value={value._id}>{value.name}</option>
+                            artists.map((value, index) => {
+                                return <option key={index+1} value={value._id}>{value.name}</option>
                             })
                         }
                     </select>
@@ -73,26 +82,44 @@ export const AddAlbum = (props) => {
                 </label>
                 <label htrmlfor="date">
                     Enter a date :
-                    <input type="text" name="date" {...register("date", {required: true})} />
+                    <input 
+                        type="text" 
+                        name="date" 
+                        {...register("date", {required: true})} 
+                    />
                     {errors.date && <span>This field is required</span>}
                 </label>
                 <label htrmlfor="style">
                     Enter a style :
-                    <input type="text" name="style" {...register("style", {required: true})} />
+                    <input 
+                        type="text" 
+                        name="style" 
+                        {...register("style", {required: true})} 
+                    />
                     {errors.style && <span>This field is required</span>}
                 </label>
                 <label htrmlfor="image">
                     Choose a picture :
-                    <input type="file" name="image" accept="image/png, image/jpeg" {...register("image", {required: true})} />
+                    <input 
+                        type="file" 
+                        name="image" 
+                        accept="image/png, image/jpeg" 
+                        {...register("image", {required: true})} 
+                    />
                     {errors.image && <span>This field is required</span>}
                 </label>
                 <h4>Add Tracks</h4>
                 <label htrmlfor="trackListLength">
                     number of tracks :
-                    <input type="number" name="trackListLength" value={trackListLength} onChange={handleChange}/>
+                    <input 
+                        type="number" 
+                        name="trackListLength" 
+                        value={trackListLength} 
+                        onChange={handleChange}
+                    />
                 </label>
                 {
-                    Array.from({ length: trackListLength }).map((input, index) => <TrackInput key={index.toString()} nbr={index} register={register} required />)
+                    Array.from({ length: trackListLength }).map((input, index) => <TrackInput key={index.toString()} nbr={index} register={register} errors={errors} required />)
                 }
                 <input type="submit" value="Ajouter" />
             </form>

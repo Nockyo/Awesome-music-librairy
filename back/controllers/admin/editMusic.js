@@ -13,10 +13,6 @@ import { moveFile } from "../../utils/moveFile.js";
     // artist
     // date
     // style
-    // tracks
-        // id
-        // order
-        // name
     // image
 // tracks
     // name
@@ -28,71 +24,80 @@ import { moveFile } from "../../utils/moveFile.js";
 
 export const editMusic = async (req, res) => {
     const {collection, id} = req.body;
+    console.log(req.body)
     try {
         //récupérer la collection que l'on va parcourir ("artists", "albums" ou "tracks")
-        let modifiedCount = 0;
+        // TODO Trouver une solution pour le contrôle des modifications
+        // let modifiedCount = 0;
         if(collection === 'artists') {
             const {name, biography, style} = req.body;
-
+            
             const updatedArtist = await ArtistModel.updateOne({_id: id},{name: name, biography: biography, style: style});
-            modifiedCount += updatedArtist.modifiedCount;
+            // modifiedCount += updatedArtist.modifiedCount;
 
             if(req.files != null && req.files.image){
                 moveFile(req.files.image, 'images/artists').then( async (imageSrc) => {
                     const imageUpdated = await ArtistModel.updateOne({_id: id},{image: imageSrc})
+                    // modifiedCount += imageUpdated.modifiedCount;
                 });
             }
 
-            if(modifiedCount === 0){
-                res.status(400).send('Aucune modification n\'a été enregistrée')
-                return
-            }
+            // if(modifiedCount === 0){
+            //     console.log('LOG 1')
+            //     res.status(400).send('Aucune modification n\'a été enregistrée')
+            //     return
+            // }
 
-            res.send('Artist uploaded');
+            res.send('Artist updated');
         } else if(collection === 'albums') {
             const {name, artist, date, style} = req.body;
 
             const updatedAlbum = await AlbumModel.updateOne({_id: id},{name: name, artist: artist, date: date, style: style});
-            modifiedCount += updatedAlbum.modifiedCount;
+            // modifiedCount += updatedAlbum.modifiedCount;
 
             if(req.files != null && req.files.image){
                 moveFile(req.files.image, 'images/albums/' + artist).then( async (imageSrc) => {
                     const imageUpdated = await AlbumModel.updateOne({_id: id},{image: imageSrc})
+                    // modifiedCount += imageUpdated.modifiedCount;
                 });
             };
 
-            if(modifiedCount === 0){
-                res.status(400).send('Aucune modification n\'a été enregistrée')
-                return
-            }
+            // if(modifiedCount === 0){
+            //     res.status(400).send('Aucune modification n\'a été enregistrée')
+            //     return
+            // }
 
             res.send('Album uploaded');
         } else if(collection === 'tracks') {
+            console.log('LOG 1')
+            console.log(req.body)
+            console.log(req.files)
             const {name, artist, album, style, duration} = req.body;
 
             const updatedTrack = await TrackModel.updateOne({_id: id},{name: name, artist: artist, album: album, style: style, duration: duration});
-            modifiedCount += updatedTrack.modifiedCount;
+            // modifiedCount += updatedTrack.modifiedCount;
 
             if(req.files != null && req.files.file){
                 moveFile(req.files.file, 'music/' + artist).then( async (fileSrc) => {
                     const fileUpdated = await TrackModel.updateOne({_id: id},{file: fileSrc})
+                    // modifiedCount += fileUpdated.modifiedCount;
                 });
             };
 
-            if(modifiedCount === 0){
-                res.status(400).send('Aucune modification n\'a été enregistrée')
-                return
-            } else {
-                modifiedCount = 0;
-            }
+            // if(modifiedCount === 0){
+            //     res.status(400).send('Aucune modification n\'a été enregistrée')
+            //     return
+            // } else {
+            //     modifiedCount = 0;
+            // }
 
             const updatedAlbumsTracks = await AlbumModel.updateMany({artist : artist, tracks: {$elemMatch: {id : id}}}, {$set:{ "tracks.$.name": name }});
-            modifiedCount += updatedAlbumsTracks.modifiedCount;
+            // modifiedCount += updatedAlbumsTracks.modifiedCount;
             
-            if(modifiedCount === 0){
-                res.status(400).send('Aucune modification n\'a été enregistrée')
-                return
-            }
+            // if(modifiedCount === 0){
+            //     res.status(400).send('Aucune modification n\'a été enregistrée')
+            //     return
+            // }
 
             res.send('tracks uploaded');
         } else {

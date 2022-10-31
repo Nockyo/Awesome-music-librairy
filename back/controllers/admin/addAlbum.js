@@ -7,11 +7,10 @@ export const addAlbum = async (req, res) => {
     let {name, artistId, date, style, tracksName, tracksDuration} = req.body;
     const image = req.files.image;
     const files = req.files.tracksFile;
-    console.log(req.body)
-    // console.log(req.files)
 
     try{
         const artist = await ArtistModel.findOne({_id: artistId}, {name: 1})
+        const artistName = artist.name;
         const artistIdStr = artist._id.toString()
         const album = await AlbumModel.findOne({name: name, artist_id: artistIdStr, date: date});      
 
@@ -30,10 +29,10 @@ export const addAlbum = async (req, res) => {
             return
         }
 
-        await moveFile(image, 'images/albums/' + artist.name).then((imageSrc) => {
+        await moveFile(image, 'images/albums/' + artistName).then((imageSrc) => {
             const newAlbum = AlbumModel.create({
                 name: name,
-                artist: artist.name,
+                artist: artistName,
                 artist_id: artistIdStr,
                 date: date,
                 style: style,
@@ -42,55 +41,84 @@ export const addAlbum = async (req, res) => {
                 image: imageSrc
             })
         })
-        console.log("LOG 1")
 
         // Vérification qu'il y a bien le bon nombre de fichier
-        if(tracksName.length !== files.length){
+        if((Array.isArray(tracksName) && Array.isArray(files) && tracksName.length !== files.length) || !files){
             res.status(400).send('Veuillez ajouter un fichier');
             return
         }
 
-        console.log("LOG 2")
+        //Passer par un boucle for si il y a plusieurs morceaux
         const newTracks = [];
-        for(const track in tracksName){
-            const trackName = tracksName[track];
-            const duration = tracksDuration[track];
+        if(Array.isArray(files)){
+            for(const track in tracksName){
+                const trackName = tracksName[track];
+                const duration = tracksDuration[track];
 
-            if(trackName === ""){
+                if(trackName === ""){
+                    res.status(400).send('Veuillez ajouter un nom de morceau');
+                    return
+                }
+
+                if(duration === 0){
+                    res.status(400).send('Veuillez ajouter une durée');
+                    return
+                }
+
+                // Vérifier si les morceaux existent
+                const song = await TrackModel.findOne({name: trackName, album: name});
+
+                if(song){
+                    res.status(400).send('Ce morceau existe déjà');
+                    return
+                }
+
+                await moveFile(files[track], 'music/' + artistName).then((fileSrc) => {
+                    newTracks[track] = TrackModel.create({
+                        name: trackName,
+                        artist: artistName,
+                        album: name,
+                        duration: duration,
+                        style: style,
+                        file: fileSrc
+                    })
+                }) 
+            }
+        } else {
+
+            if(tracksName === ""){
                 res.status(400).send('Veuillez ajouter un nom de morceau');
                 return
             }
 
-            if(duration === 0){
+            if(tracksDuration === 0){
                 res.status(400).send('Veuillez ajouter une durée');
                 return
             }
 
-            console.log("LOG 3")
             // Vérifier si les morceaux existent
-            const song = await TrackModel.findOne({name: trackName, album: name});
+            const song = await TrackModel.findOne({name: tracksName, album: name});
 
             if(song){
                 res.status(400).send('Ce morceau existe déjà');
                 return
             }
 
-            await moveFile(files[track], 'music/' + artist.name).then((fileSrc) => {
-                newTracks[track] = TrackModel.create({
-                    name: trackName,
-                    artist: artist.name,
+            await moveFile(files, 'music/' + artistName).then((fileSrc) => {
+                newTracks.push(TrackModel.create({
+                    name: tracksName,
+                    artist: artistName,
                     album: name,
-                    duration: duration,
+                    duration: tracksDuration,
                     style: style,
                     file: fileSrc
-                })
+                }))
             }) 
-        }
-        console.log("LOG 4")
+        }        
+
         Promise.all(newTracks).then(async(values) => {
             const trackList = [];
             values.forEach((value, index) => {
-                console.log('LOG')
                 const id = value._id.toString()
                 trackList.push({
                     id: id,
@@ -101,7 +129,7 @@ export const addAlbum = async (req, res) => {
 
             const updateAlbum = await AlbumModel.updateOne({name: name, artist_id: artistIdStr, date: date},{tracks: trackList})
             
-            res.send(req.body)
+            res.send('L\'album a bien été ajouté')
         })
 
     } catch (err){
