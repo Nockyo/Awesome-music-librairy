@@ -4,7 +4,7 @@ import TrackModel from "../../Models/Track.js";
 import { moveFile } from "../../utils/moveFile.js";
 
 export const addAlbum = async (req, res) => {
-    let {name, artistId, date, style, tracksName, tracksDuration} = req.body;
+    let {name, artistId, date, style, tracksName} = req.body;
     const image = req.files.image;
     const files = req.files.tracksFile;
 
@@ -29,7 +29,7 @@ export const addAlbum = async (req, res) => {
             return
         }
 
-        await moveFile(image, 'images/albums/' + artistName).then((imageSrc) => {
+        await moveFile(image, 'images/albums/', artistName).then((imageSrc) => {
             const newAlbum = AlbumModel.create({
                 name: name,
                 artist: artistName,
@@ -51,17 +51,11 @@ export const addAlbum = async (req, res) => {
         //Passer par un boucle for si il y a plusieurs morceaux
         const newTracks = [];
         if(Array.isArray(files)){
-            for(const track in tracksName){
-                const trackName = tracksName[track];
-                const duration = tracksDuration[track];
+            for(const index in tracksName){
+                const trackName = tracksName[index];
 
                 if(trackName === ""){
                     res.status(400).send('Veuillez ajouter un nom de morceau');
-                    return
-                }
-
-                if(duration === 0){
-                    res.status(400).send('Veuillez ajouter une durée');
                     return
                 }
 
@@ -73,26 +67,33 @@ export const addAlbum = async (req, res) => {
                     return
                 }
 
-                await moveFile(files[track], 'music/' + artistName).then((fileSrc) => {
-                    newTracks[track] = TrackModel.create({
+                await moveFile(files[index], 'music/', artistName, name).then((fileSrc) => {
+                    newTracks.push(TrackModel.create({
                         name: trackName,
                         artist: artistName,
                         album: name,
-                        duration: duration,
                         style: style,
                         file: fileSrc
-                    })
-                }) 
+                    }))
+                })
             }
+            Promise.all(newTracks).then(async(values) => {
+                const trackList = [];
+                values.forEach((value, index) => {
+                    trackList.push({
+                        id: value._id.toString(),
+                        order: index+1,
+                        name: value.name,
+                    })
+                })
+    
+                const updateAlbum = await AlbumModel.updateOne({name: name, artist_id: artistIdStr, date: date},{tracks: trackList})
+                
+                res.send('L\'album a bien été ajouté')
+            })
         } else {
-
             if(tracksName === ""){
                 res.status(400).send('Veuillez ajouter un nom de morceau');
-                return
-            }
-
-            if(tracksDuration === 0){
-                res.status(400).send('Veuillez ajouter une durée');
                 return
             }
 
@@ -105,32 +106,27 @@ export const addAlbum = async (req, res) => {
             }
 
             await moveFile(files, 'music/' + artistName).then((fileSrc) => {
-                newTracks.push(TrackModel.create({
+                TrackModel.create({
                     name: tracksName,
                     artist: artistName,
                     album: name,
-                    duration: tracksDuration,
                     style: style,
                     file: fileSrc
-                }))
-            }) 
-        }        
-
-        Promise.all(newTracks).then(async(values) => {
-            const trackList = [];
-            values.forEach((value, index) => {
-                const id = value._id.toString()
-                trackList.push({
-                    id: id,
-                    order: index+1,
-                    name: value.name,
                 })
-            })
+                .then(async (value) => {
+                    const trackList = [{
+                        id: value._id.toString(),
+                        order: 1,
+                        name: value.name,
+                    }];
+    
+                    const updateAlbum = await AlbumModel.updateOne({name: name, artist_id: artistIdStr, date: date},{tracks: trackList})
+                    
+                    res.send('L\'album a bien été ajouté')
+                });
+            }) 
 
-            const updateAlbum = await AlbumModel.updateOne({name: name, artist_id: artistIdStr, date: date},{tracks: trackList})
-            
-            res.send('L\'album a bien été ajouté')
-        })
+        }  
 
     } catch (err){
         res.status(400).json({message: err.message});

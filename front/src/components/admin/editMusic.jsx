@@ -6,6 +6,7 @@ import { EditFormAlbum, EditFormArtist } from "./edit/editForms";
 
 export const EditMusic = (props) => {
     const [select, setSelect] = useState('');
+    // TODO Modifier message, décomposer dans les composants
     const [message, setMessage] = useState('');
     const [search, setSearch] = useState('');
     const [musicId, setMusicId] = useState('');

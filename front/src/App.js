@@ -13,11 +13,18 @@ import { SignIn } from "./components/SignIn-SignUp/SignIn";
 import { SignUp } from "./components/SignIn-SignUp/SignUp";
 import instance from "./utils/instanceHttp";
 import { EditMusic } from "./components/admin/editMusic";
+import { SideBar } from "./components/Sidebar";
 
 function App() {
   const [isConnected, setIsConnected] = useState(!!localStorage.jwt);
   const [isAdmin, setIsAdmin] = useState(false);
+  const [searchBar, setSearchBar] = useState('');
+  const [artists, setArtists] = useState([]);
+  const [albums, setAlbums] = useState([]);
+  const [tracks, setTracks] = useState([]);
+  const [usersPlaylists, setUsersPlaylists] = useState([]);
 
+  //TODO Utiliser ce système pour renvoyer sur la home dans les components admin si pas admin
   useEffect(() => {
     instance
       .get("/admin")
@@ -30,35 +37,31 @@ function App() {
       })
   }, [isConnected])
 
-  const signOut = () => {
-    instance.defaults.headers.common['authorization'] = 0;
-    localStorage.removeItem('jwt');
-    setIsConnected(false);
-  }
-
   return (
     <Router>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          {!isConnected
-            ? <li><Link to="signIn">Sign in</Link></li> 
-            : <li onClick={() => {signOut()}}>Sign out</li>
-          }
-          {
-            isAdmin &&
-            <ul>admin
-              <li><Link to="admin/usersRights">Users Rights</Link></li>
-              <li><Link to="admin/addMusic">add Music</Link></li>
-              <li><Link to="admin/editMusic">edit Music</Link></li>
-            </ul>
-          }
-          
-        </ul>
-      </nav>
+      <SideBar 
+        setIsConnected={setIsConnected}
+        isConnected={isConnected}
+        setIsAdmin={setIsAdmin}
+        isAdmin={isAdmin}
+        Link={Link}
+        setSearchBar={setSearchBar}
+        searchBar={searchBar}
+        setArtists={setArtists}
+        setAlbums={setAlbums}
+        setTracks={setTracks}
+        setUsersPlaylists={setUsersPlaylists}
+      />
+      
       {/* <AlbumLibrary /> */}
       <Routes>
-        <Route index element={<Home />}/>
+        <Route index element={<Home
+          artists={artists}
+          albums={albums}
+          tracks={tracks}
+          usersPlaylists={usersPlaylists}
+          searchBar={searchBar}
+        />}/>
         <Route path="signIn" element={<SignIn setIsConnected={setIsConnected} />}/>
         <Route path="signUp" element={<SignUp />}/>
         <Route path="admin/usersRights" element={<UsersRights />}/>

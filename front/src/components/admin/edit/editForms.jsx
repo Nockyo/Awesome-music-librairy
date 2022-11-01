@@ -272,7 +272,6 @@ export const EditFormAlbum = (props) => {
                             <th>artist</th>
                             <th>album</th>
                             <th>style</th>
-                            <th>duration</th>
                             <th>file</th>
                             <th>upload</th>
                         </tr>
@@ -296,7 +295,7 @@ export const EditFormAlbum = (props) => {
 export const EditFormTrack = (props) => {
     const {register, handleSubmit} = useForm();
     const {track, index} = props;
-    const {_id, name, artist, album, style, duration, file} = track;
+    const {_id, name, artist, album, style, file} = track;
 
         //Soumettre le formulaire
         const onSubmit = (data) => {
@@ -329,12 +328,6 @@ export const EditFormTrack = (props) => {
                 formData.append('style', style);
             } else {
                 formData.append('style', data.style);
-            }
-    
-            if(data.duration === ''){
-                formData.append('duration', duration);
-            } else {
-                formData.append('duration', data.duration);
             }
     
             if(data.file.length === 0){
@@ -391,14 +384,6 @@ export const EditFormTrack = (props) => {
                                     name="style" 
                                     defaultValue={style}
                                     {...register("style")} 
-                                />
-                            </td>
-                            <td>
-                                <input 
-                                    type="text" 
-                                    name="duration" 
-                                    defaultValue={duration}
-                                    {...register("duration")} 
                                 />
                             </td>
                             <td>

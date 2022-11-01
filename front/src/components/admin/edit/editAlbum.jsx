@@ -46,7 +46,7 @@ export const EditAlbum = (props) => {
                     .then((res) => {
                         trackList = res.data.tracks;
 
-                        trackList.map((value) => {
+                        trackList.forEach((value) => {
                             const trackId = value.id;
 
                             instance

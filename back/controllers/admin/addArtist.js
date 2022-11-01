@@ -27,9 +27,9 @@ export const addArtist = async (req, res) => {
         }
 
         const file = req.files.image;
-        moveFile(file, 'images/artists').then( async (imageSrc) => {
+        moveFile(file, 'images/artists/').then( async (imageSrc) => {
             await ArtistModel.create({...req.body, image: imageSrc})
-            res.status(200).send('L\'artiste a bient été ajouté');
+            res.status(200).send('L\'artiste a bien été ajouté');
         });
     } catch (err){
         res.status(400).json({message: err.message});

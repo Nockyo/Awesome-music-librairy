@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import instance from "../../utils/instanceHttp";
 
 export const AddArtist = (props) => {
     const { register, handleSubmit, formState: { errors }, reset} = useForm();
     const {setMessage} = props;
-    const [image, setImage] = useState();
 
     const onSubmit = async (data) => {
         const formData = new FormData();

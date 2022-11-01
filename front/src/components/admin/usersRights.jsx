@@ -46,6 +46,7 @@ export const UsersRights = (props) => {
                         if(user.email !== email){
                             return email
                         }
+                        return null
                     })
                     setEmailFalse(NewEmailFalse)
                 } else {
@@ -55,6 +56,7 @@ export const UsersRights = (props) => {
                         if(user.email !== email){
                             return email
                         }
+                        return null
                     })
                     setEmailTrue(NewEmailTrue)
                 }

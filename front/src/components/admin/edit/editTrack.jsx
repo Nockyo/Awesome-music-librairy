@@ -63,7 +63,6 @@ export const EditTrack = (props) => {
                         <th>artist</th>
                         <th>album</th>
                         <th>style</th>
-                        <th>duration</th>
                         <th>delete</th>
                     </tr>
                 </thead>
@@ -74,7 +73,6 @@ export const EditTrack = (props) => {
                             <td>{track.artist}</td>
                             <td>{track.album}</td>
                             <td>{track.style}</td>
-                            <td>{track.duration}</td>
                             <td>
                                 <span
                                     className="material-symbols-outlined"

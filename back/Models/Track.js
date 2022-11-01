@@ -41,15 +41,6 @@ const TrackSchema = new Schema({
             }
         },
     },
-    duration: {
-        type: Number,
-        required: true,
-        validate: value => {
-            if(value <= 0){
-              throw new Error("champ vide");
-            }
-        },
-    },
     file: {
         type: String,
         required: true,

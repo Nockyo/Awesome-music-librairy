@@ -19,7 +19,6 @@ import { moveFile } from "../../utils/moveFile.js";
     // artist
     // album
     // style
-    // duration
     // file
 
 export const editMusic = async (req, res) => {
@@ -69,12 +68,9 @@ export const editMusic = async (req, res) => {
 
             res.send('Album uploaded');
         } else if(collection === 'tracks') {
-            console.log('LOG 1')
-            console.log(req.body)
-            console.log(req.files)
-            const {name, artist, album, style, duration} = req.body;
+            const {name, artist, album, style} = req.body;
 
-            const updatedTrack = await TrackModel.updateOne({_id: id},{name: name, artist: artist, album: album, style: style, duration: duration});
+            const updatedTrack = await TrackModel.updateOne({_id: id},{name: name, artist: artist, album: album, style: style});
             // modifiedCount += updatedTrack.modifiedCount;
 
             if(req.files != null && req.files.file){
