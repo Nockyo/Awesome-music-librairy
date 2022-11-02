@@ -1,15 +1,11 @@
 import TrackModel from "../../Models/Track.js";
-import UserModel from "../../Models/User.js";
 
 export const getPlaylist = async (req,res) => {
-    const {playlistName} = req.body;
-    const {id} = req.data.data;
+    const {playlistTracks} = req.body;
     try {
         const trackList = [];
-
-        const playlistTracks = await UserModel.findOne({$and:[{_id: id},{"playlists.name": playlistName}]},{playlists: 1, _id: 0})
         
-        playlistTracks.playlists[0].tracks.forEach((track) => {
+        playlistTracks.forEach((track) => {
             trackList.push(TrackModel.findOne({_id: track}));
         })
 

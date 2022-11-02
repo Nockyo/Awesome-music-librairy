@@ -12,7 +12,7 @@ export const addTrackToPlaylist = async (req, res) => {
         }
 
         const newPlaylist = await UserModel.updateOne({$and: [{_id: id, "playlists.name": playlistName}]},{$push: {'playlists.$.tracks': trackId}});
-        console.log(newPlaylist)
+
         if(newPlaylist.modifiedCount === 0 || !newPlaylist.modifiedCount){
             res.status(400).send('Le morceau n\'a pas pu être ajouté');
             return;

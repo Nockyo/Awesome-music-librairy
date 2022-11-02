@@ -23,7 +23,6 @@ import { moveFile } from "../../utils/moveFile.js";
 
 export const editMusic = async (req, res) => {
     const {collection, id} = req.body;
-    console.log(req.body)
     try {
         //récupérer la collection que l'on va parcourir ("artists", "albums" ou "tracks")
         // TODO Trouver une solution pour le contrôle des modifications

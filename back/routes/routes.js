@@ -9,7 +9,9 @@ import { search } from "../controllers/search.js";
 import { getTrack } from "../controllers/display/getTrack.js";
 import { getAlbumTracks } from "../controllers/display/getAlbumTracks.js";
 import { getPlaylist } from "../controllers/display/getPlaylist.js";
+import { getUserPlaylists } from "../controllers/display/getUserPlaylists.js";
 import { getAlbum } from "../controllers/display/getAlbum.js";
+import { getAlbumImageFromTrackId } from "../controllers/display/getAlbumImageFromTrackId.js";
 import { getArtist } from "../controllers/display/getArtist.js";
 import { getArtistByName } from "../controllers/display/getArtistByName.js";
 import { getAllArtist } from "../controllers/display/getAllArtist.js";
@@ -60,19 +62,21 @@ import { likeArtist } from "../controllers/like/likeArtist.js";
 //ROUTER GENERALES
 router.post("/register", register);
 router.post("/login", login);
-router.post("/search", search);
+router.post("/search", authentificateToken, search);
 
 // ROUTER DISPLAY
 router.post("/getTrack", authentificateToken, getTrack);
 router.post("/getAlbum", authentificateToken, getAlbum);
+router.post("/getAlbumImageFromTrackId", authentificateToken, getAlbumImageFromTrackId)
 router.post("/getArtist", authentificateToken, getArtist);
 router.post("/getArtistByName", authentificateToken, getArtistByName);
 router.get("/getAllArtist", authentificateToken, getAllArtist);
 router.get("/getAllAlbum", authentificateToken, getAllAlbum);
 router.get("/getAllTrack", authentificateToken, getAllTrack);
 router.post("/getAlbumTracks", authentificateToken, getAlbumTracks);
-router.get("/getArtistAlbums", authentificateToken, getArtistAlbums);
-router.get("/getPlaylist", authentificateToken, getPlaylist);
+router.post("/getArtistAlbums", authentificateToken, getArtistAlbums);
+router.post("/getPlaylist", authentificateToken, getPlaylist);
+router.get("/getUserPlaylists", authentificateToken, getUserPlaylists)
 
 // ROUTER HISTORIQUES
 router.get("/getUserHistory", authentificateToken, getUserHistory);

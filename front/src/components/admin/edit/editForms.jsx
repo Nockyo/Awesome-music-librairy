@@ -22,7 +22,6 @@ export const EditFormArtist = (props) => {
     }, [])
 
     const onSubmit = (data) => {
-        console.log(data)
         if (window.confirm("Are you sure ?")) {
             const formData = new FormData();
             formData.append('collection', 'artists');
@@ -159,7 +158,6 @@ export const EditFormAlbum = (props) => {
 
     //Soumettre le formulaire
     const onSubmit = (data) => {
-        console.log(data)
         const formData = new FormData();
         formData.append('collection', 'albums');
         formData.append('id', musicId);
@@ -298,9 +296,7 @@ export const EditFormTrack = (props) => {
     const {_id, name, artist, album, style, file} = track;
 
         //Soumettre le formulaire
-        const onSubmit = (data) => {
-            console.log(data)
-    
+        const onSubmit = (data) => {    
             const formData = new FormData();
             formData.append('collection', 'tracks');
             formData.append('id', _id);

@@ -1,10 +1,9 @@
 import AlbumModel from "../Models/Album.js";
 import ArtistModel from "../Models/Artist.js";
 import TrackModel from "../Models/Track.js";
-import UserModel from "../Models/User.js";
 
 export const search = async (req, res) => {
-    const {search} = req.body
+    const {search} = req.body;
     try {
         //Plusieurs requêtes : artists, albums, tracks.name, tracks.style, users.playlist, 
         const results = [];
@@ -12,7 +11,6 @@ export const search = async (req, res) => {
             ArtistModel.find({ $or: [ { name: { $regex: "(?i)"+search}},{ style: { $regex: "(?i)"+search} } ] }).limit(5),
             AlbumModel.find({$or: [{ name: { $regex: "(?i)"+search}},{style: { $regex: "(?i)"+search} }]}).limit(5),
             TrackModel.find({$or: [{ name: { $regex: "(?i)"+search}},{style: { $regex: "(?i)"+search} }]}).limit(5),
-            UserModel.find({ playlists: { name: {$regex: '(?i)'+search}} }).limit(5)
         );
         
         Promise.all(results).then((result) => {
