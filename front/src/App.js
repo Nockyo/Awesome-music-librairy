@@ -35,6 +35,7 @@ function App() {
   const [tracks, setTracks] = useState([]);
   const [playlists , setPlaylists] = useState([]);
   const [currentPlaylist, setCurrentPlaylist] = useState([]);
+  const [currentTrackId, setCurrentTrackId] = useState('');
 
   useEffect(() => {
     instance
@@ -67,7 +68,12 @@ function App() {
       
       {/* <AlbumLibrary /> */}
       <Routes>
-        <Route path="/" element={<Home/>}>
+        <Route path="/" element={<Home 
+          currentPlaylist={currentPlaylist}
+          setCurrentPlaylist={setCurrentPlaylist}
+          currentTrackId={currentTrackId}
+          setCurrentTrackId={setCurrentTrackId}
+        />}>
 
           {/* Affichage de la musique */}
           <Route path="searchResult" element={<SearchResult
@@ -76,13 +82,29 @@ function App() {
             tracks={tracks}
             setSearchBar={setSearchBar}
             searchBar={searchBar}
-            setCurrentPlaylist={setCurrentPlaylist}
             currentPlaylist={currentPlaylist}
+            setCurrentTrackId={setCurrentTrackId}
           />} />
-          <Route path="artist" element={<Artist  setCurrentPlaylist={setCurrentPlaylist} currentPlaylist={currentPlaylist} />}/>
-          <Route path="album" element={<Album setCurrentPlaylist={setCurrentPlaylist} currentPlaylist={currentPlaylist}/>}/>
-          <Route path="playlist/:id" element={<Playlist playlists={playlists} currentPlaylist={currentPlaylist} setCurrentPlaylist={setCurrentPlaylist}/>}/>
-          <Route path="currentPlaylist" element={<CurrentPlaylist currentPlaylist={currentPlaylist} setCurrentPlaylist={setCurrentPlaylist} />}/>
+          <Route path="artist" element={<Artist 
+            setCurrentPlaylist={setCurrentPlaylist} 
+            currentPlaylist={currentPlaylist} 
+            setCurrentTrackId={setCurrentTrackId}
+          />}/>
+          <Route path="album" element={<Album 
+            setCurrentPlaylist={setCurrentPlaylist} 
+            currentPlaylist={currentPlaylist}
+            setCurrentTrackId={setCurrentTrackId}
+          />}/>
+          <Route path="playlist/:id" element={<Playlist 
+            playlists={playlists} 
+            currentPlaylist={currentPlaylist} 
+            setCurrentPlaylist={setCurrentPlaylist}
+            setCurrentTrackId={setCurrentTrackId}
+          />}/>
+          <Route path="currentPlaylist" element={<CurrentPlaylist 
+            currentPlaylist={currentPlaylist} 
+            setCurrentPlaylist={setCurrentPlaylist} 
+          />}/>
 
           {/* Inscription & Connexion */}
           <Route path="signIn" element={<SignIn setIsConnected={setIsConnected} />}/>

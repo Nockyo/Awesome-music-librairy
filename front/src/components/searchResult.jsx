@@ -8,7 +8,8 @@ export const SearchResult = (props) => {
         albums,
         tracks,
         setCurrentPlaylist,
-        currentPlaylist
+        currentPlaylist,
+        setCurrentTrackId
     } = props
 
     return(
@@ -32,6 +33,7 @@ export const SearchResult = (props) => {
                     track={track}
                     setCurrentPlaylist={setCurrentPlaylist}
                     currentPlaylist={currentPlaylist}
+                    setCurrentTrackId={setCurrentTrackId}
                 />
             })}
         </div>

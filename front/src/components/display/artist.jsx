@@ -7,7 +7,11 @@ import { AlbumMini } from "./albumMini";
 export const Artist = (props) => {
     const {state} = useLocation();
     const {artist} = state;
-    const {currentPlaylist, setCurrentPlaylist} = props;
+    const {
+        currentPlaylist, 
+        setCurrentPlaylist, 
+        setCurrentTrackId,
+    } = props;
     const [discography, setDiscography] = useState([]);
 
     useEffect(() => {
@@ -30,7 +34,7 @@ export const Artist = (props) => {
             })
         })
         setCurrentPlaylist(newCurrentPlaylist)
-        console.log(currentPlaylist)
+        setCurrentTrackId(newCurrentPlaylist[0])
     }
 
     const addArtistToCurrentPlaylist = (discography) => {
@@ -40,8 +44,7 @@ export const Artist = (props) => {
                 newCurrentPlaylist.push(track.id)
             })
         })
-        setCurrentPlaylist(newCurrentPlaylist)     
-        console.log(currentPlaylist)   
+        setCurrentPlaylist(newCurrentPlaylist)
     }
     
     return (

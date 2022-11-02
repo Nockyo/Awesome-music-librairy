@@ -6,7 +6,8 @@ export const TrackMini = (props) => {
     const {
         track, 
         setCurrentPlaylist, 
-        currentPlaylist
+        currentPlaylist,
+        setCurrentTrackId,
     } = props;
     const [imageAlbum, setImageAlbum] = useState('');
     
@@ -28,6 +29,7 @@ export const TrackMini = (props) => {
     //Gestion lecture musique
     const listen = (trackId) => {
         setCurrentPlaylist([trackId])
+        setCurrentTrackId(trackId)
     }
 
     const addToCurrentPlaylist = (trackId) => {

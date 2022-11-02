@@ -6,7 +6,11 @@ import instance from "../../utils/instanceHttp";
 export const Album = (props) => {
     const {state} = useLocation();
     const {album} = state;
-    const {currentPlaylist, setCurrentPlaylist} = props;
+    const {
+        currentPlaylist, 
+        setCurrentPlaylist,
+        setCurrentTrackId,
+    } = props;
     const [tracks, setTracks] = useState([]);
 
     useEffect(() => {
@@ -23,6 +27,7 @@ export const Album = (props) => {
     //Gestion lecture musique
     const listen = (trackId) => {
         setCurrentPlaylist([trackId])
+        setCurrentTrackId(trackId)
     }
 
     const listenAlbum = (albumTracks) => {
@@ -31,6 +36,7 @@ export const Album = (props) => {
             newCurrentPlaylist.push(track.id)
         })
         setCurrentPlaylist(newCurrentPlaylist)
+        setCurrentTrackId(newCurrentPlaylist[0])
     }
 
     const addTrackToCurrentPlaylist = (trackId) => {

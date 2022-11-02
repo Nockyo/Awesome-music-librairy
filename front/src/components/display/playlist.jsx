@@ -4,11 +4,15 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import instance from "../../utils/instanceHttp";
 
+//TODO Régler problème actualisation
+
 export const Playlist = (props) => {
     const { id } = useParams();
-    const {playlists,
+    const {
+        playlists,
         currentPlaylist,
-        setCurrentPlaylist
+        setCurrentPlaylist,
+        setCurrentTrackId
     } = props;
     const playlist = playlists[id];
     const [tracks, setTracks] = useState([]);
@@ -35,6 +39,7 @@ export const Playlist = (props) => {
             newCurrentPlaylist.push(track._id);
         })
         setCurrentPlaylist(newCurrentPlaylist);
+        setCurrentTrackId(newCurrentPlaylist[0])
     }
 
     const addTrackToCurrentPlaylist = (playlistTracks) => {
@@ -48,7 +53,6 @@ export const Playlist = (props) => {
     return(
         <div className="playlist">
             <h2>{playlist.name}</h2>
-
             {
                 tracks.length > 0 && 
                 <React.Fragment>
