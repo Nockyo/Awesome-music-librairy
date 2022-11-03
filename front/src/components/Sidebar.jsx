@@ -17,6 +17,8 @@ export const SideBar= (props) => {
         setTracks,
         playlists,
         setPlaylists,
+        setCurrentTrack,
+        setCurrentPlaylist
     } = props; 
     
     //Déconnexion
@@ -25,6 +27,8 @@ export const SideBar= (props) => {
         localStorage.removeItem('jwt');
         setIsConnected(false);
         setPlaylists([]);
+        setCurrentTrack({});
+        setCurrentPlaylist([]);
         navigate("/");
     }
 

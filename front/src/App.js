@@ -86,6 +86,8 @@ function App() {
         setTracks={setTracks}
         playlists={playlists}
         setPlaylists={setPlaylists}
+        setCurrentTrack={setCurrentTrack}
+        setCurrentPlaylist={setCurrentPlaylist}
       />
       {
         currentPlaylist.length > 0 &&
