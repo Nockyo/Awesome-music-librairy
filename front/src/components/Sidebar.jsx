@@ -43,7 +43,7 @@ export const SideBar= (props) => {
             .catch((err) => {
                 console.log(err.response)
             })
-    }, [])
+    }, [isConnected])
 
     // TODO ajouter système de dernière recherches à afficher quand le champ est vide
     useEffect(() => {

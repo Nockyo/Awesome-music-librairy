@@ -66,6 +66,7 @@ export const PlayerBar = (props) => {
         if(Object.keys(currentTrack).length > 0){
             //Changer le src de l'audio
             AUDIO.src = currentTrack.file;
+
             if(AUDIO.src !== ""){
                 //Au chargement des metadas, modifier duration, currentDuration et lancer la track // Problème rencontré NaN
                 AUDIO.addEventListener('loadedmetadata', () => {
@@ -96,7 +97,9 @@ export const PlayerBar = (props) => {
     const timerprogress = () => {
         setCurrentTimeSeconds(AUDIO.currentTime)
         let percent = (currentTimeSeconds / durationSeconds) * 100;
-        document.querySelector('.currentDurationBar').style.width = percent+"%";
+        if(document.querySelector('.currentDurationBar')){
+            document.querySelector('.currentDurationBar').style.width = percent+"%";
+        }
         if (percent === 100) {
             onClickNext();
         };
@@ -127,7 +130,7 @@ export const PlayerBar = (props) => {
     const onClickPrev = () => {
         // Si audio suffisamment avancé, revenir au début de la track
         if(currentTimeSeconds > 1){
-            currentTimeSeconds = 0
+            AUDIO.currentTime = 0
         } else {
             let index = getCurrentTrackIndex(currentPlaylist, currentTrack._id)
             if(index > 0){
@@ -176,43 +179,93 @@ export const PlayerBar = (props) => {
 
     //Changer le passage de la chanson au click sur la duration bar
     const onClickCurrentTime = (e) => {
-        const widthDurationBar = parseInt(document.querySelector('.durationBar').style.width);
+        const widthDurationBar = parseInt(e.target.style.width);
         const ratioProgress = e.nativeEvent.offsetX / widthDurationBar;
+        console.log(e.target.style)
+        console.log(durationSeconds)
         AUDIO.currentTime = durationSeconds * ratioProgress;
     }
 
-    return(
-        <div className="playerBar">
-            <p>Player Bar</p>
-            <button onClick={() => {handleClick()}}>Current Playlist</button>
-            {
-                Object.keys(currentTrack).length > 0 &&
-                    <React.Fragment>
-                        <button onClick={() => {onClickPrev()}}>Prev</button>
-                        <button onClick={() => {onClickPlay()}}>Play</button>
-                        <button onClick={() => {onClickPause()}}>Pause</button>
-                        <button onClick={() => {onClickNext()}}>Next</button>
-                        <button onClick={() => {setRepeat(!repeat)}}>Repeat</button>
-                        <button onClick={() => {setRandom(!random)}}>Random</button>
-                        <button onClick={() => {onClickVolume()}}>Mute</button>
-                        <div className="trackInfos">
-                            <img src={imageAlbum} alt={currentTrack.album} style={{width: 100+'px'}} />
-                            <p>{currentTrack.name}</p>
-                            <p>{currentTrack.artist}</p>
-                            <p>{currentTrack.album}</p>
-                            <p>{currentTime}</p>
-                            <p>{duration}</p>
-                            <span className="durationBar" style={{width: 100+'px', height:10+'px', border: 'solid 1px black', display: 'block'}} onClick={(e) => {onClickCurrentTime(e)}}>
-                                <span className="currentDurationBar" style={{height:10+'px', backgroundColor: 'red', display: 'inline-block'}}></span>
-                            </span>
-                            
-                        </div>
-                    </React.Fragment>
+    const onClickAddClass = (selector, className) => {
+        const iterator = document.querySelector(selector).classList.values()
+        for (const value of iterator) {
+            if(value === className){
+                document.querySelector(selector).classList.remove(className) ;
+                return
             }
-            <audio id="audio" preload="metadata">
-                <source src="" type="audio/*" data-trackid="1"/>
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+        }
+
+        document.querySelector(selector).classList.add(className) ;
+    }
+
+    return(
+        <React.Fragment>
+        {
+            Object.keys(currentTrack).length > 0 &&
+            <div className="playerBar container">
+                <div className="buttons hidden-lg">
+                    <button onClick={() => {handleClick()}}>Current Playlist</button>
+                    <button onClick={() => {onClickPrev()}}><span className="material-symbols-outlined">skip_previous</span></button>
+                    {
+                        isPlayed 
+                            ? <button onClick={() => {onClickPause()}}><span className="material-symbols-outlined">pause</span></button>
+                            : <button onClick={() => {onClickPlay()}}><span className="material-symbols-outlined">play_arrow</span></button>
+                    }
+                    <button onClick={() => {onClickNext()}}><span className="material-symbols-outlined">skip_next</span></button>
+                    <button onClick={() => {setRepeat(!repeat); onClickAddClass('.repeat', 'active')}} className="repeat"><span className="material-symbols-outlined">repeat</span></button>
+                    <button onClick={() => {setRandom(!random); onClickAddClass('.random', 'active')}} className="random"><span className="material-symbols-outlined">shuffle</span></button>
+                    <button onClick={() => {onClickVolume()}}>
+                        {
+                            volume
+                                ? <span className="material-symbols-outlined">volume_up</span>
+                                : <span className="material-symbols-outlined">volume_off</span>
+                        }
+                    </button>
+                </div>
+                <div className="trackInfos">
+                    <div>
+                        <div>
+                            <img src={imageAlbum} alt={currentTrack.album} />
+                        </div>
+                        <div>
+                            <p>{currentTrack.name}</p>
+                            <p>{currentTrack.artist} - {currentTrack.album}</p>
+                        </div>
+                    </div>
+                    <div className="timers">
+                        <p>{currentTime}</p>
+                        <span className="durationBar" onClick={(e) => {onClickCurrentTime(e)}}>
+                            <span className="currentDurationBar"></span>
+                        </span> 
+                        <p>{duration}</p>
+                    </div>
+                    <div className="buttons hidden-sm">
+                        <button onClick={() => {handleClick()}}>Current Playlist</button>
+                        <button onClick={() => {onClickPrev()}}><span className="material-symbols-outlined">skip_previous</span></button>
+                        {
+                            isPlayed 
+                                ? <button onClick={() => {onClickPause()}}><span className="material-symbols-outlined">pause</span></button>
+                                : <button onClick={() => {onClickPlay()}}><span className="material-symbols-outlined">play_arrow</span></button>
+                        }
+                        <button onClick={() => {onClickNext()}}><span className="material-symbols-outlined">skip_next</span></button>
+                        <button onClick={() => {setRepeat(!repeat); onClickAddClass('.repeat', 'active')}} className="repeat"><span className="material-symbols-outlined">repeat</span></button>
+                        <button onClick={() => {setRandom(!random); onClickAddClass('.random', 'active')}} className="random"><span className="material-symbols-outlined">shuffle</span></button>
+                        <button onClick={() => {onClickVolume()}}>
+                            {
+                                volume
+                                    ? <span className="material-symbols-outlined">volume_up</span>
+                                    : <span className="material-symbols-outlined">volume_off</span>
+                            }
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        }
+        <audio id="audio" preload="metadata">
+            <source src="" type="audio/*" data-trackid="1"/>
+            Your browser does not support the audio element.
+        </audio>
+        </React.Fragment>
     )
 }

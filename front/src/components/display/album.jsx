@@ -52,7 +52,7 @@ export const Album = (props) => {
     }
     
     return (
-        <div className="album">
+        <div className="album container">
             <div className="infos">
                 <img src={album.image} alt={album.name} style={{width: 100+'px'}} />
                 <p>{album.name}</p>

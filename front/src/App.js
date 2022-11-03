@@ -88,7 +88,7 @@ function App() {
         setPlaylists={setPlaylists}
       />
       {
-        Object.keys(currentTrack).length > 0 &&
+        currentPlaylist.length > 0 &&
           <PlayerBar 
           currentPlaylist={currentPlaylist} 
           setCurrentPlaylist={setCurrentPlaylist}
@@ -137,7 +137,9 @@ function App() {
             <Route path="currentPlaylist" element={<CurrentPlaylist 
               currentPlaylist={currentPlaylist} 
               setCurrentPlaylist={setCurrentPlaylist} 
+              currentTrack={currentTrack}
               setCurrentTrackId={setCurrentTrackId}
+              setCurrentTrack={setCurrentTrack}
             />}/>
 
             {/* Inscription & Connexion */}

@@ -16,7 +16,7 @@ export const SearchResult = (props) => {
     } = props
 
     return(
-        <div className="searchResult">
+        <div className="searchResult container">
             <h2>Results</h2>
             {artists.length > 0 && 
                 <React.Fragment>

@@ -51,7 +51,7 @@ export const Playlist = (props) => {
     }
 
     return(
-        <div className="playlist">
+        <div className="playlist container">
             <h2>{playlist.name}</h2>
             {
                 tracks.length > 0 && 

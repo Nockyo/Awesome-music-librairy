@@ -50,7 +50,7 @@ export const Artist = (props) => {
     }
     
     return (
-        <div className="artist">
+        <div className="artist container">
             <div className="infos">
                 <img src={artist.image} alt={artist.name} style={{width: 100+'px'}} />
                 <p>{artist.name}</p>

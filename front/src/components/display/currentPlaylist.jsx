@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import instance from "../../utils/instanceHttp";
 import { getCurrentTrackIndex } from "../../utils/utils";
 
@@ -6,8 +7,11 @@ export const CurrentPlaylist = (props) => {
     const {
         currentPlaylist, 
         setCurrentPlaylist, 
-        setCurrentTrackId
+        setCurrentTrackId,
+        setCurrentTrack,
+        currentTrack
     } = props;
+    const navigate = useNavigate();
     const [tracks, setTracks] = useState([]);
 
     useEffect(() => {
@@ -22,6 +26,7 @@ export const CurrentPlaylist = (props) => {
             })
         } else {
             setTracks([])
+            navigate('/');
         }
     }, [currentPlaylist])
 
@@ -32,6 +37,7 @@ export const CurrentPlaylist = (props) => {
 
     const deleteAllCurrentPlaylist = () => {
         setCurrentPlaylist([])
+        setCurrentTrack({})
     }
 
     const listen = (trackId) => {
@@ -40,7 +46,7 @@ export const CurrentPlaylist = (props) => {
     }
 
     return(
-        <div className="currentPLaylist">
+        <div className="currentPLaylist container">
             <h2>Current playlist</h2>
             {
                 currentPlaylist.length > 0 && 
@@ -54,8 +60,7 @@ export const CurrentPlaylist = (props) => {
                                 <th>artist</th>
                                 <th>album</th>
                                 <th>style</th>
-                                <th>COEUR</th>
-                                <th>SVG MENU</th>
+                                <th>delete</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -66,8 +71,7 @@ export const CurrentPlaylist = (props) => {
                                     <td>{track.artist}</td>
                                     <td>{track.album}</td>
                                     <td>{track.style}</td>
-                                    <td><button>COEUR</button></td>
-                                    <td><button onClick={() => {deleteFromCurrentPlaylist(index)}}>DELETE</button></td>
+                                    <td><button className="material-symbols-outlined" onClick={() => {deleteFromCurrentPlaylist(index)}}>delete</button></td>
                                 </tr>
                             })}
                         </tbody>

@@ -38,7 +38,7 @@ html {
 
 body{
 	margin: 0;
-	padding: 50px 20px;
+	padding: 70px 20px 200px;
 	background-color: $darkerGrey;
 	font-family: 'roboto';
 	color: $lighterGrey;
@@ -69,6 +69,15 @@ ul {
 
 li {
 	list-style: none;
+}
+
+table {
+	text-align: center;
+	width: 100%;
+}
+
+.random.active, .repeat.active {
+	color: $darkerGrey;
 }
 
 /* Buttons styles start */
@@ -346,6 +355,66 @@ nav {
 	 }
 }
 
+.playerBar{
+	position: fixed;
+	bottom: 70px;
+	z-index: 9990;
+	background-color: #73020bad;
+	border-radius: 20px;
+	width: 90%;
+	padding: 10px;
+
+	p {
+		font-size: 14px;
+		margin: 0;
+	}
+
+	.buttons {
+		display: flex;
+		justify-content: space-around;
+		&.hidden-sm{
+			display: none;
+		}
+	}
+
+	.trackInfos > div {
+		margin: 5px;
+		display: flex;
+
+		div:last-of-type{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+	}
+
+	img{
+		width: 50px;
+		margin-right: 15px;
+	}
+
+	.timers {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.durationBar {
+			display: block;
+			position: relative;
+			width: 70%;
+			height: 10px;
+			border: solid 1px $lighterGrey;
+	
+			.currentDurationBar{
+				height: 100%;
+				background-color: $lighterGrey;
+				position: absolute;
+				display: inline-block;
+			}
+		}
+	}
+}
+
 /**************DESKTOP**************/
 
 @media screen and (min-width: 1024px) {
@@ -358,6 +427,11 @@ nav {
 	.container{
 		width: 90%;
 		margin-left: 10%;
+	}
+
+	table {
+		text-align: center;
+		width: 80%;
 	}
 
 	nav {
@@ -431,6 +505,35 @@ nav {
 					margin-top: 10px;
 					cursor: pointer;
 				}
+			}
+		}
+	}
+
+	.playerBar {
+		bottom: 0;
+		right: 0;
+		border-radius: 0;
+
+		.trackInfos{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.buttons{
+			width: 30%;
+			&.hidden-lg{
+				display: none;
+			}
+
+			&.hidden-sm{
+				display: flex;
+			}
+		}
+
+		.timers {
+			width: 40%;
+			.durationBar{
+				width: 80%;
 			}
 		}
 	}
