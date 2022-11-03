@@ -1,0 +1,171 @@
+[{
+  "_id": {
+    "$oid": "635ff129e873ef0ea4ec9729"
+  },
+  "name": "SlipKnot",
+  "biography": "Slipknot est un groupe de nu metal américain, originaire de Des Moines, dans l'Iowa. Il est formé par le percussionniste Shawn Crahan, le batteur Joey Jordison, le bassiste Paul Gray et les guitaristes Kun Nong et Donnie Steele en 1995.",
+  "image": "/uploads/images/artists/slipknot.jpg",
+  "style": "Nu metal",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63611fa3f103c49f0c880ddb"
+  },
+  "name": "KoRn",
+  "biography": "Korn, stylisé KoЯn, est un groupe de nu metal américain, originaire de Bakersfield, en Californie. En 2017, le groupe se compose de Brian « Head » Welch et James « Munky » Shaffer à la guitare, de Reginald « Fieldy » Arvizu à la basse, de Jonathan Davis au chant et Ray Luzier à la batterie.",
+  "image": "/uploads/images/artists/korn.jpg",
+  "style": "Nu metal",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613903c84fc37a8df14ed8"
+  },
+  "name": "Nekfeu",
+  "biography": "Nekfeu, de son vrai nom Ken Samaras, né le 3 avril 1990 à La Trinité, dans les Alpes-Maritimes, est un rappeur (auteur-interprète) et acteur français. Il est aussi, dans une moindre mesure, réalisateur et directeur de photographie. Membre du groupe S-Crew et 1995, il appartient au collectif L'Entourage et a également fait partie du collectif 5 Majeur.",
+  "image": "/uploads/images/artists/Nekfeu_Studio-Visu-News-1024x750.jpg",
+  "style": "Rap",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613aacc84fc37a8df14f0d"
+  },
+  "name": "Smash Hit Combo",
+  "biography": "Smash Hit Combo est un groupe de rap metal français, originaire de Cernay, en Alsace. Leur musique allie certains éléments propres au rapcore (le chant), au death metal (le riffing, les growls et la double grosse caisse) ou encore au deathcore (breakdowns et screams).",
+  "image": "/uploads/images/artists/SMASH_HIT-COMBO-e1494080817585.jpg",
+  "style": "Rap deathcore",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613ca463e6e252f948ba0c"
+  },
+  "name": "Suprême NTM",
+  "biography": "Originaire du département de la Seine-Saint-Denis et composé principalement de deux rappeurs, Joeystarr (Didier Morville) et Kool Shen (Bruno Lopes), le groupe marque les débuts du rap des années 1990 en France. Formé en 19891 et dissous en 2001, il se reforme en 2008 (célébrant les vingt ans du groupe) et en 2018 (pour les trente ans), sans annoncer de nouvel album et pour une tournée événement nationale. Le groupe est considéré, avec IAM, comme le premier groupe de rap français ayant marqué le hip-hop français avec un succès à portée nationale et une large médiatisation.",
+  "image": "/uploads/images/artists/supreme_ntm-best-of-backpackerz.jpg",
+  "style": "Rap",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614041124653fc5379493e"
+  },
+  "name": "Infected Mushroom",
+  "biography": "Infected Mushroom est un duo musical de trance psychédélique Israélien, originaire d’Haïfa. Le groupe est formé en 1996 par Amit Duvdevani et Erez Eisen. Le duo connaît un succès croissant ; il est l'un des plus connus du genre aussi bien à l'échelle nationale qu'internationale2,3.",
+  "image": "/uploads/images/artists/unnamed.jpg",
+  "style": "Trance psychédélique",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636142ef124653fc53794997"
+  },
+  "name": "Black Bomb A",
+  "biography": "Black Bomb A ou BBA, également parfois orthographié Black Bomb Ä, est un groupe de punk hardcore français, originaire de Viroflay, dans les Yvelines. Black Bomb A est reconnu sur la scène metal française.",
+  "image": "/uploads/images/artists/HardForce_75_bestFit_600x600.png",
+  "style": "Metalcore",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614432124653fc537949f9"
+  },
+  "name": "Chinese Man",
+  "biography": "Chinese Man est un collectif de hip-hop et electro français, originaire d'Aix-en-Provence, dans les Bouches-du-Rhône. Formé en 2004, il puise ses influences dans le rap avant tout, mais aussi dans le funk, le dub, le reggae ou encore le jazz. Chinese Man est composé des DJs Zé Mateo et High Ku, et du beatmaker SLY. Les beatmakers Leo le bug et Le Yan gravitent également autour du groupe et participent notamment à la composition de plusieurs morceaux.",
+  "image": "/uploads/images/artists/Chinese_Man.jpg",
+  "style": "Hip-Hop/Electro",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614507124653fc53794a2a"
+  },
+  "name": "Clawfinger",
+  "biography": "Clawfinger est un groupe suédois de metal industriel, originaire de Stockholm. Il est l'un des premiers à adopter ce son caractéristique, à la fois agressif et rythmé mais aux mélodies bien définies. Les paroles de Clawfinger prennent position dans divers thèmes : politique, lutte contre le racisme, etc.",
+  "image": "/uploads/images/artists/A_67153-1586676328-1012.jpg",
+  "style": "Metal industriel",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614716f9f2fccbac7613c9"
+  },
+  "name": "Coal Chamber",
+  "biography": "Coal Chamber est un groupe de nu metal américain, originaire de Los Angeles, en Californie. Formé en 1993, il est actuellement composé du chanteur Dez Fafara, du guitariste Miguel « Meegs » Rascón, du batteur Mickey « Bug » Cox et de la bassiste Nadja Peulen. Il se met en pause en 2016.",
+  "image": "/uploads/images/artists/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaW1hZ2VzL3JvdmkvMTA4MC8wMDAxLzQwNS9NSTAwMDE0MDU3MjIuanBn.png",
+  "style": "Nu metal",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614852f9f2fccbac7613f9"
+  },
+  "name": "Die Antwoord",
+  "biography": "Die Antwoord, est un groupe de hip-hop-rave sud-africain, originaire du Cap. Il est issu du mouvement contre-culturel zef. Il est composé de trois membres : Ninja, Yolandi Visser (stylisé Yo-landi Vi$$er) et God (anciennement DJ Hi-Tek). Le groupe se décrit lui-même comme un mélange de plusieurs cultures différentes et comme « une adorable entité bâtarde d’Afrique du Sud, issue de l’amour de plusieurs cultures, noires, blanches, colorées ».",
+  "image": "/uploads/images/artists/img_die-antwoord.jpeg",
+  "style": "Hip-Hop",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614939f9f2fccbac76142a"
+  },
+  "name": "Dope D.O.D",
+  "biography": "Dope D.O.D. est un groupe de rap hardcore et dubstep néerlandais. Il est composé de Jay Reaper, Skits Vicious, Dopey Rotten (ancien membre)et de Chubeats, le DJ.",
+  "image": "/uploads/images/artists/1500_1457774660.png",
+  "style": "Rap",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614a1ef9f2fccbac76146b"
+  },
+  "name": "Fakear",
+  "biography": "Théo Le Vigoureux, plus connu sous son nom de scène Fakear, né le 13 mai 1991 à Caen (Normandie), est un auteur-compositeur et musicien français de musique électronique.",
+  "image": "/uploads/images/artists/d6d105c6a3ba6fea4cb00a38e81129ca_caen-fakear-l-artiste-aux-energies-nouvelles.jpg",
+  "style": "Electro",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b0ef9f2fccbac761484"
+  },
+  "name": "Goldfrapp",
+  "biography": "Goldfrapp est un groupe anglais de musique électronique, apparenté à l'électropop, originaire du quartier londonien d'Enfield. Goldfrapp est le fruit d'une collaboration entre Will Gregory et Alison Goldfrapp qui s’est d'abord fait remarquer comme chanteuse sur les premiers albums de Tricky et Orbital.",
+  "image": "/uploads/images/artists/goldfrapp_2017-1140x642.jpg",
+  "style": "Trip-Hop",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614bf4f9f2fccbac7614af"
+  },
+  "name": "Massive Attack",
+  "biography": "Massive Attack est un groupe musical britannique, originaire de Bristol, précurseur de la musique trip hop. Il se compose, à l'origine, de Robert Del Naja (3D), Adrian Thaws (Tricky), Grant Marshall (Daddy G) et Andrew Vowles (Mushroom). Le style du groupe est en constante évolution : au début proche du hip-hop, du groove, voire de la soul, il aborde par la suite la musique électronique, et un son plus électrique à la fin des années 1990. Chaque album est enrichi par de très nombreuses collaborations et la participation systématique de Horace Andy.",
+  "image": "/uploads/images/artists/massiveattackmezzanine.jpg",
+  "style": "Trip-Hop",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c95f9f2fccbac7614da"
+  },
+  "name": "Lofofora",
+  "biography": "Lofofora est un groupe de metal français, originaire de Paris. Formé en 1989, il est composé de Reuno (chant), Phil Curty (guitare basse), Daniel Descieux (guitare) et Vincent Hernault (batterie). Le nom du groupe est une référence au peyotl dont le nom scientifique est Lophophora williamsii. Lofofora est considéré comme l’un des pionniers du rock fusion (ou crossover) metal (guitares saturées, phrasé rappé, envolées punk) en France.",
+  "image": "/uploads/images/artists/Lofofora_credit_Olivier_Ducruix.jpg",
+  "style": "Metal",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614d85f9f2fccbac76150e"
+  },
+  "name": "The Prodigy",
+  "biography": "The Prodigy est un groupe de breakbeat hardcore/Synthpunk britannique, originaire de Braintree, Essex, en Angleterre. Aux côtés notamment de The Chemical Brothers, Fatboy Slim et The Crystal Method, ils font partie des pionniers de la dance électronique qualifiée plus tard de « big beat » par la presse. Ce style atteint sa popularité dans les années 1990 avec le développement des raves parties et de leur médiatisation dès lors qu'elles sont rendues illégales. The Prodigy recense un total de plus de 20 millions de disques vendus dans le monde entier, ce qui en fait le plus grand vendeur de disques de l'histoire de la dance.",
+  "image": "/uploads/images/artists/149011923_272227034263448_5816511755490423195_o.jpg",
+  "style": "Electro",
+  "users_likes": [],
+  "__v": 0
+}]

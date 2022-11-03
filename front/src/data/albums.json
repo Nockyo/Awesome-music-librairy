@@ -1,0 +1,2061 @@
+[{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2c2"
+  },
+  "name": "Slipknot",
+  "artist": "SlipKnot",
+  "artist_id": "635ff129e873ef0ea4ec9729",
+  "date": 1999,
+  "style": "Nu Metal",
+  "tracks": [
+    {
+      "id": "636135a81a967cca225bf2c5",
+      "order": 1,
+      "name": "742617000027"
+    },
+    {
+      "id": "636135a81a967cca225bf2c8",
+      "order": 2,
+      "name": "(Sic)"
+    },
+    {
+      "id": "636135a81a967cca225bf2cb",
+      "order": 3,
+      "name": "Eyeless"
+    },
+    {
+      "id": "636135a81a967cca225bf2ce",
+      "order": 4,
+      "name": "Wait and Bleed"
+    },
+    {
+      "id": "636135a81a967cca225bf2d1",
+      "order": 5,
+      "name": "Surfacing"
+    },
+    {
+      "id": "636135a81a967cca225bf2d4",
+      "order": 6,
+      "name": "Spit It Out"
+    },
+    {
+      "id": "636135a81a967cca225bf2d7",
+      "order": 7,
+      "name": "Tattered and Torn"
+    },
+    {
+      "id": "636135a81a967cca225bf2da",
+      "order": 8,
+      "name": "Me Inside"
+    },
+    {
+      "id": "636135a81a967cca225bf2dd",
+      "order": 9,
+      "name": "Liberate"
+    },
+    {
+      "id": "636135a81a967cca225bf2e0",
+      "order": 10,
+      "name": "Prosthetics"
+    },
+    {
+      "id": "636135a81a967cca225bf2e3",
+      "order": 11,
+      "name": "No Life"
+    },
+    {
+      "id": "636135a81a967cca225bf2e6",
+      "order": 12,
+      "name": "Diluted"
+    },
+    {
+      "id": "636135a81a967cca225bf2e9",
+      "order": 13,
+      "name": "Only One"
+    },
+    {
+      "id": "636135a81a967cca225bf2ec",
+      "order": 14,
+      "name": "Scissors"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667315112716"
+    }
+  },
+  "image": "/uploads/images/albums/SlipKnot/81lrF8AR_tL._AC_SL1500_.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136201a967cca225bf2f2"
+  },
+  "name": "Iowa",
+  "artist": "SlipKnot",
+  "artist_id": "635ff129e873ef0ea4ec9729",
+  "date": 2001,
+  "style": "Nu Metal",
+  "tracks": [
+    {
+      "id": "636136201a967cca225bf2f5",
+      "order": 1,
+      "name": "(515)"
+    },
+    {
+      "id": "636136201a967cca225bf2f8",
+      "order": 2,
+      "name": "People = Shit"
+    },
+    {
+      "id": "636136211a967cca225bf2fb",
+      "order": 3,
+      "name": "Disasterpiece"
+    },
+    {
+      "id": "636136211a967cca225bf2fe",
+      "order": 4,
+      "name": "My Plague"
+    },
+    {
+      "id": "636136211a967cca225bf301",
+      "order": 5,
+      "name": "Everything Ends"
+    },
+    {
+      "id": "636136211a967cca225bf304",
+      "order": 6,
+      "name": "The Heretic Anthem"
+    },
+    {
+      "id": "636136211a967cca225bf307",
+      "order": 7,
+      "name": "Gently"
+    },
+    {
+      "id": "636136211a967cca225bf30a",
+      "order": 8,
+      "name": "Left Behind"
+    },
+    {
+      "id": "636136211a967cca225bf30d",
+      "order": 9,
+      "name": "The Shape"
+    },
+    {
+      "id": "636136211a967cca225bf310",
+      "order": 10,
+      "name": "I Am Hated"
+    },
+    {
+      "id": "636136211a967cca225bf313",
+      "order": 11,
+      "name": "Skin Ticket"
+    },
+    {
+      "id": "636136211a967cca225bf316",
+      "order": 12,
+      "name": "New Abortion"
+    },
+    {
+      "id": "636136211a967cca225bf319",
+      "order": 13,
+      "name": "Metabolic"
+    },
+    {
+      "id": "636136211a967cca225bf31c",
+      "order": 14,
+      "name": "Iowa"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667315232920"
+    }
+  },
+  "image": "/uploads/images/albums/SlipKnot/62401883.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf323"
+  },
+  "name": "Vol. 3: The Subliminal Verses",
+  "artist": "SlipKnot",
+  "artist_id": "635ff129e873ef0ea4ec9729",
+  "date": 2004,
+  "style": "Nu Metal",
+  "tracks": [
+    {
+      "id": "636136691a967cca225bf326",
+      "order": 1,
+      "name": "Prelude 3.0"
+    },
+    {
+      "id": "636136691a967cca225bf329",
+      "order": 2,
+      "name": "The Blister Exists"
+    },
+    {
+      "id": "636136691a967cca225bf32c",
+      "order": 3,
+      "name": "Three Nil"
+    },
+    {
+      "id": "636136691a967cca225bf32f",
+      "order": 4,
+      "name": "Duality"
+    },
+    {
+      "id": "636136691a967cca225bf332",
+      "order": 5,
+      "name": "Opium Of The People"
+    },
+    {
+      "id": "636136691a967cca225bf335",
+      "order": 6,
+      "name": "Circle"
+    },
+    {
+      "id": "636136691a967cca225bf338",
+      "order": 7,
+      "name": "Welcome"
+    },
+    {
+      "id": "636136691a967cca225bf33b",
+      "order": 8,
+      "name": "Vermilion"
+    },
+    {
+      "id": "636136691a967cca225bf33e",
+      "order": 9,
+      "name": "Pulse Of The Maggots"
+    },
+    {
+      "id": "636136691a967cca225bf341",
+      "order": 10,
+      "name": "Before I Forget"
+    },
+    {
+      "id": "636136691a967cca225bf344",
+      "order": 11,
+      "name": "Vermilion Pt. 2"
+    },
+    {
+      "id": "636136691a967cca225bf347",
+      "order": 12,
+      "name": "The Nameless"
+    },
+    {
+      "id": "636136691a967cca225bf34a",
+      "order": 13,
+      "name": "The Virus Of Life"
+    },
+    {
+      "id": "636136691a967cca225bf34d",
+      "order": 14,
+      "name": "Danger - Keep Away"
+    },
+    {
+      "id": "636136691a967cca225bf350",
+      "order": 15,
+      "name": "Scream"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667315305092"
+    }
+  },
+  "image": "/uploads/images/albums/SlipKnot/3539_150.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d11a967cca225bf357"
+  },
+  "name": "KoRn",
+  "artist": "KoRn",
+  "artist_id": "63611fa3f103c49f0c880ddb",
+  "date": 1994,
+  "style": "Nu Metal",
+  "tracks": [
+    {
+      "id": "636136d11a967cca225bf35a",
+      "order": 1,
+      "name": "Blind"
+    },
+    {
+      "id": "636136d11a967cca225bf35d",
+      "order": 2,
+      "name": "Ball Tongue"
+    },
+    {
+      "id": "636136d21a967cca225bf360",
+      "order": 3,
+      "name": "Need To"
+    },
+    {
+      "id": "636136d21a967cca225bf363",
+      "order": 4,
+      "name": "Clown"
+    },
+    {
+      "id": "636136d21a967cca225bf366",
+      "order": 5,
+      "name": "Divine"
+    },
+    {
+      "id": "636136d21a967cca225bf369",
+      "order": 6,
+      "name": "Faget"
+    },
+    {
+      "id": "636136d21a967cca225bf36c",
+      "order": 7,
+      "name": "Shoots And Ladders"
+    },
+    {
+      "id": "636136d21a967cca225bf36f",
+      "order": 8,
+      "name": "Predictable"
+    },
+    {
+      "id": "636136d21a967cca225bf372",
+      "order": 9,
+      "name": "Fake"
+    },
+    {
+      "id": "636136d21a967cca225bf375",
+      "order": 10,
+      "name": "Lies"
+    },
+    {
+      "id": "636136d21a967cca225bf378",
+      "order": 11,
+      "name": "Helmet In The Bush"
+    },
+    {
+      "id": "636136d21a967cca225bf37b",
+      "order": 12,
+      "name": "Daddy"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667315409922"
+    }
+  },
+  "image": "/uploads/images/albums/KoRn/81Ews2F_dnL._SL1500_.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf382"
+  },
+  "name": "Life Is Peachy",
+  "artist": "KoRn",
+  "artist_id": "63611fa3f103c49f0c880ddb",
+  "date": 1996,
+  "style": "Nu Metal",
+  "tracks": [
+    {
+      "id": "6361374f1a967cca225bf385",
+      "order": 1,
+      "name": "Twist"
+    },
+    {
+      "id": "6361374f1a967cca225bf388",
+      "order": 2,
+      "name": "Chi"
+    },
+    {
+      "id": "6361374f1a967cca225bf38b",
+      "order": 3,
+      "name": "Lost"
+    },
+    {
+      "id": "6361374f1a967cca225bf38e",
+      "order": 4,
+      "name": "Swallow"
+    },
+    {
+      "id": "6361374f1a967cca225bf391",
+      "order": 5,
+      "name": "Porno Creep"
+    },
+    {
+      "id": "6361374f1a967cca225bf394",
+      "order": 6,
+      "name": "Good God"
+    },
+    {
+      "id": "6361374f1a967cca225bf397",
+      "order": 7,
+      "name": "Mr. Rogers"
+    },
+    {
+      "id": "6361374f1a967cca225bf39a",
+      "order": 8,
+      "name": "K@#0%!"
+    },
+    {
+      "id": "6361374f1a967cca225bf39d",
+      "order": 9,
+      "name": "No Place To Hide"
+    },
+    {
+      "id": "6361374f1a967cca225bf3a0",
+      "order": 10,
+      "name": "Wicked"
+    },
+    {
+      "id": "6361374f1a967cca225bf3a3",
+      "order": 11,
+      "name": "A.D.I.D.A.S."
+    },
+    {
+      "id": "6361374f1a967cca225bf3a6",
+      "order": 12,
+      "name": "Low Rider"
+    },
+    {
+      "id": "6361374f1a967cca225bf3a9",
+      "order": 13,
+      "name": "Ass Itch"
+    },
+    {
+      "id": "6361374f1a967cca225bf3ac",
+      "order": 14,
+      "name": "Kill You"
+    },
+    {
+      "id": "6361374f1a967cca225bf3af",
+      "order": 15,
+      "name": "Twist (a cappella)"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667315535330"
+    }
+  },
+  "image": "/uploads/images/albums/KoRn/715a9PyxtWL._SL1229_.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e76"
+  },
+  "name": "Issues",
+  "artist": "KoRn",
+  "artist_id": "63611fa3f103c49f0c880ddb",
+  "date": 1999,
+  "style": "Nu Metal",
+  "tracks": [
+    {
+      "id": "6361381ac84fc37a8df14e79",
+      "order": 1,
+      "name": "Dead"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e7c",
+      "order": 2,
+      "name": "Falling Away From Me"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e7f",
+      "order": 3,
+      "name": "Trash"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e82",
+      "order": 4,
+      "name": "4 U"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e85",
+      "order": 5,
+      "name": "Beg For Me"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e88",
+      "order": 6,
+      "name": "Make Me Bad"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e8b",
+      "order": 7,
+      "name": "It's Gonna Go Away"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e8e",
+      "order": 8,
+      "name": "Wake Up"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e91",
+      "order": 9,
+      "name": "Am I Going Crazy"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e94",
+      "order": 10,
+      "name": "Hey Daddy"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e97",
+      "order": 11,
+      "name": "Somebody Someone"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e9a",
+      "order": 12,
+      "name": "No Way"
+    },
+    {
+      "id": "6361381ac84fc37a8df14e9d",
+      "order": 13,
+      "name": "Let's Get This Party Started"
+    },
+    {
+      "id": "6361381ac84fc37a8df14ea0",
+      "order": 14,
+      "name": "Wish You Could Be Me"
+    },
+    {
+      "id": "6361381ac84fc37a8df14ea3",
+      "order": 15,
+      "name": "Counting"
+    },
+    {
+      "id": "6361381ac84fc37a8df14ea6",
+      "order": 16,
+      "name": "Dirty"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667315738776"
+    }
+  },
+  "image": "/uploads/images/albums/KoRn/817Pxt2KcuL._SL1500_.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14eac"
+  },
+  "name": "Follow The Leader",
+  "artist": "KoRn",
+  "artist_id": "63611fa3f103c49f0c880ddb",
+  "date": 1998,
+  "style": "Nu Metal",
+  "tracks": [
+    {
+      "id": "63613859c84fc37a8df14eaf",
+      "order": 1,
+      "name": "It's On!"
+    },
+    {
+      "id": "63613859c84fc37a8df14eb2",
+      "order": 2,
+      "name": "Freak On A Leash"
+    },
+    {
+      "id": "63613859c84fc37a8df14eb5",
+      "order": 3,
+      "name": "Got The Life"
+    },
+    {
+      "id": "63613859c84fc37a8df14eb8",
+      "order": 4,
+      "name": "Dead Bodies Everywhere"
+    },
+    {
+      "id": "63613859c84fc37a8df14ebb",
+      "order": 5,
+      "name": "Children Of The Korn"
+    },
+    {
+      "id": "63613859c84fc37a8df14ebe",
+      "order": 6,
+      "name": "B.B.K."
+    },
+    {
+      "id": "63613859c84fc37a8df14ec1",
+      "order": 7,
+      "name": "Pretty"
+    },
+    {
+      "id": "63613859c84fc37a8df14ec4",
+      "order": 8,
+      "name": "All In The Family"
+    },
+    {
+      "id": "63613859c84fc37a8df14ec7",
+      "order": 9,
+      "name": "Reclaim My Place"
+    },
+    {
+      "id": "63613859c84fc37a8df14eca",
+      "order": 10,
+      "name": "Justin"
+    },
+    {
+      "id": "63613859c84fc37a8df14ecd",
+      "order": 11,
+      "name": "Seed"
+    },
+    {
+      "id": "63613859c84fc37a8df14ed0",
+      "order": 12,
+      "name": "Cameltosis"
+    },
+    {
+      "id": "63613859c84fc37a8df14ed3",
+      "order": 13,
+      "name": "My Gift To You"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667315801280"
+    }
+  },
+  "image": "/uploads/images/albums/KoRn/81a8yFzIzPL._SL1500_.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14edf"
+  },
+  "name": "Cyborg",
+  "artist": "Nekfeu",
+  "artist_id": "63613903c84fc37a8df14ed8",
+  "date": 2016,
+  "style": "Rap",
+  "tracks": [
+    {
+      "id": "63613a17c84fc37a8df14ee2",
+      "order": 1,
+      "name": "Humanoïde"
+    },
+    {
+      "id": "63613a17c84fc37a8df14ee5",
+      "order": 2,
+      "name": "Mauvaise Graine"
+    },
+    {
+      "id": "63613a17c84fc37a8df14ee8",
+      "order": 3,
+      "name": "Squa"
+    },
+    {
+      "id": "63613a17c84fc37a8df14eeb",
+      "order": 4,
+      "name": "Réalité augmentée"
+    },
+    {
+      "id": "63613a17c84fc37a8df14eee",
+      "order": 5,
+      "name": "Avant tu riais (feat. Clara Luciani)"
+    },
+    {
+      "id": "63613a17c84fc37a8df14ef1",
+      "order": 6,
+      "name": "Esquimaux (feat. Nepal)"
+    },
+    {
+      "id": "63613a17c84fc37a8df14ef4",
+      "order": 7,
+      "name": "O.D (feat. Murkage Dave)"
+    },
+    {
+      "id": "63613a17c84fc37a8df14ef7",
+      "order": 8,
+      "name": "Vinyle (feat. Alpha Wann)"
+    },
+    {
+      "id": "63613a17c84fc37a8df14efa",
+      "order": 9,
+      "name": "Saturne (feat. Sneazzy & S.Pri Noir)"
+    },
+    {
+      "id": "63613a17c84fc37a8df14efd",
+      "order": 10,
+      "name": "Galatée"
+    },
+    {
+      "id": "63613a17c84fc37a8df14f00",
+      "order": 11,
+      "name": "Le regard des gens (feat. Nemir, 2Zer, M.Ekra & Doum'S)"
+    },
+    {
+      "id": "63613a17c84fc37a8df14f03",
+      "order": 12,
+      "name": "Programmé"
+    },
+    {
+      "id": "63613a17c84fc37a8df14f06",
+      "order": 13,
+      "name": "Besoin de sens (feat. Framal &"
+    },
+    {
+      "id": "63613a17c84fc37a8df14f09",
+      "order": 14,
+      "name": "Nekketsu (feat. Crystal Kay)"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667316247134"
+    }
+  },
+  "image": "/uploads/images/albums/Nekfeu/500x500.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948b9ef"
+  },
+  "name": "Loading...",
+  "artist": "Smash Hit Combo",
+  "artist_id": "63613aacc84fc37a8df14f0d",
+  "date": 2010,
+  "style": "Death Rapcore",
+  "tracks": [
+    {
+      "id": "63613b2363e6e252f948b9f2",
+      "order": 1,
+      "name": "Persevere"
+    },
+    {
+      "id": "63613b2363e6e252f948b9f5",
+      "order": 2,
+      "name": "Faits divers"
+    },
+    {
+      "id": "63613b2363e6e252f948b9f8",
+      "order": 3,
+      "name": "Sueurs froides"
+    },
+    {
+      "id": "63613b2363e6e252f948b9fb",
+      "order": 4,
+      "name": "Point de rupture"
+    },
+    {
+      "id": "63613b2363e6e252f948b9fe",
+      "order": 5,
+      "name": "Etat second"
+    },
+    {
+      "id": "63613b2363e6e252f948ba01",
+      "order": 6,
+      "name": "Trop vite"
+    },
+    {
+      "id": "63613b2363e6e252f948ba04",
+      "order": 7,
+      "name": "Contre nature (Unplugged)"
+    },
+    {
+      "id": "63613b2363e6e252f948ba07",
+      "order": 8,
+      "name": "Hardcore Gamer (Remix)"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667316515406"
+    }
+  },
+  "image": "/uploads/images/albums/Smash_Hit_Combo/500x500.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f70"
+  },
+  "name": "Suprême NTM",
+  "artist": "Suprême NTM",
+  "artist_id": "63613ca463e6e252f948ba0c",
+  "date": 1998,
+  "style": "Rap",
+  "tracks": [
+    {
+      "id": "63613f8f7d9400193e443f73",
+      "order": 1,
+      "name": "Intro"
+    },
+    {
+      "id": "63613f8f7d9400193e443f76",
+      "order": 2,
+      "name": "Back dans les bacs"
+    },
+    {
+      "id": "63613f8f7d9400193e443f79",
+      "order": 3,
+      "name": "Laisse pas traîner ton fils"
+    },
+    {
+      "id": "63613f8f7d9400193e443f7c",
+      "order": 4,
+      "name": "That's my people"
+    },
+    {
+      "id": "63613f8f7d9400193e443f7f",
+      "order": 5,
+      "name": "Seine saint-denis style"
+    },
+    {
+      "id": "63613f8f7d9400193e443f82",
+      "order": 6,
+      "name": "Interlude"
+    },
+    {
+      "id": "63613f8f7d9400193e443f85",
+      "order": 7,
+      "name": "Ma benz"
+    },
+    {
+      "id": "63613f8f7d9400193e443f88",
+      "order": 8,
+      "name": "C'est arrivé près d'chez toi"
+    },
+    {
+      "id": "63613f8f7d9400193e443f8b",
+      "order": 9,
+      "name": "On est encore là (part I)"
+    },
+    {
+      "id": "63613f8f7d9400193e443f8e",
+      "order": 10,
+      "name": "Odeurs de soufre"
+    },
+    {
+      "id": "63613f8f7d9400193e443f91",
+      "order": 11,
+      "name": "Je vise juste"
+    },
+    {
+      "id": "63613f8f7d9400193e443f94",
+      "order": 12,
+      "name": "Pose ton gun"
+    },
+    {
+      "id": "63613f8f7d9400193e443f97",
+      "order": 13,
+      "name": "Respire"
+    },
+    {
+      "id": "63613f8f7d9400193e443f9a",
+      "order": 14,
+      "name": "On est encore là (part II)"
+    },
+    {
+      "id": "63613f8f7d9400193e443f9d",
+      "order": 15,
+      "name": "hardcore sur le beat"
+    },
+    {
+      "id": "63613f8f7d9400193e443fa0",
+      "order": 16,
+      "name": "Outro"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667317647329"
+    }
+  },
+  "image": "/uploads/images/albums/Supr_me_NTM/ntm_1.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc53794944"
+  },
+  "name": "Vicious Delicious",
+  "artist": "Infected Mushroom",
+  "artist_id": "63614041124653fc5379493e",
+  "date": 2007,
+  "style": "Electro",
+  "tracks": [
+    {
+      "id": "6361408a124653fc53794947",
+      "order": 1,
+      "name": "Becoming Insane"
+    },
+    {
+      "id": "6361408a124653fc5379494a",
+      "order": 2,
+      "name": "Artillery"
+    },
+    {
+      "id": "6361408a124653fc5379494d",
+      "order": 3,
+      "name": "Vicious Delicious"
+    },
+    {
+      "id": "6361408a124653fc53794950",
+      "order": 4,
+      "name": "Heavy weight"
+    },
+    {
+      "id": "6361408a124653fc53794953",
+      "order": 5,
+      "name": "Suliman"
+    },
+    {
+      "id": "6361408a124653fc53794956",
+      "order": 6,
+      "name": "Forgive Me"
+    },
+    {
+      "id": "6361408a124653fc53794959",
+      "order": 7,
+      "name": "Special Place"
+    },
+    {
+      "id": "6361408a124653fc5379495c",
+      "order": 8,
+      "name": "In Front Of Me"
+    },
+    {
+      "id": "6361408a124653fc5379495f",
+      "order": 9,
+      "name": "Eat It Raw"
+    },
+    {
+      "id": "6361408a124653fc53794962",
+      "order": 10,
+      "name": "Change The Formality"
+    },
+    {
+      "id": "6361408a124653fc53794965",
+      "order": 11,
+      "name": "Before"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667317898542"
+    }
+  },
+  "image": "/uploads/images/albums/Infected_Mushroom/R_1016975-1184464566.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc5379496c"
+  },
+  "name": "Army of Mushrooms",
+  "artist": "Infected Mushroom",
+  "artist_id": "63614041124653fc5379493e",
+  "date": 2012,
+  "style": "Trance psychédélique ",
+  "tracks": [
+    {
+      "id": "636140f9124653fc5379496f",
+      "order": 1,
+      "name": "Never Mind"
+    },
+    {
+      "id": "636140f9124653fc53794972",
+      "order": 2,
+      "name": "Nothing to Say"
+    },
+    {
+      "id": "636140f9124653fc53794975",
+      "order": 3,
+      "name": "Send Me an Angel"
+    },
+    {
+      "id": "636140f9124653fc53794978",
+      "order": 4,
+      "name": "U R So Fucked"
+    },
+    {
+      "id": "636140f9124653fc5379497b",
+      "order": 5,
+      "name": "The Rat"
+    },
+    {
+      "id": "636140f9124653fc5379497e",
+      "order": 6,
+      "name": "Nation of Wusses"
+    },
+    {
+      "id": "636140f9124653fc53794981",
+      "order": 7,
+      "name": "Wanted To"
+    },
+    {
+      "id": "636140f9124653fc53794984",
+      "order": 8,
+      "name": "Serve My Thirst"
+    },
+    {
+      "id": "636140f9124653fc53794987",
+      "order": 9,
+      "name": "I Shine"
+    },
+    {
+      "id": "636140f9124653fc5379498a",
+      "order": 10,
+      "name": "Drum n Bassa"
+    },
+    {
+      "id": "636140fa124653fc5379498d",
+      "order": 11,
+      "name": "The Pretender"
+    },
+    {
+      "id": "636140fa124653fc53794990",
+      "order": 12,
+      "name": "The Messenger 2012"
+    },
+    {
+      "id": "636140fa124653fc53794993",
+      "order": 13,
+      "name": "Swingish (Bonus Track)"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667318009814"
+    }
+  },
+  "image": "/uploads/images/albums/Infected_Mushroom/00._Infected_Mushroom_-_Army_Of_Mushrooms_-_2012_cover.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc5379499e"
+  },
+  "name": "Speech Of Freedom",
+  "artist": "Black Bomb A",
+  "artist_id": "636142ef124653fc53794997",
+  "date": 2004,
+  "style": "Metalcore",
+  "tracks": [
+    {
+      "id": "63614355124653fc537949a1",
+      "order": 1,
+      "name": "Double"
+    },
+    {
+      "id": "63614355124653fc537949a4",
+      "order": 2,
+      "name": "Legalize Me"
+    },
+    {
+      "id": "63614355124653fc537949a7",
+      "order": 3,
+      "name": "No One Knows"
+    },
+    {
+      "id": "63614355124653fc537949aa",
+      "order": 4,
+      "name": "Burn"
+    },
+    {
+      "id": "63614355124653fc537949ad",
+      "order": 5,
+      "name": "Mary"
+    },
+    {
+      "id": "63614355124653fc537949b0",
+      "order": 6,
+      "name": "Look At The Pain"
+    },
+    {
+      "id": "63614355124653fc537949b3",
+      "order": 7,
+      "name": "Shoot At The Gossip"
+    },
+    {
+      "id": "63614355124653fc537949b6",
+      "order": 8,
+      "name": "Fine Talkers"
+    },
+    {
+      "id": "63614355124653fc537949b9",
+      "order": 9,
+      "name": "Reject For Me"
+    },
+    {
+      "id": "63614355124653fc537949bc",
+      "order": 10,
+      "name": "Madmen"
+    },
+    {
+      "id": "63614355124653fc537949bf",
+      "order": 11,
+      "name": "New Wars"
+    },
+    {
+      "id": "63614355124653fc537949c2",
+      "order": 12,
+      "name": "Who Fucks Who?"
+    },
+    {
+      "id": "63614355124653fc537949c5",
+      "order": 13,
+      "name": "Bonus Track"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667318613568"
+    }
+  },
+  "image": "/uploads/images/albums/Black_Bomb_A/black_bomb-a-speech-of-freedom-cover-art.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949cb"
+  },
+  "name": "From Chaos",
+  "artist": "Black Bomb A",
+  "artist_id": "636142ef124653fc53794997",
+  "date": 2009,
+  "style": "Metalcore",
+  "tracks": [
+    {
+      "id": "63614397124653fc537949ce",
+      "order": 1,
+      "name": "to reactivate"
+    },
+    {
+      "id": "63614397124653fc537949d1",
+      "order": 2,
+      "name": "uncivilization"
+    },
+    {
+      "id": "63614397124653fc537949d4",
+      "order": 3,
+      "name": "emergency"
+    },
+    {
+      "id": "63614397124653fc537949d7",
+      "order": 4,
+      "name": "all the way"
+    },
+    {
+      "id": "63614397124653fc537949da",
+      "order": 5,
+      "name": "get the fuck out"
+    },
+    {
+      "id": "63614397124653fc537949dd",
+      "order": 6,
+      "name": "burning out"
+    },
+    {
+      "id": "63614397124653fc537949e0",
+      "order": 7,
+      "name": "fucking hate"
+    },
+    {
+      "id": "63614397124653fc537949e3",
+      "order": 8,
+      "name": "taste the flow"
+    },
+    {
+      "id": "63614397124653fc537949e6",
+      "order": 9,
+      "name": "kiss of death"
+    },
+    {
+      "id": "63614397124653fc537949e9",
+      "order": 10,
+      "name": "digging my grave"
+    },
+    {
+      "id": "63614397124653fc537949ec",
+      "order": 11,
+      "name": "pieces of L"
+    },
+    {
+      "id": "63614397124653fc537949ef",
+      "order": 12,
+      "name": "tales from the old school"
+    },
+    {
+      "id": "63614397124653fc537949f2",
+      "order": 13,
+      "name": "nightcrawler"
+    },
+    {
+      "id": "63614397124653fc537949f5",
+      "order": 14,
+      "name": "the walker"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667318679446"
+    }
+  },
+  "image": "/uploads/images/albums/Black_Bomb_A/BBA_from-chaos.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc537949ff"
+  },
+  "name": "Racing With the Sun",
+  "artist": "Chinese Man",
+  "artist_id": "63614432124653fc537949f9",
+  "date": 2011,
+  "style": "Dub",
+  "tracks": [
+    {
+      "id": "6361447e124653fc53794a02",
+      "order": 1,
+      "name": "Introduction (Morning Sun)"
+    },
+    {
+      "id": "6361447e124653fc53794a05",
+      "order": 2,
+      "name": "One Past"
+    },
+    {
+      "id": "6361447e124653fc53794a08",
+      "order": 3,
+      "name": "If You Please"
+    },
+    {
+      "id": "6361447e124653fc53794a0b",
+      "order": 4,
+      "name": "Miss Chang (feat. Taiwan MC, Cyph4)"
+    },
+    {
+      "id": "6361447e124653fc53794a0e",
+      "order": 5,
+      "name": "Saudade"
+    },
+    {
+      "id": "6361447e124653fc53794a11",
+      "order": 6,
+      "name": "Stand! (feat. Plex Rock)"
+    },
+    {
+      "id": "6361447e124653fc53794a14",
+      "order": 7,
+      "name": "Racing With the Sun"
+    },
+    {
+      "id": "6361447e124653fc53794a17",
+      "order": 8,
+      "name": "Down (feat. Scratch Bandits Crew)"
+    },
+    {
+      "id": "6361447e124653fc53794a1a",
+      "order": 9,
+      "name": "In My Room"
+    },
+    {
+      "id": "6361447e124653fc53794a1d",
+      "order": 10,
+      "name": "Get Up (feat. Ex-I, Lush One, Plex Rock)"
+    },
+    {
+      "id": "6361447e124653fc53794a20",
+      "order": 11,
+      "name": "Ta bom (feat. General Elektriks)"
+    },
+    {
+      "id": "6361447e124653fc53794a23",
+      "order": 12,
+      "name": "J.O.G.J.A (feat. M2MX, Dubyouth, Kill the DJ)"
+    },
+    {
+      "id": "6361447e124653fc53794a26",
+      "order": 13,
+      "name": "The King"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667318910827"
+    }
+  },
+  "image": "/uploads/images/albums/Chinese_Man/racing_with-the-sun-chinese-man-cd-front.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a30"
+  },
+  "name": "Clawfinger",
+  "artist": "Clawfinger",
+  "artist_id": "63614507124653fc53794a2a",
+  "date": 1997,
+  "style": "Metal Industriel/Rap",
+  "tracks": [
+    {
+      "id": "63614535124653fc53794a33",
+      "order": 1,
+      "name": "Two Sides"
+    },
+    {
+      "id": "63614535124653fc53794a36",
+      "order": 2,
+      "name": "Hold Your Head Up"
+    },
+    {
+      "id": "63614535124653fc53794a39",
+      "order": 3,
+      "name": "Biggest & The Best"
+    },
+    {
+      "id": "63614535124653fc53794a3c",
+      "order": 4,
+      "name": "Chances"
+    },
+    {
+      "id": "63614535124653fc53794a3f",
+      "order": 5,
+      "name": "Don't Wake Me Up"
+    },
+    {
+      "id": "63614535124653fc53794a42",
+      "order": 6,
+      "name": "Not Even You"
+    },
+    {
+      "id": "63614535124653fc53794a45",
+      "order": 7,
+      "name": "Nobody Knows"
+    },
+    {
+      "id": "63614535124653fc53794a48",
+      "order": 8,
+      "name": "I Can See Them Comming"
+    },
+    {
+      "id": "63614535124653fc53794a4b",
+      "order": 9,
+      "name": "Wrong State Of Mind"
+    },
+    {
+      "id": "63614535124653fc53794a4e",
+      "order": 10,
+      "name": "I'm Your Life & Religion"
+    },
+    {
+      "id": "63614536124653fc53794a51",
+      "order": 11,
+      "name": "Crazy"
+    },
+    {
+      "id": "63614536124653fc53794a54",
+      "order": 12,
+      "name": "I Guess I'll Never Know"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667319093907"
+    }
+  },
+  "image": "/uploads/images/albums/Clawfinger/Clawfinger.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a5a"
+  },
+  "name": "Deaf Dumb Blind",
+  "artist": "Clawfinger",
+  "artist_id": "63614507124653fc53794a2a",
+  "date": 1993,
+  "style": "Metal Industriel",
+  "tracks": [
+    {
+      "id": "6361457d124653fc53794a5d",
+      "order": 1,
+      "name": "Nigger"
+    },
+    {
+      "id": "6361457d124653fc53794a60",
+      "order": 2,
+      "name": "The Truth"
+    },
+    {
+      "id": "6361457d124653fc53794a63",
+      "order": 3,
+      "name": "Rosegrove"
+    },
+    {
+      "id": "6361457d124653fc53794a66",
+      "order": 4,
+      "name": "Don't Get Me Wrong"
+    },
+    {
+      "id": "6361457d124653fc53794a69",
+      "order": 5,
+      "name": "I Need You"
+    },
+    {
+      "id": "6361457d124653fc53794a6c",
+      "order": 6,
+      "name": "Catch Me"
+    },
+    {
+      "id": "6361457d124653fc53794a6f",
+      "order": 7,
+      "name": "Warfair"
+    },
+    {
+      "id": "6361457d124653fc53794a72",
+      "order": 8,
+      "name": "Wonderful World"
+    },
+    {
+      "id": "6361457d124653fc53794a75",
+      "order": 9,
+      "name": "Sad to See You Sorrow"
+    },
+    {
+      "id": "6361457d124653fc53794a78",
+      "order": 10,
+      "name": "I Don't Care"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667319165758"
+    }
+  },
+  "image": "/uploads/images/albums/Clawfinger/Front.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613d0"
+  },
+  "name": "Dark Days",
+  "artist": "Coal Chamber",
+  "artist_id": "63614716f9f2fccbac7613c9",
+  "date": 2002,
+  "style": "Néo Metal",
+  "tracks": [
+    {
+      "id": "63614776f9f2fccbac7613d3",
+      "order": 1,
+      "name": "Fiend"
+    },
+    {
+      "id": "63614776f9f2fccbac7613d6",
+      "order": 2,
+      "name": "Glow"
+    },
+    {
+      "id": "63614776f9f2fccbac7613d9",
+      "order": 3,
+      "name": "Watershed"
+    },
+    {
+      "id": "63614776f9f2fccbac7613dc",
+      "order": 4,
+      "name": "Something Told Me"
+    },
+    {
+      "id": "63614776f9f2fccbac7613df",
+      "order": 5,
+      "name": "Dark Days"
+    },
+    {
+      "id": "63614776f9f2fccbac7613e2",
+      "order": 6,
+      "name": "Alienate Me"
+    },
+    {
+      "id": "63614776f9f2fccbac7613e5",
+      "order": 7,
+      "name": "One Step"
+    },
+    {
+      "id": "63614776f9f2fccbac7613e8",
+      "order": 8,
+      "name": "Friend?"
+    },
+    {
+      "id": "63614776f9f2fccbac7613eb",
+      "order": 9,
+      "name": "Rowboat"
+    },
+    {
+      "id": "63614776f9f2fccbac7613ee",
+      "order": 10,
+      "name": "Drove"
+    },
+    {
+      "id": "63614776f9f2fccbac7613f1",
+      "order": 11,
+      "name": "Empty Jar"
+    },
+    {
+      "id": "63614776f9f2fccbac7613f4",
+      "order": 12,
+      "name": "Beckoned"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667319670715"
+    }
+  },
+  "image": "/uploads/images/albums/Coal_Chamber/51qxmOqHU5L.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac7613ff"
+  },
+  "name": "Ten$ion",
+  "artist": "Die Antwoord",
+  "artist_id": "63614852f9f2fccbac7613f9",
+  "date": 2012,
+  "style": "Hip-Hop",
+  "tracks": [
+    {
+      "id": "6361488cf9f2fccbac761402",
+      "order": 1,
+      "name": "Never Le Nkemise 1"
+    },
+    {
+      "id": "6361488cf9f2fccbac761405",
+      "order": 2,
+      "name": "I Fink U Freeky"
+    },
+    {
+      "id": "6361488cf9f2fccbac761408",
+      "order": 3,
+      "name": "Pielie (Skit)"
+    },
+    {
+      "id": "6361488cf9f2fccbac76140b",
+      "order": 4,
+      "name": "Hey Sexy"
+    },
+    {
+      "id": "6361488cf9f2fccbac76140e",
+      "order": 5,
+      "name": "Fatty Boom Boom"
+    },
+    {
+      "id": "6361488cf9f2fccbac761411",
+      "order": 6,
+      "name": "Zefside Zol (Interlude)"
+    },
+    {
+      "id": "6361488cf9f2fccbac761414",
+      "order": 7,
+      "name": "So What?"
+    },
+    {
+      "id": "6361488cf9f2fccbac761417",
+      "order": 8,
+      "name": "Uncle Jimmy (Skit)"
+    },
+    {
+      "id": "6361488cf9f2fccbac76141a",
+      "order": 9,
+      "name": "Baby's On Fire"
+    },
+    {
+      "id": "6361488cf9f2fccbac76141d",
+      "order": 10,
+      "name": "U Make A Ninja Wanna Fuck"
+    },
+    {
+      "id": "6361488cf9f2fccbac761420",
+      "order": 11,
+      "name": "Fok Julie Naaiers"
+    },
+    {
+      "id": "6361488cf9f2fccbac761423",
+      "order": 12,
+      "name": "DJ Hi-Tek Rulez"
+    },
+    {
+      "id": "6361488cf9f2fccbac761426",
+      "order": 13,
+      "name": "Never Le Nkemise 2"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667319948150"
+    }
+  },
+  "image": "/uploads/images/albums/Die_Antwoord/Die_Antwoord_TensIon_2012_front.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761431"
+  },
+  "name": "Da Roach",
+  "artist": "Dope D.O.D",
+  "artist_id": "63614939f9f2fccbac76142a",
+  "date": 2013,
+  "style": "Rap",
+  "tracks": [
+    {
+      "id": "6361498cf9f2fccbac761434",
+      "order": 1,
+      "name": "Millennium Falcon"
+    },
+    {
+      "id": "6361498cf9f2fccbac761437",
+      "order": 2,
+      "name": "But for Now"
+    },
+    {
+      "id": "6361498cf9f2fccbac76143a",
+      "order": 3,
+      "name": "Bloodbath"
+    },
+    {
+      "id": "6361498cf9f2fccbac76143d",
+      "order": 4,
+      "name": "Brainworms (feat. Kool Keith)"
+    },
+    {
+      "id": "6361498cf9f2fccbac761440",
+      "order": 5,
+      "name": "Black Rain"
+    },
+    {
+      "id": "6361498cf9f2fccbac761443",
+      "order": 6,
+      "name": "Dope Vs Gold (feat. Goldminerz)"
+    },
+    {
+      "id": "6361498cf9f2fccbac761446",
+      "order": 7,
+      "name": "Rocket"
+    },
+    {
+      "id": "6361498cf9f2fccbac761449",
+      "order": 8,
+      "name": "Panic Room (feat. Onyx)"
+    },
+    {
+      "id": "6361498cf9f2fccbac76144c",
+      "order": 9,
+      "name": "Granted"
+    },
+    {
+      "id": "6361498cf9f2fccbac76144f",
+      "order": 10,
+      "name": "Spaz (feat. Simon Roofless)"
+    },
+    {
+      "id": "6361498cf9f2fccbac761452",
+      "order": 11,
+      "name": "Deal With the Devil"
+    },
+    {
+      "id": "6361498cf9f2fccbac761455",
+      "order": 12,
+      "name": "The Butterfly Effect"
+    },
+    {
+      "id": "6361498cf9f2fccbac761458",
+      "order": 13,
+      "name": "Hallucinations"
+    },
+    {
+      "id": "6361498cf9f2fccbac76145b",
+      "order": 14,
+      "name": "Little Bit a Xtc"
+    },
+    {
+      "id": "6361498cf9f2fccbac76145e",
+      "order": 15,
+      "name": "Groove (feat. Redman)"
+    },
+    {
+      "id": "6361498cf9f2fccbac761461",
+      "order": 16,
+      "name": "Twinkle"
+    },
+    {
+      "id": "6361498cf9f2fccbac761464",
+      "order": 17,
+      "name": "Staring Thru Da Blinds"
+    },
+    {
+      "id": "6361498cf9f2fccbac761467",
+      "order": 18,
+      "name": "Ash N Dust (feat. Sean P)"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667320204359"
+    }
+  },
+  "image": "/uploads/images/albums/Dope_D.O.D/Cover.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614a42f9f2fccbac761471"
+  },
+  "name": "Dark Lands",
+  "artist": "Fakear",
+  "artist_id": "63614a1ef9f2fccbac76146b",
+  "date": 2013,
+  "style": "Electro",
+  "tracks": [
+    {
+      "id": "63614a42f9f2fccbac761474",
+      "order": 1,
+      "name": "Marymirror"
+    },
+    {
+      "id": "63614a42f9f2fccbac761477",
+      "order": 2,
+      "name": "Like a Friend"
+    },
+    {
+      "id": "63614a42f9f2fccbac76147a",
+      "order": 3,
+      "name": "Dark Lands Song"
+    },
+    {
+      "id": "63614a42f9f2fccbac76147d",
+      "order": 4,
+      "name": "Damas"
+    },
+    {
+      "id": "63614a42f9f2fccbac761480",
+      "order": 5,
+      "name": "Mount Silver"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667320386194"
+    }
+  },
+  "image": "/uploads/images/albums/Fakear/373777.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac76148a"
+  },
+  "name": "Supernature",
+  "artist": "Goldfrapp",
+  "artist_id": "63614b0ef9f2fccbac761484",
+  "date": 2005,
+  "style": "Trip-Hop",
+  "tracks": [
+    {
+      "id": "63614b4af9f2fccbac76148d",
+      "order": 1,
+      "name": "Ooh La La"
+    },
+    {
+      "id": "63614b4af9f2fccbac761490",
+      "order": 2,
+      "name": "Lovely 2 C U"
+    },
+    {
+      "id": "63614b4af9f2fccbac761493",
+      "order": 3,
+      "name": "Ride A White Horse"
+    },
+    {
+      "id": "63614b4af9f2fccbac761496",
+      "order": 4,
+      "name": "You Never Know"
+    },
+    {
+      "id": "63614b4af9f2fccbac761499",
+      "order": 5,
+      "name": "Let it Take You"
+    },
+    {
+      "id": "63614b4af9f2fccbac76149c",
+      "order": 6,
+      "name": "Fly Me Away"
+    },
+    {
+      "id": "63614b4af9f2fccbac76149f",
+      "order": 7,
+      "name": "Slide Iin"
+    },
+    {
+      "id": "63614b4af9f2fccbac7614a2",
+      "order": 8,
+      "name": "Koko"
+    },
+    {
+      "id": "63614b4af9f2fccbac7614a5",
+      "order": 9,
+      "name": "Satin Chic"
+    },
+    {
+      "id": "63614b4af9f2fccbac7614a8",
+      "order": 10,
+      "name": "Time Out From The World"
+    },
+    {
+      "id": "63614b4af9f2fccbac7614ab",
+      "order": 11,
+      "name": "Number 1"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667320650470"
+    }
+  },
+  "image": "/uploads/images/albums/Goldfrapp/goldfrapp_front_-_www.torrentazos.com.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614b5"
+  },
+  "name": "Mezzanine",
+  "artist": "Massive Attack",
+  "artist_id": "63614bf4f9f2fccbac7614af",
+  "date": 1998,
+  "style": "Trip-Hop",
+  "tracks": [
+    {
+      "id": "63614c22f9f2fccbac7614b8",
+      "order": 1,
+      "name": "Angel"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614bb",
+      "order": 2,
+      "name": "Risingson"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614be",
+      "order": 3,
+      "name": "Teardrop"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614c1",
+      "order": 4,
+      "name": "Inertia Creeps"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614c4",
+      "order": 5,
+      "name": "Exchange"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614c7",
+      "order": 6,
+      "name": "Dissolved Girl"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614ca",
+      "order": 7,
+      "name": "Man Next Door"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614cd",
+      "order": 8,
+      "name": "Black Milk"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614d0",
+      "order": 9,
+      "name": "Mezzanine"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614d3",
+      "order": 10,
+      "name": "Group Four"
+    },
+    {
+      "id": "63614c22f9f2fccbac7614d6",
+      "order": 11,
+      "name": "(Exchange)"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667320866386"
+    }
+  },
+  "image": "/uploads/images/albums/Massive_Attack/cover.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614e0"
+  },
+  "name": "Le Fond et la Forme",
+  "artist": "Lofofora",
+  "artist_id": "63614c95f9f2fccbac7614da",
+  "date": 2003,
+  "style": "Metal",
+  "tracks": [
+    {
+      "id": "63614cd4f9f2fccbac7614e3",
+      "order": 1,
+      "name": "Le Fond Et La Forme"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614e6",
+      "order": 2,
+      "name": "Série Z"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614e9",
+      "order": 3,
+      "name": "Social killer"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614ec",
+      "order": 4,
+      "name": "Histoire Naturelle"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614ef",
+      "order": 5,
+      "name": "Auto-pilote"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614f2",
+      "order": 6,
+      "name": "Ici Ou Ailleurs"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614f5",
+      "order": 7,
+      "name": "Comme A La Guerre"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614f8",
+      "order": 8,
+      "name": "Requiem Pour Moi-même"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614fb",
+      "order": 9,
+      "name": "Psaume Cac 40"
+    },
+    {
+      "id": "63614cd4f9f2fccbac7614fe",
+      "order": 10,
+      "name": "Bienvenue"
+    },
+    {
+      "id": "63614cd4f9f2fccbac761501",
+      "order": 11,
+      "name": "Alarme Citoyens"
+    },
+    {
+      "id": "63614cd4f9f2fccbac761504",
+      "order": 12,
+      "name": "Carapace"
+    },
+    {
+      "id": "63614cd4f9f2fccbac761507",
+      "order": 13,
+      "name": "L' Emprise"
+    },
+    {
+      "id": "63614cd4f9f2fccbac76150a",
+      "order": 14,
+      "name": "Piste Cachée"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667321044837"
+    }
+  },
+  "image": "/uploads/images/albums/Lofofora/71jrbAFB40L._SS500_.jpg",
+  "users_likes": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac761514"
+  },
+  "name": "The Fat of the Land",
+  "artist": "The Prodigy",
+  "artist_id": "63614d85f9f2fccbac76150e",
+  "date": 1997,
+  "style": "Electro",
+  "tracks": [
+    {
+      "id": "63614dbaf9f2fccbac761517",
+      "order": 1,
+      "name": "Smack My Bitch Up"
+    },
+    {
+      "id": "63614dbaf9f2fccbac76151a",
+      "order": 2,
+      "name": "Breathe"
+    },
+    {
+      "id": "63614dbaf9f2fccbac76151d",
+      "order": 3,
+      "name": "Diesel Power"
+    },
+    {
+      "id": "63614dbaf9f2fccbac761520",
+      "order": 4,
+      "name": "Funky Shit"
+    },
+    {
+      "id": "63614dbaf9f2fccbac761523",
+      "order": 5,
+      "name": "Serial Thrilla"
+    },
+    {
+      "id": "63614dbaf9f2fccbac761526",
+      "order": 6,
+      "name": "Mindfields"
+    },
+    {
+      "id": "63614dbaf9f2fccbac761529",
+      "order": 7,
+      "name": "Narayan"
+    },
+    {
+      "id": "63614dbaf9f2fccbac76152c",
+      "order": 8,
+      "name": "Firestarter"
+    },
+    {
+      "id": "63614dbaf9f2fccbac76152f",
+      "order": 9,
+      "name": "Climbatize"
+    },
+    {
+      "id": "63614dbaf9f2fccbac761532",
+      "order": 10,
+      "name": "Fuel My Fire"
+    }
+  ],
+  "uploadedDate": {
+    "$date": {
+      "$numberLong": "1667321274346"
+    }
+  },
+  "image": "/uploads/images/albums/The_Prodigy/61FV3g0c1ZL.jpg",
+  "users_likes": [],
+  "__v": 0
+}]

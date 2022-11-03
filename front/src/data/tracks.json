@@ -1,0 +1,3805 @@
+[{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2c5"
+  },
+  "name": "742617000027",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_01_-_742617000027.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2c8"
+  },
+  "name": "(Sic)",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_02_-_(sic).m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2cb"
+  },
+  "name": "Eyeless",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_03_-_Eyeless.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2ce"
+  },
+  "name": "Wait and Bleed",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_04_-_Wait_and_Bleed.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2d1"
+  },
+  "name": "Surfacing",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_05_-_Surfacing.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2d4"
+  },
+  "name": "Spit It Out",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_06_-_Spit_it_Out.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2d7"
+  },
+  "name": "Tattered and Torn",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_07_-_Tattered_&_Torn.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2da"
+  },
+  "name": "Me Inside",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_08_-_Me_Inside.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2dd"
+  },
+  "name": "Liberate",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_09_-_Liberate.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2e0"
+  },
+  "name": "Prosthetics",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_10_-_Prosthetics.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2e3"
+  },
+  "name": "No Life",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_11_-_No_Life.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2e6"
+  },
+  "name": "Diluted",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_12_-_Diluted.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2e9"
+  },
+  "name": "Only One",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_13_-_Only_One.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636135a81a967cca225bf2ec"
+  },
+  "name": "Scissors",
+  "artist": "SlipKnot",
+  "album": "Slipknot",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Slipknot/SlipKnot_-_SlipKnot_-_14_-_Scissors.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136201a967cca225bf2f5"
+  },
+  "name": "(515)",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_01_-_(515).m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136201a967cca225bf2f8"
+  },
+  "name": "People = Shit",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_02_-_People_=_Shit.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf2fb"
+  },
+  "name": "Disasterpiece",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_03_-_Disasterpiece.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf2fe"
+  },
+  "name": "My Plague",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_04_-_My_Plague.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf301"
+  },
+  "name": "Everything Ends",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_05_-_Everything_Ends.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf304"
+  },
+  "name": "The Heretic Anthem",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_06_-_The_Heretic_Anthem.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf307"
+  },
+  "name": "Gently",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_07_-_Gently.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf30a"
+  },
+  "name": "Left Behind",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_08_-_Left_Behind_.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf30d"
+  },
+  "name": "The Shape",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_09_-_The_Shape.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf310"
+  },
+  "name": "I Am Hated",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_10_-_I_Am_Hated.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf313"
+  },
+  "name": "Skin Ticket",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_11_-_Skin_Ticket.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf316"
+  },
+  "name": "New Abortion",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_12_-_New_Abortion.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf319"
+  },
+  "name": "Metabolic",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_13_-_Metabolic.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136211a967cca225bf31c"
+  },
+  "name": "Iowa",
+  "artist": "SlipKnot",
+  "album": "Iowa",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Iowa/SlipKnot_-_Iowa_-_14_-_Iowa.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf326"
+  },
+  "name": "Prelude 3.0",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_01_-_Prelude_3.0.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf329"
+  },
+  "name": "The Blister Exists",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_02_-_The_Blister_Exists.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf32c"
+  },
+  "name": "Three Nil",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_03_-_Three_Nil.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf32f"
+  },
+  "name": "Duality",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_04_-_Duality.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf332"
+  },
+  "name": "Opium Of The People",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_05_-_Opium_Of_The_People.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf335"
+  },
+  "name": "Circle",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_06_-_Circle.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf338"
+  },
+  "name": "Welcome",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_07_-_Welcome.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf33b"
+  },
+  "name": "Vermilion",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_08_-_Vermilion.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf33e"
+  },
+  "name": "Pulse Of The Maggots",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_09_-_Pulse_Of_The_Maggots.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf341"
+  },
+  "name": "Before I Forget",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_10_-_Before_I_Forget.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf344"
+  },
+  "name": "Vermilion Pt. 2",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_11_-_Vermilion_Pt._2.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf347"
+  },
+  "name": "The Nameless",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_12_-_The_Nameless.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf34a"
+  },
+  "name": "The Virus Of Life",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_13_-_The_Virus_Of_Life.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf34d"
+  },
+  "name": "Danger - Keep Away",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_14_-_Danger_-_Keep_Away.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136691a967cca225bf350"
+  },
+  "name": "Scream",
+  "artist": "SlipKnot",
+  "album": "Vol. 3: The Subliminal Verses",
+  "style": "Néo Metal",
+  "file": "/uploads/music/SlipKnot/Vol._3__The_Subliminal_Verses/SlipKnot_-_Vol._3-_(The_Subliminal_Verses)_-_15_-_Scream.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d11a967cca225bf35a"
+  },
+  "name": "Blind",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_01_-_Blind.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d11a967cca225bf35d"
+  },
+  "name": "Ball Tongue",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_02_-_Ball_Tongue.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf360"
+  },
+  "name": "Need To",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_03_-_Need_To.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf363"
+  },
+  "name": "Clown",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_04_-_Clown.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf366"
+  },
+  "name": "Divine",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_05_-_Divine.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf369"
+  },
+  "name": "Faget",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_06_-_Faget.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf36c"
+  },
+  "name": "Shoots And Ladders",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_07_-_Shoots_And_Ladders.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf36f"
+  },
+  "name": "Predictable",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_08_-_Predictable.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf372"
+  },
+  "name": "Fake",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_09_-_Fake.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf375"
+  },
+  "name": "Lies",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_10_-_Lies.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf378"
+  },
+  "name": "Helmet In The Bush",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_11_-_Helmet_In_The_Bush.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636136d21a967cca225bf37b"
+  },
+  "name": "Daddy",
+  "artist": "KoRn",
+  "album": "KoRn",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/KoRn/KoRn_-_KoRn_-_12_-_Daddy.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf385"
+  },
+  "name": "Twist",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_01_-_Twist.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf388"
+  },
+  "name": "Chi",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_02_-_Chi.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf38b"
+  },
+  "name": "Lost",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_03_-_Lost.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf38e"
+  },
+  "name": "Swallow",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_04_-_Swallow.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf391"
+  },
+  "name": "Porno Creep",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_05_-_Porno_Creep.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf394"
+  },
+  "name": "Good God",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_06_-_Good_God.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf397"
+  },
+  "name": "Mr. Rogers",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_07_-_Mr._Rogers.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf39a"
+  },
+  "name": "K@#0%!",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_08_-_K@#0%!.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf39d"
+  },
+  "name": "No Place To Hide",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_09_-_No_Place_To_Hide.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf3a0"
+  },
+  "name": "Wicked",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_10_-_Wicked.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf3a3"
+  },
+  "name": "A.D.I.D.A.S.",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_11_-_A.D.I.D.A.S..mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf3a6"
+  },
+  "name": "Low Rider",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_12_-_Low_Rider.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf3a9"
+  },
+  "name": "Ass Itch",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_13_-_Ass_Itch.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf3ac"
+  },
+  "name": "Kill You",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_14_-_Kill_You.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361374f1a967cca225bf3af"
+  },
+  "name": "Twist (a cappella)",
+  "artist": "KoRn",
+  "album": "Life Is Peachy",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Life_Is_Peachy/KoRn_-_Life_Is_Peachy_-_15_-_Twist_(a_cappella).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e79"
+  },
+  "name": "Dead",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_01_-_Dead.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e7c"
+  },
+  "name": "Falling Away From Me",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_02_-_Falling_Away_From_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e7f"
+  },
+  "name": "Trash",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_03_-_Trash.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e82"
+  },
+  "name": "4 U",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_04_-_4_U.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e85"
+  },
+  "name": "Beg For Me",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_05_-_Beg_For_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e88"
+  },
+  "name": "Make Me Bad",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_06_-_Make_Me_Bad.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e8b"
+  },
+  "name": "It's Gonna Go Away",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_07_-_It's_Gonna_Go_Away.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e8e"
+  },
+  "name": "Wake Up",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_08_-_Wake_Up.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e91"
+  },
+  "name": "Am I Going Crazy",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_09_-_Am_I_Going_Crazy.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e94"
+  },
+  "name": "Hey Daddy",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_10_-_Hey_Daddy.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e97"
+  },
+  "name": "Somebody Someone",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_11_-_Somebody_Someone.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e9a"
+  },
+  "name": "No Way",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_12_-_No_Way.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14e9d"
+  },
+  "name": "Let's Get This Party Started",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_13_-_Let's_Get_This_Party_Started.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14ea0"
+  },
+  "name": "Wish You Could Be Me",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_14_-_Wish_You_Could_Be_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14ea3"
+  },
+  "name": "Counting",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_15_-_Counting.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361381ac84fc37a8df14ea6"
+  },
+  "name": "Dirty",
+  "artist": "KoRn",
+  "album": "Issues",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Issues/KoRn_-_Issues_-_16_-_Dirty.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14eaf"
+  },
+  "name": "It's On!",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_13_-_It's_On!.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14eb2"
+  },
+  "name": "Freak On A Leash",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_14_-_Freak_On_A_Leash.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14eb5"
+  },
+  "name": "Got The Life",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_15_-_Got_The_Life.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14eb8"
+  },
+  "name": "Dead Bodies Everywhere",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_16_-_Dead_Bodies_Everywhere.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14ebb"
+  },
+  "name": "Children Of The Korn",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_17_-_Children_Of_The_Korn.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14ebe"
+  },
+  "name": "B.B.K.",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_18_-_B.B.K..mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14ec1"
+  },
+  "name": "Pretty",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_19_-_Pretty.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14ec4"
+  },
+  "name": "All In The Family",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_20_-_All_In_The_Family.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14ec7"
+  },
+  "name": "Reclaim My Place",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_21_-_Reclaim_My_Place.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14eca"
+  },
+  "name": "Justin",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_22_-_Justin.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14ecd"
+  },
+  "name": "Seed",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_23_-_Seed.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14ed0"
+  },
+  "name": "Cameltosis",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_24_-_Cameltosis.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613859c84fc37a8df14ed3"
+  },
+  "name": "My Gift To You",
+  "artist": "KoRn",
+  "album": "Follow The Leader",
+  "style": "Néo Metal",
+  "file": "/uploads/music/KoRn/Follow_The_Leader/KoRn_-_Follow_The_Leader_-_25_-_My_Gift_To_You.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14ee2"
+  },
+  "name": "Humanoïde",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/01_Humanoide.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14ee5"
+  },
+  "name": "Mauvaise Graine",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/02_Mauvaise_graine.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14ee8"
+  },
+  "name": "Squa",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/03_Squa.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14eeb"
+  },
+  "name": "Réalité augmentée",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/04_ReÌaliteÌ_augmenteÌe.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14eee"
+  },
+  "name": "Avant tu riais (feat. Clara Luciani)",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/05_Avant_tu_riais_(feat._Clara_Luciani).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14ef1"
+  },
+  "name": "Esquimaux (feat. Nepal)",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/06_Esquimaux_(feat._Nepal).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14ef4"
+  },
+  "name": "O.D (feat. Murkage Dave)",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/07_O.D_(feat._Murkage_Dave).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14ef7"
+  },
+  "name": "Vinyle (feat. Alpha Wann)",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/08_Vinyle_(feat._Alpha_Wann).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14efa"
+  },
+  "name": "Saturne (feat. Sneazzy & S.Pri Noir)",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/09_Saturne_(feat._Sneazzy_&_S.Pri_Noir).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14efd"
+  },
+  "name": "Galatée",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/10_GalateÌe.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14f00"
+  },
+  "name": "Le regard des gens (feat. Nemir, 2Zer, M.Ekra & Doum'S)",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/11_Le_regard_des_gens_(feat._Nemir,2Zer,_M.Ekra_&_DoumâS).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14f03"
+  },
+  "name": "Programmé",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/12_ProgrammeÌ.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14f06"
+  },
+  "name": "Besoin de sens (feat. Framal &",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/13_Besoin_de_sens_(feat._Framal_&_Ja.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613a17c84fc37a8df14f09"
+  },
+  "name": "Nekketsu (feat. Crystal Kay)",
+  "artist": "Nekfeu",
+  "album": "Cyborg",
+  "style": "Rap",
+  "file": "/uploads/music/Nekfeu/Cyborg/14_Nekketsu_(feat._Crystal_Kay).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948b9f2"
+  },
+  "name": "Persevere",
+  "artist": "Smash Hit Combo",
+  "album": "Loading...",
+  "style": "Death Rapcore",
+  "file": "/uploads/music/Smash_Hit_Combo/Loading.../Smash_Hit_Combo_-_Loading..._-_01_-_Persevere.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948b9f5"
+  },
+  "name": "Faits divers",
+  "artist": "Smash Hit Combo",
+  "album": "Loading...",
+  "style": "Death Rapcore",
+  "file": "/uploads/music/Smash_Hit_Combo/Loading.../Smash_Hit_Combo_-_Loading..._-_02_-_Faits_divers.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948b9f8"
+  },
+  "name": "Sueurs froides",
+  "artist": "Smash Hit Combo",
+  "album": "Loading...",
+  "style": "Death Rapcore",
+  "file": "/uploads/music/Smash_Hit_Combo/Loading.../Smash_Hit_Combo_-_Loading..._-_03_-_Sueurs_froides.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948b9fb"
+  },
+  "name": "Point de rupture",
+  "artist": "Smash Hit Combo",
+  "album": "Loading...",
+  "style": "Death Rapcore",
+  "file": "/uploads/music/Smash_Hit_Combo/Loading.../Smash_Hit_Combo_-_Loading..._-_04_-_Point_de_rupture.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948b9fe"
+  },
+  "name": "Etat second",
+  "artist": "Smash Hit Combo",
+  "album": "Loading...",
+  "style": "Death Rapcore",
+  "file": "/uploads/music/Smash_Hit_Combo/Loading.../Smash_Hit_Combo_-_Loading..._-_05_-_Etat_second.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948ba01"
+  },
+  "name": "Trop vite",
+  "artist": "Smash Hit Combo",
+  "album": "Loading...",
+  "style": "Death Rapcore",
+  "file": "/uploads/music/Smash_Hit_Combo/Loading.../Smash_Hit_Combo_-_Loading..._-_06_-_Trop_vite.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948ba04"
+  },
+  "name": "Contre nature (Unplugged)",
+  "artist": "Smash Hit Combo",
+  "album": "Loading...",
+  "style": "Death Rapcore",
+  "file": "/uploads/music/Smash_Hit_Combo/Loading.../Smash_Hit_Combo_-_Loading..._-_07_-_Contre_nature_(Unplugged).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613b2363e6e252f948ba07"
+  },
+  "name": "Hardcore Gamer (Remix)",
+  "artist": "Smash Hit Combo",
+  "album": "Loading...",
+  "style": "Death Rapcore",
+  "file": "/uploads/music/Smash_Hit_Combo/Loading.../Smash_Hit_Combo_-_Loading..._-_08_-_Hardcore_Gamer_(Remix).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f73"
+  },
+  "name": "Intro",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Intro.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f76"
+  },
+  "name": "Back dans les bacs",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Back_dans_les_bacs.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f79"
+  },
+  "name": "Laisse pas traîner ton fils",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Laisse_pas_trainer_ton_fils.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f7c"
+  },
+  "name": "That's my people",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/That_s_my_people.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f7f"
+  },
+  "name": "Seine saint-denis style",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Seine_Saint_Denis_Style.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f82"
+  },
+  "name": "Interlude",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Interlude.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f85"
+  },
+  "name": "Ma benz",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Ma_BenZ.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f88"
+  },
+  "name": "C'est arrivé près d'chez toi",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/C_est_arrivÃ©_prÃ©s_de_chez_toi.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f8b"
+  },
+  "name": "On est encore là (part I)",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/On_est_encore_lÃ__(part_I).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f8e"
+  },
+  "name": "Odeurs de soufre",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Odeurs_de_soufre.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f91"
+  },
+  "name": "Je vise juste",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Je_vise_Juste.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f94"
+  },
+  "name": "Pose ton gun",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Pose_ton_gun.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f97"
+  },
+  "name": "Respire",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Respire.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f9a"
+  },
+  "name": "On est encore là (part II)",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/On_est_encore_lÃ__(part_II).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443f9d"
+  },
+  "name": "hardcore sur le beat",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Hardcore_sur_le_beat.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63613f8f7d9400193e443fa0"
+  },
+  "name": "Outro",
+  "artist": "Suprême NTM",
+  "album": "Suprême NTM",
+  "style": "Rap",
+  "file": "/uploads/music/Supr_me_NTM/Supr_me_NTM/Outro.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc53794947"
+  },
+  "name": "Becoming Insane",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_01_-_Becoming_Insane.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc5379494a"
+  },
+  "name": "Artillery",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_02_-_Artillery.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc5379494d"
+  },
+  "name": "Vicious Delicious",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_03_-_Vicious_Delicious.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc53794950"
+  },
+  "name": "Heavy weight",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_04_-_Heavy_weight.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc53794953"
+  },
+  "name": "Suliman",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_05_-_Suliman.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc53794956"
+  },
+  "name": "Forgive Me",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_06_-_Forgive_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc53794959"
+  },
+  "name": "Special Place",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_07_-_Special_Place.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc5379495c"
+  },
+  "name": "In Front Of Me",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_08_-_In_Front_Of_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc5379495f"
+  },
+  "name": "Eat It Raw",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_09_-_Eat_It_Raw.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc53794962"
+  },
+  "name": "Change The Formality",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_10_-_Change_The_Formality.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361408a124653fc53794965"
+  },
+  "name": "Before",
+  "artist": "Infected Mushroom",
+  "album": "Vicious Delicious",
+  "style": "Electro",
+  "file": "/uploads/music/Infected_Mushroom/Vicious_Delicious/Infected_Mushroom_-_Vicious_Delicious_-_11_-_Before.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc5379496f"
+  },
+  "name": "Never Mind",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_01_-_Never_Mind.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc53794972"
+  },
+  "name": "Nothing to Say",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_02_-_Nothing_to_Say.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc53794975"
+  },
+  "name": "Send Me an Angel",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_03_-_Send_Me_an_Angel.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc53794978"
+  },
+  "name": "U R So Fucked",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_04_-_U_R_So_Fucked.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc5379497b"
+  },
+  "name": "The Rat",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_05_-_The_Rat.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc5379497e"
+  },
+  "name": "Nation of Wusses",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_06_-_Nation_of_Wusses.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc53794981"
+  },
+  "name": "Wanted To",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_07_-_Wanted_To.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc53794984"
+  },
+  "name": "Serve My Thirst",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_08_-_Serve_My_Thirst.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc53794987"
+  },
+  "name": "I Shine",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_09_-_I_Shine.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140f9124653fc5379498a"
+  },
+  "name": "Drum n Bassa",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_10_-_Drum_n_Bassa.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140fa124653fc5379498d"
+  },
+  "name": "The Pretender",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_11_-_The_Pretender.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140fa124653fc53794990"
+  },
+  "name": "The Messenger 2012",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_12_-_The_Messenger_2012.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636140fa124653fc53794993"
+  },
+  "name": "Swingish (Bonus Track)",
+  "artist": "Infected Mushroom",
+  "album": "Army of Mushrooms",
+  "style": "Trance psychédélique ",
+  "file": "/uploads/music/Infected_Mushroom/Army_of_Mushrooms/Infected_Mushroom_-_Army_of_Mushrooms_-_13_-_Swingish_(Bonus_Track).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949a1"
+  },
+  "name": "Double",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_01_-_Double.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949a4"
+  },
+  "name": "Legalize Me",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_02_-_Legalize_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949a7"
+  },
+  "name": "No One Knows",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_03_-_No_One_Knows.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949aa"
+  },
+  "name": "Burn",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_04_-_Burn.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949ad"
+  },
+  "name": "Mary",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_05_-_Mary.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949b0"
+  },
+  "name": "Look At The Pain",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_06_-_Look_At_The_Pain.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949b3"
+  },
+  "name": "Shoot At The Gossip",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_07_-_Shoot_At_The_Gossip.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949b6"
+  },
+  "name": "Fine Talkers",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_08_-_Fine_Talkers.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949b9"
+  },
+  "name": "Reject For Me",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_09_-_Reject_For_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949bc"
+  },
+  "name": "Madmen",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_10_-_Madmen.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949bf"
+  },
+  "name": "New Wars",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_11_-_New_Wars.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949c2"
+  },
+  "name": "Who Fucks Who?",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_12_-_Who_Fucks_Who.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614355124653fc537949c5"
+  },
+  "name": "Bonus Track",
+  "artist": "Black Bomb A",
+  "album": "Speech Of Freedom",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/Speech_Of_Freedom/Black_Bomb_A_-_Speech_Of_Freedom_-_13_-_Bonus_Track.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949ce"
+  },
+  "name": "to reactivate",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_01_-_to_reactivate.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949d1"
+  },
+  "name": "uncivilization",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_02_-_uncivilization.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949d4"
+  },
+  "name": "emergency",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_03_-_emergency.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949d7"
+  },
+  "name": "all the way",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_04_-_all_the_way.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949da"
+  },
+  "name": "get the fuck out",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_05_-_get_the_fuck_out.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949dd"
+  },
+  "name": "burning out",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_06_-_burning_out.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949e0"
+  },
+  "name": "fucking hate",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_07_-_fucking_hate.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949e3"
+  },
+  "name": "taste the flow",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_08_-_taste_the_flow.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949e6"
+  },
+  "name": "kiss of death",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_09_-_kiss_of_death.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949e9"
+  },
+  "name": "digging my grave",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_10_-_digging_my_grave.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949ec"
+  },
+  "name": "pieces of L",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_11_-_pieces_of_L.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949ef"
+  },
+  "name": "tales from the old school",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_12_-_tales_from_the_old_school.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949f2"
+  },
+  "name": "nightcrawler",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_13_-_nightcrawler.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614397124653fc537949f5"
+  },
+  "name": "the walker",
+  "artist": "Black Bomb A",
+  "album": "From Chaos",
+  "style": "Metalcore",
+  "file": "/uploads/music/Black_Bomb_A/From_Chaos/Black_Bomb_A_-_From_Chaos_-_14_-_the_walker.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a02"
+  },
+  "name": "Introduction (Morning Sun)",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_01_Introduction_(Morning_Sun).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a05"
+  },
+  "name": "One Past",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_02_One_Past.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a08"
+  },
+  "name": "If You Please",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_03_If_You_Please.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a0b"
+  },
+  "name": "Miss Chang (feat. Taiwan MC, Cyph4)",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_04_Miss_Chang_(feat._Taiwan_MC,_Cy.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a0e"
+  },
+  "name": "Saudade",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_05_Saudade.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a11"
+  },
+  "name": "Stand! (feat. Plex Rock)",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_06_Stand!_(feat._Plex_Rock).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a14"
+  },
+  "name": "Racing With the Sun",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_07_Racing_With_the_Sun.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a17"
+  },
+  "name": "Down (feat. Scratch Bandits Crew)",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_08_Down_(feat._Scratch_Bandits_Cre.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a1a"
+  },
+  "name": "In My Room",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_09_In_My_Room.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a1d"
+  },
+  "name": "Get Up (feat. Ex-I, Lush One, Plex Rock)",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_10_Get_Up_(feat._Ex-I,_Lush_One,_P.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a20"
+  },
+  "name": "Ta bom (feat. General Elektriks)",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_11_Ta_bom_(feat._General_Elektriks.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a23"
+  },
+  "name": "J.O.G.J.A (feat. M2MX, Dubyouth, Kill the DJ)",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_12_J.O.G.J.A_(feat._M2MX,_Dubyouth.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361447e124653fc53794a26"
+  },
+  "name": "The King",
+  "artist": "Chinese Man",
+  "album": "Racing With the Sun",
+  "style": "Dub",
+  "file": "/uploads/music/Chinese_Man/Racing_With_the_Sun/1_13_The_King.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a33"
+  },
+  "name": "Two Sides",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_01_-_Two_Sides.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a36"
+  },
+  "name": "Hold Your Head Up",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_02_-_Hold_Your_Head_Up.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a39"
+  },
+  "name": "Biggest & The Best",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_03_-_Biggest_&_The_Best.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a3c"
+  },
+  "name": "Chances",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_04_-_Chances.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a3f"
+  },
+  "name": "Don't Wake Me Up",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_05_-_Don't_Wake_Me_Up.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a42"
+  },
+  "name": "Not Even You",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_06_-_Not_Even_You.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a45"
+  },
+  "name": "Nobody Knows",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/07._Nobody_Knows.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a48"
+  },
+  "name": "I Can See Them Comming",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_08_-_I_Can_See_Them_Comming.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a4b"
+  },
+  "name": "Wrong State Of Mind",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_09_-_Wrong_State_Of_Mind.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614535124653fc53794a4e"
+  },
+  "name": "I'm Your Life & Religion",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_10_-_I'm_Your_Life_&_Religion.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614536124653fc53794a51"
+  },
+  "name": "Crazy",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_11_-_Crazy.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614536124653fc53794a54"
+  },
+  "name": "I Guess I'll Never Know",
+  "artist": "Clawfinger",
+  "album": "Clawfinger",
+  "style": "Metal Industriel/Rap",
+  "file": "/uploads/music/Clawfinger/Clawfinger/Clawfinger_-_Clawfinger_-_12_-_I_Guess_I'll_Never_Know.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a5d"
+  },
+  "name": "Nigger",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/Clawfinger_-_Deaf_Dumb_Blind_-_01_-_Nigger.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a60"
+  },
+  "name": "The Truth",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/Clawfinger_-_Deaf_Dumb_Blind_-_02_-_The_Truth.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a63"
+  },
+  "name": "Rosegrove",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/Clawfinger_-_Deaf_Dumb_Blind_-_03_-_Rosegrove.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a66"
+  },
+  "name": "Don't Get Me Wrong",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/04._Don't_Get_Me_Wrong.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a69"
+  },
+  "name": "I Need You",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/05._I_Need_You.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a6c"
+  },
+  "name": "Catch Me",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/Clawfinger_-_Deaf_Dumb_Blind_-_06_-_Catch_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a6f"
+  },
+  "name": "Warfair",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/07._Warfair.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a72"
+  },
+  "name": "Wonderful World",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/Clawfinger_-_Deaf_Dumb_Blind_-_08_-_Wonderful_World.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a75"
+  },
+  "name": "Sad to See You Sorrow",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/Clawfinger_-_Deaf_Dumb_Blind_-_09_-_Sad_to_See_You_Sorrow.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361457d124653fc53794a78"
+  },
+  "name": "I Don't Care",
+  "artist": "Clawfinger",
+  "album": "Deaf Dumb Blind",
+  "style": "Metal Industriel",
+  "file": "/uploads/music/Clawfinger/Deaf_Dumb_Blind/10._I_Don't_Care.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613d3"
+  },
+  "name": "Fiend",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_01_-_Fiend.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613d6"
+  },
+  "name": "Glow",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_16_-_Glow.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613d9"
+  },
+  "name": "Watershed",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_02_-_Watershed.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613dc"
+  },
+  "name": "Something Told Me",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_04_-_Something_Told_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613df"
+  },
+  "name": "Dark Days",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_05_-_Dark_Days.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613e2"
+  },
+  "name": "Alienate Me",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_06_-_Alienate_Me.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613e5"
+  },
+  "name": "One Step",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_07_-_One_Step.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613e8"
+  },
+  "name": "Friend?",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_08_-_Friend.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613eb"
+  },
+  "name": "Rowboat",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_09_-_Rowboat.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613ee"
+  },
+  "name": "Drove",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_10_-_Drove.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613f1"
+  },
+  "name": "Empty Jar",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_11_-_Empty_Jar.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614776f9f2fccbac7613f4"
+  },
+  "name": "Beckoned",
+  "artist": "Coal Chamber",
+  "album": "Dark Days",
+  "style": "Néo Metal",
+  "file": "/uploads/music/Coal_Chamber/Dark_Days/Coal_Chamber_-_Dark_Days_-_12_-_Beckoned.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761405"
+  },
+  "name": "I Fink U Freeky",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_02_-_I_Fink_U_Freeky.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761402"
+  },
+  "name": "Never Le Nkemise 1",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_01_-_Never_Le_Nkemise_1.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761408"
+  },
+  "name": "Pielie (Skit)",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_03_-_Pielie_(Skit).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac76140b"
+  },
+  "name": "Hey Sexy",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_04_-_Hey_Sexy.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac76140e"
+  },
+  "name": "Fatty Boom Boom",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_05_-_Fatty_Boom_Boom.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761411"
+  },
+  "name": "Zefside Zol (Interlude)",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_06_-_Zefside_Zol_(Interlude).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761414"
+  },
+  "name": "So What?",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_07_-_So_What.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761417"
+  },
+  "name": "Uncle Jimmy (Skit)",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_08_-_Uncle_Jimmy_(Skit).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac76141a"
+  },
+  "name": "Baby's On Fire",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_09_-_Baby's_On_Fire.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac76141d"
+  },
+  "name": "U Make A Ninja Wanna Fuck",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_10_-_U_Make_A_Ninja_Wanna_Fuck.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761420"
+  },
+  "name": "Fok Julie Naaiers",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_11_-_Fok_Julie_Naaiers.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761423"
+  },
+  "name": "DJ Hi-Tek Rulez",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_12_-_DJ_Hi-Tek_Rulez.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361488cf9f2fccbac761426"
+  },
+  "name": "Never Le Nkemise 2",
+  "artist": "Die Antwoord",
+  "album": "Ten$ion",
+  "style": "Hip-Hop",
+  "file": "/uploads/music/Die_Antwoord/Ten_ion/Die_Antwoord_-_Ten$ion_-_13_-_Never_Le_Nkemise_2.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761434"
+  },
+  "name": "Millennium Falcon",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_01_-_Millennium_Falcon.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761437"
+  },
+  "name": "But for Now",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_02_-_But_for_Now.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac76143a"
+  },
+  "name": "Bloodbath",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_03_-_Bloodbath.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac76143d"
+  },
+  "name": "Brainworms (feat. Kool Keith)",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_04_-_Brainworms_(feat._Kool_Keith).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761440"
+  },
+  "name": "Black Rain",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_05_-_Black_Rain.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761443"
+  },
+  "name": "Dope Vs Gold (feat. Goldminerz)",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_06_-_Dope_Vs_Gold_(feat._Goldminerz).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761446"
+  },
+  "name": "Rocket",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_07_-_Rocket.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761449"
+  },
+  "name": "Panic Room (feat. Onyx)",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_08_-_Panic_Room_(feat._Onyx).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac76144c"
+  },
+  "name": "Granted",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_09_-_Granted.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac76144f"
+  },
+  "name": "Spaz (feat. Simon Roofless)",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_10_-_Spaz_(feat._Simon_Roofless).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761452"
+  },
+  "name": "Deal With the Devil",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_11_-_Deal_With_the_Devil.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761455"
+  },
+  "name": "The Butterfly Effect",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_12_-_The_Butterfly_Effect.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761458"
+  },
+  "name": "Hallucinations",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_13_-_Hallucinations.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac76145b"
+  },
+  "name": "Little Bit a Xtc",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_14_-_Little_Bit_a_Xtc.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac76145e"
+  },
+  "name": "Groove (feat. Redman)",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_15_-_Groove_(feat._Redman).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761461"
+  },
+  "name": "Twinkle",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_16_-_Twinkle.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761464"
+  },
+  "name": "Staring Thru Da Blinds",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_17_-_Staring_Thru_Da_Blinds.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6361498cf9f2fccbac761467"
+  },
+  "name": "Ash N Dust (feat. Sean P)",
+  "artist": "Dope D.O.D",
+  "album": "Da Roach",
+  "style": "Rap",
+  "file": "/uploads/music/Dope_D.O.D/Da_Roach/Dope_D.O.D._-_Da_Roach_-_18_-_Ash_N_Dust_(feat._Sean_P).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614a42f9f2fccbac761474"
+  },
+  "name": "Marymirror",
+  "artist": "Fakear",
+  "album": "Dark Lands",
+  "style": "Electro",
+  "file": "/uploads/music/Fakear/Dark_Lands/01_Marymirror.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614a42f9f2fccbac761477"
+  },
+  "name": "Like a Friend",
+  "artist": "Fakear",
+  "album": "Dark Lands",
+  "style": "Electro",
+  "file": "/uploads/music/Fakear/Dark_Lands/02_Like_a_Friend.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614a42f9f2fccbac76147a"
+  },
+  "name": "Dark Lands Song",
+  "artist": "Fakear",
+  "album": "Dark Lands",
+  "style": "Electro",
+  "file": "/uploads/music/Fakear/Dark_Lands/03_Dark_Lands_Song.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614a42f9f2fccbac76147d"
+  },
+  "name": "Damas",
+  "artist": "Fakear",
+  "album": "Dark Lands",
+  "style": "Electro",
+  "file": "/uploads/music/Fakear/Dark_Lands/04_Damas.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614a42f9f2fccbac761480"
+  },
+  "name": "Mount Silver",
+  "artist": "Fakear",
+  "album": "Dark Lands",
+  "style": "Electro",
+  "file": "/uploads/music/Fakear/Dark_Lands/05_Mount_Silver.m4a",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac76148d"
+  },
+  "name": "Ooh La La",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_01_-_Ooh_La_La.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac761490"
+  },
+  "name": "Lovely 2 C U",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_02_-_Lovely_2_C_U.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac761493"
+  },
+  "name": "Ride A White Horse",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_03_-_Ride_A_White_Horse.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac761496"
+  },
+  "name": "You Never Know",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_04_-_You_Never_Know.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac761499"
+  },
+  "name": "Let it Take You",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_05_-_Let_it_Take_You.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac76149c"
+  },
+  "name": "Fly Me Away",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_06_-_Fly_Me_Away.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac76149f"
+  },
+  "name": "Slide Iin",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_07_-_Slide_Iin.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac7614a2"
+  },
+  "name": "Koko",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_08_-_Koko.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac7614a5"
+  },
+  "name": "Satin Chic",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_09_-_Satin_Chic.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac7614a8"
+  },
+  "name": "Time Out From The World",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_10_-_Time_Out_From_The_World.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614b4af9f2fccbac7614ab"
+  },
+  "name": "Number 1",
+  "artist": "Goldfrapp",
+  "album": "Supernature",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Goldfrapp/Supernature/Goldfrapp_-_Supernature_-_11_-_Number_1.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614b8"
+  },
+  "name": "Angel",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/01._Angel.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614bb"
+  },
+  "name": "Risingson",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/02._Risingson.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614be"
+  },
+  "name": "Teardrop",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/03._Teardrop.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614c1"
+  },
+  "name": "Inertia Creeps",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/04._Inertia_Creeps.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614c4"
+  },
+  "name": "Exchange",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/05._Exchange.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614c7"
+  },
+  "name": "Dissolved Girl",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/06._Dissolved_Girl.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614ca"
+  },
+  "name": "Man Next Door",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/07._Man_Next_Door.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614cd"
+  },
+  "name": "Black Milk",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/08._Black_Milk.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614d0"
+  },
+  "name": "Mezzanine",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/09._Mezzanine.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614d3"
+  },
+  "name": "Group Four",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/10._Group_Four.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614c22f9f2fccbac7614d6"
+  },
+  "name": "(Exchange)",
+  "artist": "Massive Attack",
+  "album": "Mezzanine",
+  "style": "Trip-Hop",
+  "file": "/uploads/music/Massive_Attack/Mezzanine/11._(Exchange).mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614e3"
+  },
+  "name": "Le Fond Et La Forme",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_01_-_Le_Fond_Et_La_Forme.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614e6"
+  },
+  "name": "Série Z",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_02_-_SÃ©rie_Z.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614e9"
+  },
+  "name": "Social killer",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_03_-_Social_killer.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614ec"
+  },
+  "name": "Histoire Naturelle",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_04_-_Histoire_Naturelle.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614ef"
+  },
+  "name": "Auto-pilote",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_05_-_Auto-pilote.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614f2"
+  },
+  "name": "Ici Ou Ailleurs",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_06_-_Ici_Ou_Ailleurs.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614f5"
+  },
+  "name": "Comme A La Guerre",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_07_-_Comme_A_La_Guerre.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614f8"
+  },
+  "name": "Requiem Pour Moi-même",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_08_-_Requiem_Pour_Moi-mÃªme.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614fb"
+  },
+  "name": "Psaume Cac 40",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_09_-_Psaume_Cac_40.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac761501"
+  },
+  "name": "Alarme Citoyens",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_11_-_Alarme_Citoyens.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac7614fe"
+  },
+  "name": "Bienvenue",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_10_-_Bienvenue.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac761504"
+  },
+  "name": "Carapace",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_12_-_Carapace.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac761507"
+  },
+  "name": "L' Emprise",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_13_-_L'_Emprise.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614cd4f9f2fccbac76150a"
+  },
+  "name": "Piste Cachée",
+  "artist": "Lofofora",
+  "album": "Le Fond et la Forme",
+  "style": "Metal",
+  "file": "/uploads/music/Lofofora/Le_Fond_et_la_Forme/Lofofora_-_Le_Fond_et_la_Forme_-_14_-_Piste_CachÃ©e.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac761517"
+  },
+  "name": "Smack My Bitch Up",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_01_-_Smack_My_Bitch_Up.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac76151a"
+  },
+  "name": "Breathe",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_02_-_Breathe.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac76151d"
+  },
+  "name": "Diesel Power",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_03_-_Diesel_Power.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac761520"
+  },
+  "name": "Funky Shit",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_04_-_Funky_Shit.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac761523"
+  },
+  "name": "Serial Thrilla",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_05_-_Serial_Thrilla.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac761526"
+  },
+  "name": "Mindfields",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_06_-_Mindfields.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac761529"
+  },
+  "name": "Narayan",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_07_-_Narayan.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac76152c"
+  },
+  "name": "Firestarter",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_08_-_Firestarter.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac76152f"
+  },
+  "name": "Climbatize",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_09_-_Climbatize.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63614dbaf9f2fccbac761532"
+  },
+  "name": "Fuel My Fire",
+  "artist": "The Prodigy",
+  "album": "The Fat of the Land",
+  "style": "Electro",
+  "file": "/uploads/music/The_Prodigy/The_Fat_of_the_Land/The_Prodigy_-_Fat_of_the_Land,the_-_10_-_Fuel_My_Fire.mp3",
+  "users_likes": [],
+  "listened": 0,
+  "__v": 0
+}]

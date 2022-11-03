@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "634d2f0e9e44edddb3e821c6"
+  },
+  "email": "aaa@gmail.com",
+  "name": "aaa",
+  "password": "$2b$10$9rhttVBCaSgFtPVuUBNyc.wBf1nk2G5twe8Pd0AwW6ykkGaoO.MjK",
+  "history": [
+    "634fed855c296205ec8c0a5c"
+  ],
+  "admin": true,
+  "__v": 0,
+  "playlists": [
+    {
+      "name": "Summer 2020",
+      "tracks": [
+        "636135a81a967cca225bf2c5",
+        "636135a81a967cca225bf2d1",
+        "636135a81a967cca225bf2d4"
+      ]
+    },
+    {
+      "name": "Winter 2022",
+      "tracks": []
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634d31b4a5c059291b0facd3"
+  },
+  "email": "aac@gmail.com",
+  "name": "aac",
+  "password": "$2b$10$WpZL49C5NlwAiPtvhEfiJ.BiDS8W372bSHzcgVWkpkLCkEtbfEtcq",
+  "history": [],
+  "admin": false,
+  "__v": 0,
+  "playlists": []
+},{
+  "_id": {
+    "$oid": "635150e8d814ddf9f982f9b1"
+  },
+  "email": "aad@gmail.com",
+  "name": "aad",
+  "password": "$2b$10$OJqUIj7f6oYVrdxVdo7PieiGywV1/1DPlHF73zrlqYXiiv1EYBSyq",
+  "history": [],
+  "admin": false,
+  "playlists": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6351513611771984261eb765"
+  },
+  "email": "ddd@gmail.com",
+  "name": "ddd",
+  "password": "$2b$10$CnTySuf5NHYIMUv3gjfuOuASbvzGGHaLIRHyG7IqJHpVvaeUOCe6G",
+  "history": [],
+  "admin": false,
+  "playlists": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6351518f59a184f15994cc8d"
+  },
+  "email": "ccc@gmail.com",
+  "name": "ccc",
+  "password": "$2b$10$U436fXjJytrQ0e2goxbKYeu9EJpa.XNXvRKfRtOOKcg2tmTv.74Vm",
+  "history": [],
+  "admin": false,
+  "playlists": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635904088146e8cd0d2dbb4d"
+  },
+  "email": "zzz@gmail.com",
+  "name": "zzz",
+  "password": "$2b$10$.kLrFHB72RKoYcvbwkHhc.c4O19/Bi8Qq69w3.FwbCkEd3PdZmwqK",
+  "history": [],
+  "admin": false,
+  "playlists": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635904938146e8cd0d2dbb59"
+  },
+  "email": "vvv@gmail.com",
+  "name": "vvv",
+  "password": "$2b$10$oyovZRV8z6LuZbX7fI7Eg.a68ri6At3MAJTsJWy46clyh.Csdd.Uq",
+  "history": [],
+  "admin": false,
+  "playlists": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63597ac61d8fdb26086ee700"
+  },
+  "email": "qqq@gmail.com",
+  "name": "qqq",
+  "password": "$2b$10$NEheHtiM7Az8bWdNGyi64.3ngS1BxY1SIM5yOGW2YD7ilvWFjdH9S",
+  "history": [],
+  "admin": false,
+  "playlists": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635e8e42f069b33e8f388b0e"
+  },
+  "email": "ggg@gmail.com",
+  "name": "ggg",
+  "password": "$2b$10$h7Qo9vTh7j2Oop5QOtGT6eLFFnUXGILXu31Ps/iPm6M2NABWQVac6",
+  "history": [],
+  "admin": false,
+  "playlists": [],
+  "__v": 0
+}]
