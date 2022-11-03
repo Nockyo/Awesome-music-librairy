@@ -18,7 +18,7 @@ export const SignUp = (props) => {
     };
 
     return (
-        <React.Fragment>
+        <div className="container">
             <p>{message}</p>
             <form onSubmit={handleSubmit(onSubmit)}>
                     <label htrmlfor="name">
@@ -44,6 +44,6 @@ export const SignUp = (props) => {
                     <input type="submit" value="S'inscrire" />
                     {errors.exampleRequired && <span>This field is required</span>}
             </form>
-        </React.Fragment>
+        </div>
     )
 }

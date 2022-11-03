@@ -24,7 +24,7 @@ export const SignIn = (props) => {
     };
 
     return (
-        <React.Fragment>
+        <div className="container">
             <p>{message}</p>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label htrmlfor="email">
@@ -41,6 +41,6 @@ export const SignIn = (props) => {
                 {errors.exampleRequired && <span>This field is required</span>}
             </form>
             <button onClick={() => {navigate("/signUp")}}>Pas encore de compte ? Inscrivez-vous !</button>
-        </React.Fragment>
+        </div>
     )
 }
