@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
 import instance from "../../utils/instanceHttp";
+import { getCurrentTrackIndex } from "../../utils/utils";
 
 export const CurrentPlaylist = (props) => {
-    const {currentPlaylist, setCurrentPlaylist} = props;
+    const {
+        currentPlaylist, 
+        setCurrentPlaylist, 
+        setCurrentTrackId
+    } = props;
     const [tracks, setTracks] = useState([]);
 
     useEffect(() => {
@@ -29,8 +34,13 @@ export const CurrentPlaylist = (props) => {
         setCurrentPlaylist([])
     }
 
+    const listen = (trackId) => {
+        const index = getCurrentTrackIndex(currentPlaylist, trackId)
+        setCurrentTrackId(currentPlaylist[index])
+    }
+
     return(
-        <div>
+        <div className="currentPLaylist">
             <h2>Current playlist</h2>
             {
                 currentPlaylist.length > 0 && 
@@ -51,7 +61,7 @@ export const CurrentPlaylist = (props) => {
                         <tbody>
                             {tracks.map((track, index) => {                       
                                 return <tr key={index}>
-                                    <td>{index + 1}</td>
+                                    <td onClick={() => {listen(track._id)}}>{index + 1}</td>
                                     <td>{track.name}</td>
                                     <td>{track.artist}</td>
                                     <td>{track.album}</td>

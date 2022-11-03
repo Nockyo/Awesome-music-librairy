@@ -35,17 +35,17 @@ export const AddArtist = (props) => {
                         name="name" 
                         {...register("name", {required: true})}
                     />
-                    {errors.name && <span class="errors">This field is required</span>}
+                    {errors.name && <span className="errors">This field is required</span>}
                 </label>
                 <label htrmlfor="biography">
-                    Enter a biography <span>(100 letterings minimum) </span> :
+                    Enter a biography (100 letterings minimum) :
                     <textarea 
                         name="biography" 
                         rows="5" 
                         cols="33" 
                         {...register("biography", {required: true})} 
                     />
-                    {errors.biography && <span class="errors">This field is required</span>}
+                    {errors.biography && <span className="errors">This field is required</span>}
                 </label>
                 <label htrmlfor="style">
                     Enter a style :
@@ -54,7 +54,7 @@ export const AddArtist = (props) => {
                         name="style" 
                         {...register("style", {required: true})} 
                     />
-                    {errors.style && <span class="errors">This field is required</span>}
+                    {errors.style && <span className="errors">This field is required</span>}
                 </label>
                 <label htrmlfor="image">
                     Choose a picture:
@@ -64,7 +64,7 @@ export const AddArtist = (props) => {
                         accept="image/png, image/jpeg" 
                         {...register("image", {required: true})} 
                     />
-                    {errors.image && <span class="errors">This field is required</span>}
+                    {errors.image && <span className="errors">This field is required</span>}
                 </label>
                 <input type="submit" value="Ajouter" />
             </form>

@@ -22,3 +22,13 @@ export const secondsToMinutes = (duration) => {
 	let newDuration = minuteDuration + ':' + secondsDuration;
 	return newDuration
 }
+
+export const getCurrentTrackIndex = (currentPlaylist, trackId) => {
+	let currentTrackIndex = 0;
+	currentPlaylist.forEach((track, index) => {
+		if(track === trackId){
+			currentTrackIndex = index;
+		}
+	})
+	return currentTrackIndex
+}

@@ -87,7 +87,7 @@ export const UsersRights = (props) => {
     }
 
     return (
-        <React.Fragment>
+        <div>
             <h2>Users Rights</h2>
             <p>{message}</p>
             <label htrmlfor="user-search">
@@ -117,6 +117,6 @@ export const UsersRights = (props) => {
                 </table>
                 <input type="submit" value="Change rights" onClick={() => {return window.confirm('Are you sure?')}} />
             </form>
-        </React.Fragment>
+        </div>
     )
 }

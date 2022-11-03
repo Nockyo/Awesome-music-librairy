@@ -6,12 +6,13 @@ export const ArtistMini = (props) => {
     const navigate = useNavigate()
     
     const handleClick = () => {
+        document.querySelector('.userSearch').classList.remove('active') ;
         navigate('/artist', {state : {artist : artist}})
     }
 
     return (
         <div className="artistMini" onClick={() => {handleClick()}}>
-            <img src={artist.image} alt={artist.name} style={{width: 100+'px'}} />
+            <img src={artist.image} alt={artist.name} />
             <p>{artist.name}</p>
             <p>artiste</p>
         </div>

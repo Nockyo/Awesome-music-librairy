@@ -20,7 +20,7 @@ export const Admin = (props) => {
       }, [isConnected])
 
     return(
-        <div>
+        <div className="container admin">
             <p>Admin</p>
 
             <Outlet />

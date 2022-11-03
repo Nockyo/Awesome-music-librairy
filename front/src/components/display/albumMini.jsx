@@ -6,12 +6,13 @@ export const AlbumMini = (props) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
+        document.querySelector('.userSearch').classList.remove('active') ;
         navigate('/album', {state : {album : album}})
     }
     
     return (
         <div className="albumMini" onClick={() => {handleClick()}}>
-            <img src={album.image} alt={album.artist} style={{width: 100+'px'}}/>
+            <img src={album.image} alt={album.artist}/>
             <p>{album.name}</p>
             <p>{album.artist}</p>
             <p>album</p>

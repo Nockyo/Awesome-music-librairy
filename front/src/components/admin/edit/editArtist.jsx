@@ -68,7 +68,7 @@ export const EditArtist = (props) => {
                     <tr>
                         <th>image</th>
                         <th>name</th>
-                        <th>biography</th>
+                        <th className="hidden-sm">biography</th>
                         <th>style</th>
                         <th>edit</th>
                         <th>delete</th>
@@ -77,9 +77,9 @@ export const EditArtist = (props) => {
                 <tbody>
                     {artists.map((artist, index) => {                       
                         return <tr key={artist._id} tr_id={artist._id}>
-                            <td><img src={artist.image} alt={artist.name} style={{width: 100 + 'px'}}></img></td>
+                            <td><img src={artist.image} alt={artist.name} ></img></td>
                             <td>{artist.name}</td>
-                            <td>{artist.biography}</td>
+                            <td className="hidden-sm">{artist.biography}</td>
                             <td>{artist.style}</td>
                             <td>
                                 <span

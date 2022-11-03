@@ -3,6 +3,8 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom"
 import instance from "../../utils/instanceHttp";
 import { AlbumMini } from "./albumMini";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 export const Artist = (props) => {
     const {state} = useLocation();
@@ -54,18 +56,32 @@ export const Artist = (props) => {
                 <p>{artist.name}</p>
                 <p>{artist.biography}</p>
                 <p>{artist.style}</p>
-                <button onClick={() => {listenArtist(discography)}}>Listen</button>
-                <button onClick={() => {addArtistToCurrentPlaylist(discography)}} >ADD ALBUM TO CURRENT PLAYLIST</button>
-                <button>COEUR</button>
-                <p>artiste</p>
+                <div className="buttons">
+                    <button onClick={() => {listenArtist(discography)}}>Listen</button>
+                    <button onClick={() => {addArtistToCurrentPlaylist(discography)}} >Ad next</button>
+                </div>
             </div>
             <div className="discography">
-                {discography.length > 0 && discography.map((album, index) => {
-                    return <AlbumMini 
-                        key={index}
-                        album={album}
-                    />
-                })}
+                {discography.length > 0 && 
+                    <div>
+                        <h2>Discography</h2>
+                        <Swiper
+                            slidesPerView={2.3}
+                            spaceBetween={15}
+                            breakpoints={{
+                                1024: {
+                                  slidesPerView: 6.5,
+                                },
+                              }}
+                        >
+                        {discography.map((album, index) => {
+                            return <SwiperSlide key={index}><AlbumMini 
+                                album={album}
+                            /></SwiperSlide>
+                        })}
+                        </Swiper>  
+                    </div>
+                }
             </div>
         </div>
     )

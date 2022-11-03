@@ -66,8 +66,6 @@ export const Playlist = (props) => {
                                 <th>artist</th>
                                 <th>album</th>
                                 <th>style</th>
-                                <th>SVG MENU</th>
-                                <th>COEUR</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -78,8 +76,6 @@ export const Playlist = (props) => {
                                     <td>{track.artist}</td>
                                     <td>{track.album}</td>
                                     <td>{track.style}</td>
-                                    <td><button>COEUR</button></td>
-                                    <td>SVG MENU</td>
                                 </tr>
                             })}
                         </tbody>

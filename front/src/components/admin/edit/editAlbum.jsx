@@ -101,8 +101,8 @@ export const EditAlbum = (props) => {
                         <th>image</th>
                         <th>name</th>
                         <th>artist</th>
-                        <th>date</th>
-                        <th>style</th>
+                        <th className="hidden-sm">date</th>
+                        <th className="hidden-sm">style</th>
                         <th>edit</th>
                         <th>delete</th>
                     </tr>
@@ -110,11 +110,11 @@ export const EditAlbum = (props) => {
                 <tbody>
                     {albums.map((album, index) => {                       
                         return <tr key={album._id} tr_id={album._id}>
-                            <td><img src={album.image} alt={album.name} style={{width: 100 + 'px'}}></img></td>
+                            <td><img src={album.image} alt={album.name}></img></td>
                             <td>{album.name}</td>
                             <td>{album.artist}</td>
-                            <td>{album.date}</td>
-                            <td>{album.style}</td>
+                            <td className="hidden-sm">{album.date}</td>
+                            <td className="hidden-sm">{album.style}</td>
                             <td>
                                 <span
                                     className="material-symbols-outlined"

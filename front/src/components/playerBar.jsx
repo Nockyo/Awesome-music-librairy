@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom"
 import instance from "../utils/instanceHttp";
-import { secondsToMinutes, shuffle } from "../utils/utils";
+import { getCurrentTrackIndex, secondsToMinutes, shuffle } from "../utils/utils";
 
 // ! Ne pas oublier de modifier la currentPlaylist au fur et à mesure
 
@@ -12,17 +12,20 @@ export const PlayerBar = (props) => {
         currentPlaylist,
         setCurrentPlaylist,
         currentTrackId,
-        setCurrentTrackId
+        setCurrentTrackId,
+        currentTrack,
+        setCurrentTrack
     } = props;
     const AUDIO = document.querySelector('#audio');
     const [imageAlbum, setImageAlbum] = useState('');
-    const [currentTrack, setCurrentTrack] = useState({});
     const [repeat, setRepeat] = useState(false);
     const [random, setRandom] = useState(false);
     const [isPlayed, setIsPlayed] = useState(false);
     const [volume, setVolume] = useState(true);
     const [duration, setDuration] = useState('');
+    const [durationSeconds, setDurationSeconds] = useState('');
     const [currentTime, setCurrentTime] = useState('');
+    const [currentTimeSeconds, setCurrentTimeSeconds] = useState(0);
     const [saveCurrentPlaylist, setSaveCurrentPlaylist] = useState([]);
 
     const handleClick = () => {
@@ -64,8 +67,10 @@ export const PlayerBar = (props) => {
             //Changer le src de l'audio
             AUDIO.src = currentTrack.file;
             if(AUDIO.src !== ""){
-                //Au chargement des metadas, modifier duration, currentDuration et lancer la track
+                //Au chargement des metadas, modifier duration, currentDuration et lancer la track // Problème rencontré NaN
                 AUDIO.addEventListener('loadedmetadata', () => {
+                    setCurrentTimeSeconds(AUDIO.currentTime)
+                    setDurationSeconds(AUDIO.duration)
                     setDuration(secondsToMinutes(AUDIO.duration))
                     setCurrentTime('00:00')
                     onClickPlay()
@@ -89,7 +94,8 @@ export const PlayerBar = (props) => {
 
     //Gestion de la barre de progression du morceau et passage au morceau suivant
     const timerprogress = () => {
-        let percent = (AUDIO.currentTime / AUDIO.duration) * 100;
+        setCurrentTimeSeconds(AUDIO.currentTime)
+        let percent = (currentTimeSeconds / durationSeconds) * 100;
         document.querySelector('.currentDurationBar').style.width = percent+"%";
         if (percent === 100) {
             onClickNext();
@@ -98,7 +104,7 @@ export const PlayerBar = (props) => {
 
     //Actualise le temps d'avancée du morceau
     const updateCurrentDuration = () => {
-        setCurrentTime(secondsToMinutes(AUDIO.currentTime))
+        setCurrentTime(secondsToMinutes(currentTimeSeconds))
     }
 
     // Gestion Random
@@ -120,10 +126,10 @@ export const PlayerBar = (props) => {
 
     const onClickPrev = () => {
         // Si audio suffisamment avancé, revenir au début de la track
-        if(AUDIO.currentTime > 1){
-            AUDIO.currentTime = 0
+        if(currentTimeSeconds > 1){
+            currentTimeSeconds = 0
         } else {
-            let index = getCurrentTrackIndex()
+            let index = getCurrentTrackIndex(currentPlaylist, currentTrack._id)
             if(index > 0){
                 setCurrentTrackId(currentPlaylist[index - 1])
             } else if (index === 0 && repeat){
@@ -134,7 +140,7 @@ export const PlayerBar = (props) => {
 
     const onClickNext = () => {
         //Récupérer l'index la currentTrack
-        let index = getCurrentTrackIndex()
+        let index = getCurrentTrackIndex(currentPlaylist, currentTrack._id)
         //Puis le réutiliser pour récupérer le trackId de la prochaine chanson
         if(index < currentPlaylist.length - 1){
             setCurrentTrackId(currentPlaylist[index + 1])
@@ -148,26 +154,17 @@ export const PlayerBar = (props) => {
         setVolume(!volume)
         AUDIO.muted = !AUDIO.muted;
     }
-
-    //Fonction générales
-    const getCurrentTrackIndex = () => {
-        let currentTrackIndex = 0;
-        currentPlaylist.forEach((track, index) => {
-            if(track === currentTrack._id){
-                currentTrackIndex = index;
-            }
-        })
-        return currentTrackIndex
-    }
-
+    
+    //Gestion random, création d'une playlist randomisé et sauvegarde de la playlist normale
     useEffect(() => {
         if(random){
             if(currentPlaylist.length > 0){
                 setSaveCurrentPlaylist(currentPlaylist);
 
                 //Récupérer la track en court de lecture puis concaténer avec la shuffled Playlist
-                let indexTrack = getCurrentTrackIndex();
+                let indexTrack = getCurrentTrackIndex(currentPlaylist, currentTrack._id);
                 let shuffledArray = [currentPlaylist[indexTrack]].concat(shuffle(currentPlaylist.slice(1)));
+                console.log(shuffledArray)
                 setCurrentPlaylist(shuffledArray);
             }
         } else {
@@ -177,8 +174,15 @@ export const PlayerBar = (props) => {
         }
     }, [random])
 
+    //Changer le passage de la chanson au click sur la duration bar
+    const onClickCurrentTime = (e) => {
+        const widthDurationBar = parseInt(document.querySelector('.durationBar').style.width);
+        const ratioProgress = e.nativeEvent.offsetX / widthDurationBar;
+        AUDIO.currentTime = durationSeconds * ratioProgress;
+    }
+
     return(
-        <div>
+        <div className="playerBar">
             <p>Player Bar</p>
             <button onClick={() => {handleClick()}}>Current Playlist</button>
             {
@@ -198,7 +202,7 @@ export const PlayerBar = (props) => {
                             <p>{currentTrack.album}</p>
                             <p>{currentTime}</p>
                             <p>{duration}</p>
-                            <span className="durationBar" style={{width: 100+'px', height:10+'px', border: 'solid 1px black', display: 'block'}}>
+                            <span className="durationBar" style={{width: 100+'px', height:10+'px', border: 'solid 1px black', display: 'block'}} onClick={(e) => {onClickCurrentTime(e)}}>
                                 <span className="currentDurationBar" style={{height:10+'px', backgroundColor: 'red', display: 'inline-block'}}></span>
                             </span>
                             

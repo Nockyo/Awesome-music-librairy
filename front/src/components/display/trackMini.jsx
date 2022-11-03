@@ -16,6 +16,8 @@ export const TrackMini = (props) => {
         formData.append('trackId', track._id);
         formData.append('albumName', track.album);
 
+        // .classList.remove('active');
+
         instance
             .post("/getAlbumImageFromTrackId", formData)
             .then((res) => {
@@ -35,24 +37,37 @@ export const TrackMini = (props) => {
     const addToCurrentPlaylist = (trackId) => {
         setCurrentPlaylist([...currentPlaylist, trackId])
     }
+
+    const onClickOpen = (e) => {
+        e.target.parentNode.parentNode.classList.add('active')
+    }
+
+    const onClickClose = (e) => {
+        e.target.parentNode.parentNode.parentNode.classList.remove('active') ;
+    }
     
     return (
         <div className="trackMini">
             <img 
                 src={imageAlbum} 
-                alt={track.name} 
-                style={{width: 100+'px'}}
+                alt={track.name}
                 onClick={() => {listen(track._id)}}
             />
-            <p>{track.name}</p>
-            <p>{track.artist}</p>
-            <p>{track.album}</p>
-            <button>Menu</button>
-            <ul className="menu">
-                <li>Add to playlist</li>
-                <li><button onClick={() => {addToCurrentPlaylist(track._id)}}>Add to current playlist</button></li>
-            </ul>
-            <p>track</p>
+            <div>
+                <p>{track.name}</p>
+                <p>{track.artist}</p>
+                <p>{track.album}</p>
+                <p>track</p>
+                <div className="menuContainer">
+                    <button onClick={(e) => {onClickOpen(e)}}><span className="material-symbols-outlined">more_horiz</span></button>
+                    <ul className="menu">
+                        <button onClick={(e) => {onClickClose(e)}}><span className="material-symbols-outlined">close</span></button>
+                        <li><button >Add to playlist</button></li>
+                        <li><button onClick={(e) => {addToCurrentPlaylist(track._id)}}>Add to current playlist</button></li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     )
 }

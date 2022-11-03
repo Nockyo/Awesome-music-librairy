@@ -62,7 +62,7 @@ export const EditTrack = (props) => {
                         <th>name</th>
                         <th>artist</th>
                         <th>album</th>
-                        <th>style</th>
+                        <th className="hidden-sm">style</th>
                         <th>delete</th>
                     </tr>
                 </thead>
@@ -72,7 +72,7 @@ export const EditTrack = (props) => {
                             <td>{track.name}</td>
                             <td>{track.artist}</td>
                             <td>{track.album}</td>
-                            <td>{track.style}</td>
+                            <td className="hidden-sm">{track.style}</td>
                             <td>
                                 <span
                                     className="material-symbols-outlined"

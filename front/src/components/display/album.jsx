@@ -59,10 +59,10 @@ export const Album = (props) => {
                 <p>{album.artist}</p>
                 <p>{album.date}</p>
                 <p>{album.style}</p>
-                <button onClick={() => {listenAlbum(album.tracks)}}>Listen</button>
-                <button onClick={() => {addAlbumToCurrentPlaylist(album.tracks)}} >ADD ALBUM TO CURRENT PLAYLIST</button>
-                <button>COEUR</button>
-                <p>album</p>
+                <div className="buttons">
+                    <button onClick={() => {listenAlbum(album.tracks)}}>Listen</button>
+                    <button onClick={() => {addAlbumToCurrentPlaylist(album.tracks)}} >Add next</button>
+                </div>
             </div>
             <div className="tracks">
                 <table>
@@ -71,7 +71,6 @@ export const Album = (props) => {
                             <th>order</th>
                             <th>name</th>
                             <th>listened</th>
-                            <th>like</th>
                             <th>menu</th>
                         </tr>
                     </thead>
@@ -81,14 +80,7 @@ export const Album = (props) => {
                                 <td onClick={() => {listen(track._id)}}  >{index+1}</td>
                                 <td>{track.name}</td>
                                 <td>{track.listened}</td>
-                                <td>SVG LIKE</td>
-                                <td>
-                                    <button>Menu</button>
-                                    <ul className="menu">
-                                        <li>Add to playlist</li>
-                                        <li><button onClick={() => {addTrackToCurrentPlaylist(track._id)}}>Add to current playlist</button></li>
-                                    </ul>
-                                </td>
+                                <td><button onClick={() => {addTrackToCurrentPlaylist(track._id)}}>Add next</button></td>
                             </tr>
                         })}
                     </tbody>
